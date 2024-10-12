@@ -101,19 +101,20 @@ Public Class DbManagement
         End Try
     End Function
 
-    Public Function SaveProject(Description As String, Region As Integer) As Long
+    Public Function SaveProject(Description As String, Region As Integer, depth As String) As Long
         Dim projectId As Long
         Try
             Using conn As SQLiteConnection = GetConnection()
                 conn.Open()
 
                 ' Insert into the Projects table without the reference_code
-                Dim query As String = "INSERT INTO Projects (client_id, quotation_date, Description, Region_id) VALUES (@clientID, @quotationDate, @description, @region)"
+                Dim query As String = "INSERT INTO Projects (client_id, quotation_date, Description, Region_id, depthE) VALUES (@clientID, @quotationDate, @description, @region, @depth)"
                 Dim cmd As New SQLiteCommand(query, conn)
                 cmd.Parameters.AddWithValue("@clientID", clientID)
                 cmd.Parameters.AddWithValue("@quotationDate", DateTime.Now)
                 cmd.Parameters.AddWithValue("@description", Description)
                 cmd.Parameters.AddWithValue("@region", Region)
+                cmd.Parameters.AddWithValue("@depth", depth)
                 cmd.ExecuteNonQuery()
 
                 ' Get the last inserted project_id
@@ -152,7 +153,8 @@ Public Class DbManagement
 
                 Dim query As String = "
                 SELECT 
-                    P.Description, 
+                    P.Description,
+                    p.depthE,
                     strftime('%Y-%m-%d', P.quotation_date) AS QuotationDate, 
                     P.reference_code, 
                     C.name, 

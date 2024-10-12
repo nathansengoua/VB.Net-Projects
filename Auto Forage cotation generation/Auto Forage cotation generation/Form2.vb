@@ -44,7 +44,7 @@ Public Class Form2
         ' Try inserting client information into the database
         Try
             If db.InsertClientInfo(name, location, contact) Then
-                project_id = db.SaveProject(Description, Region)
+                project_id = db.SaveProject(Description, Region, DepthEstimation)
                 ' Successfully inserted, close this form and show main1 form
                 MessageBox.Show("Success" & Region)
                 ' Create an instance of main1 and pass the project_id via the constructor

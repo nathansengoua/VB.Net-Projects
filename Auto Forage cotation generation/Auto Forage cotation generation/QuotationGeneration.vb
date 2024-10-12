@@ -5,6 +5,7 @@ Imports Syncfusion.Pdf
 Imports System.IO
 
 
+
 Public Class QuotationGeneration
     Private table As WTable
     ' Private templateFilePath As String = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Resources", "Template.docx")
@@ -15,6 +16,9 @@ Public Class QuotationGeneration
 
     ' Constructor
     Public Sub New()
+        'AppActivate syncfusion
+        Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("MzUxODE2NUAzMjM3MmUzMDJlMzBvdVhKZ3hvRjNZeCsvSnRmbnBRa1hQbzJaaFhWUFNKRmsrUEFvZDUwblBBPQ==;Mgo+DSMBaFt4QHFqUU5rXVNbdV5dVGpAd0N3RGlcdlR1fUUmHVdTRHRbQ11jTn9WdEdiWXtbdHE=;Mgo+DSMBMAY9C3t2UlhhQlVMfV5AQmBIYVp/TGpJfl96cVxMZVVBJAtUQF1hTX9TdkJiXH1ccXRRTmVb")
+
         If Not Directory.Exists(appDataPath) Then
             Directory.CreateDirectory(appDataPath)
         End If
@@ -41,7 +45,7 @@ Public Class QuotationGeneration
     End Function
 
     ' Method to replace placeholders in the table rows and append to the description cell
-    Public Sub AppendDataToTable(rowIndex As Integer, additionalDesc As String, quantity As String, unit As String, unitCost As String, totalCost As String)
+    Public Sub AppendDataToTable(rowIndex As Integer, no As String, additionalDesc As String, quantity As String, unit As String, unitCost As String, totalCost As String)
         Dim table As WTable = LocateTable()
         If table IsNot Nothing AndAlso rowIndex >= 0 AndAlso rowIndex < table.Rows.Count Then
             Dim row As WTableRow = table.Rows(rowIndex)
@@ -54,6 +58,7 @@ Public Class QuotationGeneration
                 End If
 
                 ' Update other cells with quantities, units, and costs
+                row.Cells(0).Paragraphs(0).Text = no
                 row.Cells(2).Paragraphs(0).Text = quantity ' Update quantity
                 row.Cells(3).Paragraphs(0).Text = unit ' Update unit
                 row.Cells(4).Paragraphs(0).Text = unitCost ' Update unit cost
@@ -127,4 +132,3 @@ Public Class QuotationGeneration
         ' Code to preview in a WebView or other mechanism can go here
     End Sub
 End Class
-
