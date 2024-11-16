@@ -22,96 +22,88 @@ Partial Class main1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Dim Guna2ComboBox9 As Guna.UI2.WinForms.Guna2ComboBox
-        Dim Guna2ComboBox7 As Guna.UI2.WinForms.Guna2ComboBox
-        Dim tubageprovisoire As Guna.UI2.WinForms.Guna2ComboBox
-        Dim typedeforage As Guna.UI2.WinForms.Guna2ComboBox
-        Dim Guna2ComboBox2 As Guna.UI2.WinForms.Guna2ComboBox
-        Dim Guna2ComboBox1 As Guna.UI2.WinForms.Guna2ComboBox
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(main1))
         Me.Guna2HtmlLabel8 = New Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.AboutUsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.GermanToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.FrenchToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.EnglishToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ChangeLanguageToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.HelpToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.HowToToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.BackupToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ExitToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.SaveAsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.SaveToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.PrintToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.OpenNewToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
-        Me.EditToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.SaveToolStripMenuItem2 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.SaveAsToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.EditUnitPriceToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.SaveToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.EXPORTERToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.Guna2HtmlLabel1 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Me.ChangerLesPrixUnitaireToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.HelpToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.AboutUsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.HowToToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ActualiserToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.preview = New Guna.UI2.WinForms.Guna2Panel()
-        Me.WebBrowser1 = New System.Windows.Forms.WebBrowser()
         Me.Guna2Panel2 = New Guna.UI2.WinForms.Guna2Panel()
         Me.Guna2HtmlLabel5 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Me.Guna2HtmlLabel4 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Me.Guna2HtmlLabel3 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Me.DevisPanel = New Guna.UI2.WinForms.Guna2Panel()
-        Me.uppt = New System.Windows.Forms.TextBox()
-        Me.upte = New System.Windows.Forms.TextBox()
+        Me.typedepompe = New Guna.UI2.WinForms.Guna2ComboBox()
+        Me.buchonetanche = New Guna.UI2.WinForms.Guna2ComboBox()
+        Me.methodunion = New Guna.UI2.WinForms.Guna2ComboBox()
+        Me.tubagepermanent = New Guna.UI2.WinForms.Guna2ComboBox()
+        Me.tubageprovisoire = New Guna.UI2.WinForms.Guna2ComboBox()
+        Me.pvccrepine = New Guna.UI2.WinForms.Guna2ComboBox()
+        Me.xticsppe = New Guna.UI2.WinForms.Guna2ComboBox()
+        Me.xticsppo = New Guna.UI2.WinForms.Guna2ComboBox()
+        Me.typeforage = New Guna.UI2.WinForms.Guna2ComboBox()
+        Me.a2 = New System.Windows.Forms.TextBox()
+        Me.a1 = New System.Windows.Forms.TextBox()
         Me.RefTextBox = New System.Windows.Forms.TextBox()
         Me.DateTextBox = New System.Windows.Forms.TextBox()
-        Me.TextBox27 = New System.Windows.Forms.TextBox()
-        Me.TextBox28 = New System.Windows.Forms.TextBox()
-        Me.TextBox26 = New System.Windows.Forms.TextBox()
+        Me.a35 = New System.Windows.Forms.TextBox()
+        Me.a32 = New System.Windows.Forms.TextBox()
+        Me.a33 = New System.Windows.Forms.TextBox()
+        Me.a34 = New System.Windows.Forms.TextBox()
+        Me.Guna2HtmlLabel33 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Me.Guna2HtmlLabel45 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Me.TextBox24 = New System.Windows.Forms.TextBox()
-        Me.TextBox23 = New System.Windows.Forms.TextBox()
-        Me.TextBox15 = New System.Windows.Forms.TextBox()
-        Me.TextBox22 = New System.Windows.Forms.TextBox()
+        Me.a31 = New System.Windows.Forms.TextBox()
+        Me.a30 = New System.Windows.Forms.TextBox()
+        Me.a29 = New System.Windows.Forms.TextBox()
+        Me.a28 = New System.Windows.Forms.TextBox()
+        Me.a24a27 = New System.Windows.Forms.TextBox()
+        Me.a22a23 = New System.Windows.Forms.TextBox()
+        Me.unitepvccrepine = New System.Windows.Forms.TextBox()
         Me.ptgf = New System.Windows.Forms.TextBox()
-        Me.TextBox21 = New System.Windows.Forms.TextBox()
-        Me.pugf = New System.Windows.Forms.TextBox()
-        Me.pups = New System.Windows.Forms.TextBox()
-        Me.TextBox25 = New System.Windows.Forms.TextBox()
-        Me.TextBox18 = New System.Windows.Forms.TextBox()
-        Me.TextBox17 = New System.Windows.Forms.TextBox()
-        Me.TextBox16 = New System.Windows.Forms.TextBox()
-        Me.TextBox14 = New System.Windows.Forms.TextBox()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
-        Me.TextBox12 = New System.Windows.Forms.TextBox()
-        Me.TextBox11 = New System.Windows.Forms.TextBox()
-        Me.TextBox10 = New System.Windows.Forms.TextBox()
-        Me.TextBox9 = New System.Windows.Forms.TextBox()
-        Me.TextBox8 = New System.Windows.Forms.TextBox()
-        Me.TextBox7 = New System.Windows.Forms.TextBox()
-        Me.TextBox6 = New System.Windows.Forms.TextBox()
-        Me.TextBox5 = New System.Windows.Forms.TextBox()
+        Me.a19a20 = New System.Windows.Forms.TextBox()
+        Me.ppe = New System.Windows.Forms.TextBox()
+        Me.a21 = New System.Windows.Forms.TextBox()
+        Me.ppo = New System.Windows.Forms.TextBox()
+        Me.labourtb = New System.Windows.Forms.TextBox()
+        Me.totalequip = New System.Windows.Forms.TextBox()
+        Me.a35t = New System.Windows.Forms.TextBox()
+        Me.a34t = New System.Windows.Forms.TextBox()
+        Me.a33t = New System.Windows.Forms.TextBox()
+        Me.a32t = New System.Windows.Forms.TextBox()
+        Me.tairlift = New System.Windows.Forms.TextBox()
+        Me.ttesteau = New System.Windows.Forms.TextBox()
+        Me.tpompeessai = New System.Windows.Forms.TextBox()
+        Me.tpompe = New System.Windows.Forms.TextBox()
+        Me.tipompe = New System.Windows.Forms.TextBox()
+        Me.tppvcc = New System.Windows.Forms.TextBox()
+        Me.tpbe = New System.Windows.Forms.TextBox()
+        Me.tpppe = New System.Windows.Forms.TextBox()
+        Me.tpmd = New System.Windows.Forms.TextBox()
         Me.tpps = New System.Windows.Forms.TextBox()
         Me.ptdeforeuse = New System.Windows.Forms.TextBox()
         Me.tpte = New System.Windows.Forms.TextBox()
         Me.tppt = New System.Windows.Forms.TextBox()
-        Me.pudeforeuse = New System.Windows.Forms.TextBox()
-        Me.Guna2HtmlLabel78 = New Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel77 = New Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel66 = New Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel76 = New Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel75 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Me.a3a6 = New System.Windows.Forms.TextBox()
         Me.Guna2HtmlLabel70 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Me.Guna2HtmlLabel69 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Me.Guna2HtmlLabel61 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Me.Guna2HtmlLabel39 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Me.Guna2HtmlLabel65 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Me.Guna2HtmlLabel59 = New Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2NumericUpDown16 = New Guna.UI2.WinForms.Guna2NumericUpDown()
-        Me.CheckBox17 = New System.Windows.Forms.CheckBox()
+        Me.watertowerno = New Guna.UI2.WinForms.Guna2NumericUpDown()
+        Me.CheckBox16 = New System.Windows.Forms.CheckBox()
         Me.qtetypedeforage = New Guna.UI2.WinForms.Guna2NumericUpDown()
         Me.CheckBox14 = New System.Windows.Forms.CheckBox()
         Me.Guna2HtmlLabel56 = New Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2NumericUpDown15 = New Guna.UI2.WinForms.Guna2NumericUpDown()
-        Me.Guna2NumericUpDown7 = New Guna.UI2.WinForms.Guna2NumericUpDown()
+        Me.qteal = New Guna.UI2.WinForms.Guna2NumericUpDown()
+        Me.qtetde = New Guna.UI2.WinForms.Guna2NumericUpDown()
+        Me.qtepe = New Guna.UI2.WinForms.Guna2NumericUpDown()
         Me.CheckBox12 = New System.Windows.Forms.CheckBox()
         Me.Guna2HtmlLabel55 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Me.Guna2Shapes33 = New Guna.UI2.WinForms.Guna2Shapes()
@@ -123,7 +115,6 @@ Partial Class main1
         Me.Guna2HtmlLabel21 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Me.Guna2HtmlLabel67 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Me.Guna2HtmlLabel53 = New Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2NumericUpDown14 = New Guna.UI2.WinForms.Guna2NumericUpDown()
         Me.CheckBox13 = New System.Windows.Forms.CheckBox()
         Me.Guna2Shapes29 = New Guna.UI2.WinForms.Guna2Shapes()
         Me.Guna2Shapes30 = New Guna.UI2.WinForms.Guna2Shapes()
@@ -132,8 +123,8 @@ Partial Class main1
         Me.Guna2HtmlLabel54 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Me.Guna2HtmlLabel49 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Me.Guna2HtmlLabel48 = New Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2NumericUpDown12 = New Guna.UI2.WinForms.Guna2NumericUpDown()
-        Me.Guna2NumericUpDown11 = New Guna.UI2.WinForms.Guna2NumericUpDown()
+        Me.qtepvcc = New Guna.UI2.WinForms.Guna2NumericUpDown()
+        Me.qtebe = New Guna.UI2.WinForms.Guna2NumericUpDown()
         Me.Guna2HtmlLabel47 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Me.CheckBox9 = New System.Windows.Forms.CheckBox()
         Me.Guna2HtmlLabel63 = New Guna.UI2.WinForms.Guna2HtmlLabel()
@@ -141,13 +132,14 @@ Partial Class main1
         Me.Guna2HtmlLabel60 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Me.Guna2HtmlLabel40 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Me.Guna2HtmlLabel51 = New Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel46 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Me.CheckBox8 = New System.Windows.Forms.CheckBox()
         Me.Guna2HtmlLabel34 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Me.qtegf = New Guna.UI2.WinForms.Guna2NumericUpDown()
         Me.CheckBox5 = New System.Windows.Forms.CheckBox()
         Me.Guna2HtmlLabel30 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Me.Guna2HtmlLabel28 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Me.Guna2HtmlLabel26 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Me.Guna2HtmlLabel20 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Me.Guna2HtmlLabel27 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Me.Guna2HtmlLabel14 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Me.Guna2HtmlLabel6 = New Guna.UI2.WinForms.Guna2HtmlLabel()
@@ -156,18 +148,16 @@ Partial Class main1
         Me.Guna2Shapes13 = New Guna.UI2.WinForms.Guna2Shapes()
         Me.Guna2Shapes15 = New Guna.UI2.WinForms.Guna2Shapes()
         Me.Guna2Shapes12 = New Guna.UI2.WinForms.Guna2Shapes()
-        Me.Guna2HtmlLabel44 = New Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.diametredeforeues = New Guna.UI2.WinForms.Guna2NumericUpDown()
         Me.Guna2HtmlLabel41 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Me.Guna2Shapes44 = New Guna.UI2.WinForms.Guna2Shapes()
         Me.Guna2Shapes39 = New Guna.UI2.WinForms.Guna2Shapes()
         Me.Guna2Shapes16 = New Guna.UI2.WinForms.Guna2Shapes()
         Me.Guna2HtmlLabel24 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Me.Guna2HtmlLabel43 = New Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2NumericUpDown8 = New Guna.UI2.WinForms.Guna2NumericUpDown()
-        Me.CheckBox19 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox11 = New System.Windows.Forms.CheckBox()
+        Me.qtep = New Guna.UI2.WinForms.Guna2NumericUpDown()
         Me.CheckBox18 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox11 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox17 = New System.Windows.Forms.CheckBox()
         Me.CheckBox15 = New System.Windows.Forms.CheckBox()
         Me.CheckBox10 = New System.Windows.Forms.CheckBox()
         Me.Guna2Shapes45 = New Guna.UI2.WinForms.Guna2Shapes()
@@ -188,23 +178,13 @@ Partial Class main1
         Me.Guna2HtmlLabel50 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Me.Guna2HtmlLabel57 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Me.Guna2HtmlLabel32 = New Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel80 = New Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel33 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Me.Guna2HtmlLabel38 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Me.Guna2HtmlLabel37 = New Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel71 = New Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel68 = New Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel26 = New Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel36 = New Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2NumericUpDown17 = New Guna.UI2.WinForms.Guna2NumericUpDown()
-        Me.longeurps = New Guna.UI2.WinForms.Guna2NumericUpDown()
-        Me.Guna2NumericUpDown9 = New Guna.UI2.WinForms.Guna2NumericUpDown()
-        Me.diametreps = New Guna.UI2.WinForms.Guna2NumericUpDown()
         Me.Guna2HtmlLabel35 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Me.Guna2Shapes22 = New Guna.UI2.WinForms.Guna2Shapes()
-        Me.Guna2NumericUpDown3 = New Guna.UI2.WinForms.Guna2NumericUpDown()
-        Me.Guna2NumericUpDown4 = New Guna.UI2.WinForms.Guna2NumericUpDown()
-        Me.CheckBox75 = New System.Windows.Forms.CheckBox()
+        Me.qtemd = New Guna.UI2.WinForms.Guna2NumericUpDown()
+        Me.qteppe = New Guna.UI2.WinForms.Guna2NumericUpDown()
+        Me.CheckBox7 = New System.Windows.Forms.CheckBox()
         Me.CheckBox6 = New System.Windows.Forms.CheckBox()
         Me.Guna2Shapes17 = New Guna.UI2.WinForms.Guna2Shapes()
         Me.Guna2Shapes18 = New Guna.UI2.WinForms.Guna2Shapes()
@@ -225,6 +205,7 @@ Partial Class main1
         Me.Guna2HtmlLabel17 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Me.CheckBox2 = New System.Windows.Forms.CheckBox()
         Me.Guna2HtmlLabel16 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Me.Guna2HtmlLabel1 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Me.Guna2HtmlLabel15 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Me.CheckBox1 = New System.Windows.Forms.CheckBox()
         Me.Guna2Shapes8 = New Guna.UI2.WinForms.Guna2Shapes()
@@ -244,8 +225,8 @@ Partial Class main1
         Me.Guna2Panel6 = New Guna.UI2.WinForms.Guna2Panel()
         Me.Guna2HtmlLabel19 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Me.Guna2HtmlLabel74 = New Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.depthEtextbox = New System.Windows.Forms.TextBox()
         Me.projectlocation = New System.Windows.Forms.TextBox()
+        Me.depthEtextbox = New System.Windows.Forms.TextBox()
         Me.descriptionTextBox = New System.Windows.Forms.TextBox()
         Me.Guna2HtmlLabel73 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Me.Guna2Panel5 = New Guna.UI2.WinForms.Guna2Panel()
@@ -254,150 +235,25 @@ Partial Class main1
         Me.clientaddressTextBox = New System.Windows.Forms.TextBox()
         Me.Guna2HtmlLabel72 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Me.Guna2HtmlLabel2 = New Guna.UI2.WinForms.Guna2HtmlLabel()
-        Guna2ComboBox9 = New Guna.UI2.WinForms.Guna2ComboBox()
-        Guna2ComboBox7 = New Guna.UI2.WinForms.Guna2ComboBox()
-        tubageprovisoire = New Guna.UI2.WinForms.Guna2ComboBox()
-        typedeforage = New Guna.UI2.WinForms.Guna2ComboBox()
-        Guna2ComboBox2 = New Guna.UI2.WinForms.Guna2ComboBox()
-        Guna2ComboBox1 = New Guna.UI2.WinForms.Guna2ComboBox()
+        Me.Guna2Button1 = New Guna.UI2.WinForms.Guna2Button()
         Me.MenuStrip1.SuspendLayout()
-        Me.preview.SuspendLayout()
         Me.Guna2Panel2.SuspendLayout()
         Me.DevisPanel.SuspendLayout()
-        CType(Me.Guna2NumericUpDown16, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.watertowerno, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.qtetypedeforage, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.Guna2NumericUpDown15, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.Guna2NumericUpDown7, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.Guna2NumericUpDown14, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.Guna2NumericUpDown12, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.Guna2NumericUpDown11, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.qteal, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.qtetde, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.qtepe, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.qtepvcc, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.qtebe, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.qtegf, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.diametredeforeues, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.Guna2NumericUpDown8, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.Guna2NumericUpDown17, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.longeurps, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.Guna2NumericUpDown9, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.diametreps, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.Guna2NumericUpDown3, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.Guna2NumericUpDown4, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.qtep, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.qtemd, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.qteppe, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.qteps, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Guna2Panel6.SuspendLayout()
         Me.Guna2Panel5.SuspendLayout()
         Me.SuspendLayout()
-        '
-        'Guna2ComboBox9
-        '
-        Guna2ComboBox9.BackColor = System.Drawing.Color.Transparent
-        Guna2ComboBox9.BorderRadius = 5
-        Guna2ComboBox9.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed
-        Guna2ComboBox9.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Guna2ComboBox9.FocusedColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Guna2ComboBox9.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Guna2ComboBox9.Font = New System.Drawing.Font("Times New Roman", 9.75!)
-        Guna2ComboBox9.ForeColor = System.Drawing.Color.Black
-        Guna2ComboBox9.IntegralHeight = False
-        Guna2ComboBox9.ItemHeight = 20
-        Guna2ComboBox9.Items.AddRange(New Object() {"Pompe Submersible", "Pompe de Surface", "Pompe à Piston", "Pompe Centrifuge", "Pompe Péristaltique", "Pompe Éolienne", "Pompe Solaire", "Pompe à Énergie Humaine", "Pompe Manuelle"})
-        Guna2ComboBox9.Location = New System.Drawing.Point(67, 1053)
-        Guna2ComboBox9.Name = "Guna2ComboBox9"
-        Guna2ComboBox9.Size = New System.Drawing.Size(235, 26)
-        Guna2ComboBox9.StartIndex = 0
-        Guna2ComboBox9.TabIndex = 141
-        '
-        'Guna2ComboBox7
-        '
-        Guna2ComboBox7.BackColor = System.Drawing.Color.Transparent
-        Guna2ComboBox7.BorderRadius = 5
-        Guna2ComboBox7.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed
-        Guna2ComboBox7.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Guna2ComboBox7.FocusedColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Guna2ComboBox7.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Guna2ComboBox7.Font = New System.Drawing.Font("Times New Roman", 11.25!)
-        Guna2ComboBox7.ForeColor = System.Drawing.Color.Black
-        Guna2ComboBox7.IntegralHeight = False
-        Guna2ComboBox7.ItemHeight = 20
-        Guna2ComboBox7.Items.AddRange(New Object() {"D'argile", "Bentonite"})
-        Guna2ComboBox7.Location = New System.Drawing.Point(67, 909)
-        Guna2ComboBox7.Name = "Guna2ComboBox7"
-        Guna2ComboBox7.Size = New System.Drawing.Size(107, 26)
-        Guna2ComboBox7.StartIndex = 0
-        Guna2ComboBox7.TabIndex = 125
-        '
-        'tubageprovisoire
-        '
-        tubageprovisoire.BackColor = System.Drawing.Color.Transparent
-        tubageprovisoire.BorderRadius = 5
-        tubageprovisoire.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed
-        tubageprovisoire.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        tubageprovisoire.FocusedColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        tubageprovisoire.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        tubageprovisoire.Font = New System.Drawing.Font("Times New Roman", 9.75!)
-        tubageprovisoire.ForeColor = System.Drawing.Color.Black
-        tubageprovisoire.IntegralHeight = False
-        tubageprovisoire.ItemHeight = 20
-        tubageprovisoire.Items.AddRange(New Object() {"PVC", "Acier"})
-        tubageprovisoire.Location = New System.Drawing.Point(61, 654)
-        tubageprovisoire.Name = "tubageprovisoire"
-        tubageprovisoire.Size = New System.Drawing.Size(107, 26)
-        tubageprovisoire.StartIndex = 0
-        tubageprovisoire.TabIndex = 112
-        '
-        'typedeforage
-        '
-        typedeforage.BackColor = System.Drawing.Color.Transparent
-        typedeforage.BorderRadius = 5
-        typedeforage.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed
-        typedeforage.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        typedeforage.FocusedColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        typedeforage.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        typedeforage.Font = New System.Drawing.Font("Times New Roman", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        typedeforage.ForeColor = System.Drawing.Color.Black
-        typedeforage.IntegralHeight = False
-        typedeforage.ItemHeight = 20
-        typedeforage.Items.AddRange(New Object() {"Forage au Trépied", "Forage Rotatif", "Forage au Tricone", "Forage Marteau Fond de Trou (DTH)", "Forage Rotatif à Boue", "Forage Rotatif à l'Air", "Forage au Marteau avec Tubage", "Forage Sonique", "Forage à la Tarière", "Forage par Percussion"})
-        typedeforage.Location = New System.Drawing.Point(61, 602)
-        typedeforage.Name = "typedeforage"
-        typedeforage.Size = New System.Drawing.Size(177, 26)
-        typedeforage.StartIndex = 0
-        typedeforage.TabIndex = 98
-        '
-        'Guna2ComboBox2
-        '
-        Guna2ComboBox2.BackColor = System.Drawing.Color.Transparent
-        Guna2ComboBox2.BorderRadius = 5
-        Guna2ComboBox2.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed
-        Guna2ComboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Guna2ComboBox2.FocusedColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Guna2ComboBox2.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Guna2ComboBox2.Font = New System.Drawing.Font("Times New Roman", 9.75!)
-        Guna2ComboBox2.ForeColor = System.Drawing.Color.Black
-        Guna2ComboBox2.IntegralHeight = False
-        Guna2ComboBox2.ItemHeight = 20
-        Guna2ComboBox2.Items.AddRange(New Object() {"Soudure", "Scellement"})
-        Guna2ComboBox2.Location = New System.Drawing.Point(67, 843)
-        Guna2ComboBox2.Name = "Guna2ComboBox2"
-        Guna2ComboBox2.Size = New System.Drawing.Size(139, 26)
-        Guna2ComboBox2.StartIndex = 0
-        Guna2ComboBox2.TabIndex = 75
-        '
-        'Guna2ComboBox1
-        '
-        Guna2ComboBox1.BackColor = System.Drawing.Color.Transparent
-        Guna2ComboBox1.BorderRadius = 5
-        Guna2ComboBox1.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed
-        Guna2ComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Guna2ComboBox1.FocusedColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Guna2ComboBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Guna2ComboBox1.Font = New System.Drawing.Font("Times New Roman", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Guna2ComboBox1.ForeColor = System.Drawing.Color.Black
-        Guna2ComboBox1.IntegralHeight = False
-        Guna2ComboBox1.ItemHeight = 20
-        Guna2ComboBox1.Items.AddRange(New Object() {"PVC", "ACIER"})
-        Guna2ComboBox1.Location = New System.Drawing.Point(67, 785)
-        Guna2ComboBox1.Name = "Guna2ComboBox1"
-        Guna2ComboBox1.Size = New System.Drawing.Size(101, 26)
-        Guna2ComboBox1.StartIndex = 0
-        Guna2ComboBox1.TabIndex = 71
         '
         'Guna2HtmlLabel8
         '
@@ -411,153 +267,64 @@ Partial Class main1
         Me.Guna2HtmlLabel8.TabIndex = 2
         Me.Guna2HtmlLabel8.Text = "Drilling Project Description"
         '
-        'AboutUsToolStripMenuItem
+        'MenuStrip1
         '
-        Me.AboutUsToolStripMenuItem.Name = "AboutUsToolStripMenuItem"
-        Me.AboutUsToolStripMenuItem.Size = New System.Drawing.Size(170, 22)
-        Me.AboutUsToolStripMenuItem.Text = "About us"
+        Me.MenuStrip1.ImageScalingSize = New System.Drawing.Size(24, 24)
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.SaveToolStripMenuItem1, Me.EXPORTERToolStripMenuItem, Me.ChangerLesPrixUnitaireToolStripMenuItem, Me.HelpToolStripMenuItem, Me.ActualiserToolStripMenuItem})
+        Me.MenuStrip1.LayoutStyle = System.Windows.Forms.ToolStripLayoutStyle.HorizontalStackWithOverflow
+        Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
+        Me.MenuStrip1.Name = "MenuStrip1"
+        Me.MenuStrip1.Size = New System.Drawing.Size(1284, 32)
+        Me.MenuStrip1.TabIndex = 7
+        Me.MenuStrip1.Text = "File"
         '
-        'GermanToolStripMenuItem
+        'SaveToolStripMenuItem1
         '
-        Me.GermanToolStripMenuItem.Name = "GermanToolStripMenuItem"
-        Me.GermanToolStripMenuItem.Size = New System.Drawing.Size(116, 22)
-        Me.GermanToolStripMenuItem.Text = "German"
+        Me.SaveToolStripMenuItem1.Image = CType(resources.GetObject("SaveToolStripMenuItem1.Image"), System.Drawing.Image)
+        Me.SaveToolStripMenuItem1.Name = "SaveToolStripMenuItem1"
+        Me.SaveToolStripMenuItem1.Size = New System.Drawing.Size(99, 28)
+        Me.SaveToolStripMenuItem1.Text = "Enregistrer"
         '
-        'FrenchToolStripMenuItem
+        'EXPORTERToolStripMenuItem
         '
-        Me.FrenchToolStripMenuItem.Name = "FrenchToolStripMenuItem"
-        Me.FrenchToolStripMenuItem.Size = New System.Drawing.Size(116, 22)
-        Me.FrenchToolStripMenuItem.Text = "French"
+        Me.EXPORTERToolStripMenuItem.Image = CType(resources.GetObject("EXPORTERToolStripMenuItem.Image"), System.Drawing.Image)
+        Me.EXPORTERToolStripMenuItem.Name = "EXPORTERToolStripMenuItem"
+        Me.EXPORTERToolStripMenuItem.Size = New System.Drawing.Size(87, 28)
+        Me.EXPORTERToolStripMenuItem.Text = "Exporter"
         '
-        'EnglishToolStripMenuItem
+        'ChangerLesPrixUnitaireToolStripMenuItem
         '
-        Me.EnglishToolStripMenuItem.Name = "EnglishToolStripMenuItem"
-        Me.EnglishToolStripMenuItem.Size = New System.Drawing.Size(116, 22)
-        Me.EnglishToolStripMenuItem.Text = "English"
-        '
-        'ChangeLanguageToolStripMenuItem
-        '
-        Me.ChangeLanguageToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.EnglishToolStripMenuItem, Me.FrenchToolStripMenuItem, Me.GermanToolStripMenuItem})
-        Me.ChangeLanguageToolStripMenuItem.Name = "ChangeLanguageToolStripMenuItem"
-        Me.ChangeLanguageToolStripMenuItem.Size = New System.Drawing.Size(170, 22)
-        Me.ChangeLanguageToolStripMenuItem.Text = "Change Language"
+        Me.ChangerLesPrixUnitaireToolStripMenuItem.Image = CType(resources.GetObject("ChangerLesPrixUnitaireToolStripMenuItem.Image"), System.Drawing.Image)
+        Me.ChangerLesPrixUnitaireToolStripMenuItem.Name = "ChangerLesPrixUnitaireToolStripMenuItem"
+        Me.ChangerLesPrixUnitaireToolStripMenuItem.Size = New System.Drawing.Size(171, 28)
+        Me.ChangerLesPrixUnitaireToolStripMenuItem.Text = "Modifier les prix unitaire"
         '
         'HelpToolStripMenuItem
         '
-        Me.HelpToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ChangeLanguageToolStripMenuItem, Me.AboutUsToolStripMenuItem, Me.HowToToolStripMenuItem})
+        Me.HelpToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AboutUsToolStripMenuItem, Me.HowToToolStripMenuItem})
+        Me.HelpToolStripMenuItem.Image = CType(resources.GetObject("HelpToolStripMenuItem.Image"), System.Drawing.Image)
         Me.HelpToolStripMenuItem.Name = "HelpToolStripMenuItem"
-        Me.HelpToolStripMenuItem.Size = New System.Drawing.Size(44, 20)
-        Me.HelpToolStripMenuItem.Text = "Help"
+        Me.HelpToolStripMenuItem.Size = New System.Drawing.Size(75, 28)
+        Me.HelpToolStripMenuItem.Text = "Aide ?"
+        '
+        'AboutUsToolStripMenuItem
+        '
+        Me.AboutUsToolStripMenuItem.Name = "AboutUsToolStripMenuItem"
+        Me.AboutUsToolStripMenuItem.Size = New System.Drawing.Size(167, 22)
+        Me.AboutUsToolStripMenuItem.Text = "À propos de nous"
         '
         'HowToToolStripMenuItem
         '
         Me.HowToToolStripMenuItem.Name = "HowToToolStripMenuItem"
-        Me.HowToToolStripMenuItem.Size = New System.Drawing.Size(170, 22)
-        Me.HowToToolStripMenuItem.Text = "How To ?"
+        Me.HowToToolStripMenuItem.Size = New System.Drawing.Size(167, 22)
+        Me.HowToToolStripMenuItem.Text = "Comment faire ..."
         '
-        'BackupToolStripMenuItem
+        'ActualiserToolStripMenuItem
         '
-        Me.BackupToolStripMenuItem.Name = "BackupToolStripMenuItem"
-        Me.BackupToolStripMenuItem.Size = New System.Drawing.Size(58, 20)
-        Me.BackupToolStripMenuItem.Text = "Backup"
-        '
-        'ExitToolStripMenuItem
-        '
-        Me.ExitToolStripMenuItem.Name = "ExitToolStripMenuItem"
-        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(130, 22)
-        Me.ExitToolStripMenuItem.Text = "Exit"
-        '
-        'SaveAsToolStripMenuItem
-        '
-        Me.SaveAsToolStripMenuItem.Name = "SaveAsToolStripMenuItem"
-        Me.SaveAsToolStripMenuItem.Size = New System.Drawing.Size(130, 22)
-        Me.SaveAsToolStripMenuItem.Text = "Save As"
-        '
-        'SaveToolStripMenuItem
-        '
-        Me.SaveToolStripMenuItem.Name = "SaveToolStripMenuItem"
-        Me.SaveToolStripMenuItem.Size = New System.Drawing.Size(130, 22)
-        Me.SaveToolStripMenuItem.Text = "Save"
-        '
-        'PrintToolStripMenuItem
-        '
-        Me.PrintToolStripMenuItem.Name = "PrintToolStripMenuItem"
-        Me.PrintToolStripMenuItem.Size = New System.Drawing.Size(130, 22)
-        Me.PrintToolStripMenuItem.Text = "Print"
-        '
-        'ToolStripMenuItem1
-        '
-        Me.ToolStripMenuItem1.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.OpenNewToolStripMenuItem, Me.PrintToolStripMenuItem, Me.SaveToolStripMenuItem, Me.SaveAsToolStripMenuItem, Me.ExitToolStripMenuItem})
-        Me.ToolStripMenuItem1.Name = "ToolStripMenuItem1"
-        Me.ToolStripMenuItem1.Size = New System.Drawing.Size(37, 20)
-        Me.ToolStripMenuItem1.Text = "File"
-        '
-        'OpenNewToolStripMenuItem
-        '
-        Me.OpenNewToolStripMenuItem.Name = "OpenNewToolStripMenuItem"
-        Me.OpenNewToolStripMenuItem.Size = New System.Drawing.Size(130, 22)
-        Me.OpenNewToolStripMenuItem.Text = "Open New"
-        '
-        'MenuStrip1
-        '
-        Me.MenuStrip1.ImageScalingSize = New System.Drawing.Size(24, 24)
-        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripMenuItem1, Me.BackupToolStripMenuItem, Me.HelpToolStripMenuItem, Me.EditToolStripMenuItem, Me.SaveToolStripMenuItem1, Me.EXPORTERToolStripMenuItem})
-        Me.MenuStrip1.LayoutStyle = System.Windows.Forms.ToolStripLayoutStyle.HorizontalStackWithOverflow
-        Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
-        Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Size = New System.Drawing.Size(1284, 24)
-        Me.MenuStrip1.TabIndex = 7
-        Me.MenuStrip1.Text = "File"
-        '
-        'EditToolStripMenuItem
-        '
-        Me.EditToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.SaveToolStripMenuItem2, Me.SaveAsToolStripMenuItem1, Me.EditUnitPriceToolStripMenuItem})
-        Me.EditToolStripMenuItem.Name = "EditToolStripMenuItem"
-        Me.EditToolStripMenuItem.Size = New System.Drawing.Size(39, 20)
-        Me.EditToolStripMenuItem.Text = "Edit"
-        '
-        'SaveToolStripMenuItem2
-        '
-        Me.SaveToolStripMenuItem2.Name = "SaveToolStripMenuItem2"
-        Me.SaveToolStripMenuItem2.Size = New System.Drawing.Size(148, 22)
-        Me.SaveToolStripMenuItem2.Text = "Save"
-        '
-        'SaveAsToolStripMenuItem1
-        '
-        Me.SaveAsToolStripMenuItem1.Name = "SaveAsToolStripMenuItem1"
-        Me.SaveAsToolStripMenuItem1.Size = New System.Drawing.Size(148, 22)
-        Me.SaveAsToolStripMenuItem1.Text = "Save as"
-        '
-        'EditUnitPriceToolStripMenuItem
-        '
-        Me.EditUnitPriceToolStripMenuItem.Name = "EditUnitPriceToolStripMenuItem"
-        Me.EditUnitPriceToolStripMenuItem.Size = New System.Drawing.Size(148, 22)
-        Me.EditUnitPriceToolStripMenuItem.Text = "Edit Unit Price"
-        '
-        'SaveToolStripMenuItem1
-        '
-        Me.SaveToolStripMenuItem1.Name = "SaveToolStripMenuItem1"
-        Me.SaveToolStripMenuItem1.Size = New System.Drawing.Size(71, 20)
-        Me.SaveToolStripMenuItem1.Text = "Enregistre"
-        '
-        'EXPORTERToolStripMenuItem
-        '
-        Me.EXPORTERToolStripMenuItem.Name = "EXPORTERToolStripMenuItem"
-        Me.EXPORTERToolStripMenuItem.Size = New System.Drawing.Size(73, 20)
-        Me.EXPORTERToolStripMenuItem.Text = "EXPORTER"
-        '
-        'Guna2HtmlLabel1
-        '
-        Me.Guna2HtmlLabel1.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel1.Font = New System.Drawing.Font("Times New Roman", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2HtmlLabel1.Location = New System.Drawing.Point(137, 25)
-        Me.Guna2HtmlLabel1.Name = "Guna2HtmlLabel1"
-        Me.Guna2HtmlLabel1.Size = New System.Drawing.Size(195, 38)
-        Me.Guna2HtmlLabel1.TabIndex = 0
-        Me.Guna2HtmlLabel1.Text = "Devis Preview"
+        Me.ActualiserToolStripMenuItem.Image = CType(resources.GetObject("ActualiserToolStripMenuItem.Image"), System.Drawing.Image)
+        Me.ActualiserToolStripMenuItem.Name = "ActualiserToolStripMenuItem"
+        Me.ActualiserToolStripMenuItem.Size = New System.Drawing.Size(95, 28)
+        Me.ActualiserToolStripMenuItem.Text = "Actualiser"
         '
         'preview
         '
@@ -565,22 +332,12 @@ Partial Class main1
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.preview.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
-        Me.preview.Controls.Add(Me.WebBrowser1)
         Me.preview.FillColor = System.Drawing.Color.White
         Me.preview.Location = New System.Drawing.Point(25, 74)
         Me.preview.Margin = New System.Windows.Forms.Padding(20)
         Me.preview.Name = "preview"
         Me.preview.Size = New System.Drawing.Size(414, 606)
         Me.preview.TabIndex = 1
-        '
-        'WebBrowser1
-        '
-        Me.WebBrowser1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.WebBrowser1.Location = New System.Drawing.Point(0, 0)
-        Me.WebBrowser1.MinimumSize = New System.Drawing.Size(20, 20)
-        Me.WebBrowser1.Name = "WebBrowser1"
-        Me.WebBrowser1.Size = New System.Drawing.Size(414, 606)
-        Me.WebBrowser1.TabIndex = 0
         '
         'Guna2Panel2
         '
@@ -590,7 +347,6 @@ Partial Class main1
         Me.Guna2Panel2.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
         Me.Guna2Panel2.BackColor = System.Drawing.SystemColors.Control
         Me.Guna2Panel2.Controls.Add(Me.preview)
-        Me.Guna2Panel2.Controls.Add(Me.Guna2HtmlLabel1)
         Me.Guna2Panel2.Location = New System.Drawing.Point(816, 2)
         Me.Guna2Panel2.Margin = New System.Windows.Forms.Padding(10)
         Me.Guna2Panel2.Name = "Guna2Panel2"
@@ -602,11 +358,11 @@ Partial Class main1
         '
         Me.Guna2HtmlLabel5.BackColor = System.Drawing.Color.Transparent
         Me.Guna2HtmlLabel5.Font = New System.Drawing.Font("Times New Roman", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2HtmlLabel5.Location = New System.Drawing.Point(8, 69)
+        Me.Guna2HtmlLabel5.Location = New System.Drawing.Point(8, 73)
         Me.Guna2HtmlLabel5.Name = "Guna2HtmlLabel5"
         Me.Guna2HtmlLabel5.Size = New System.Drawing.Size(67, 19)
         Me.Guna2HtmlLabel5.TabIndex = 4
-        Me.Guna2HtmlLabel5.Text = "Address :"
+        Me.Guna2HtmlLabel5.Text = "Adresse :"
         '
         'Guna2HtmlLabel4
         '
@@ -614,9 +370,9 @@ Partial Class main1
         Me.Guna2HtmlLabel4.Font = New System.Drawing.Font("Times New Roman", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Guna2HtmlLabel4.Location = New System.Drawing.Point(8, 40)
         Me.Guna2HtmlLabel4.Name = "Guna2HtmlLabel4"
-        Me.Guna2HtmlLabel4.Size = New System.Drawing.Size(50, 19)
+        Me.Guna2HtmlLabel4.Size = New System.Drawing.Size(43, 19)
         Me.Guna2HtmlLabel4.TabIndex = 3
-        Me.Guna2HtmlLabel4.Text = "Name :"
+        Me.Guna2HtmlLabel4.Text = "Nom :"
         '
         'Guna2HtmlLabel3
         '
@@ -626,9 +382,9 @@ Partial Class main1
         Me.Guna2HtmlLabel3.ForeColor = System.Drawing.Color.LightSkyBlue
         Me.Guna2HtmlLabel3.Location = New System.Drawing.Point(8, 2)
         Me.Guna2HtmlLabel3.Name = "Guna2HtmlLabel3"
-        Me.Guna2HtmlLabel3.Size = New System.Drawing.Size(111, 31)
+        Me.Guna2HtmlLabel3.Size = New System.Drawing.Size(56, 31)
         Me.Guna2HtmlLabel3.TabIndex = 2
-        Me.Guna2HtmlLabel3.Text = "Client Info"
+        Me.Guna2HtmlLabel3.Text = "Client"
         '
         'DevisPanel
         '
@@ -637,72 +393,84 @@ Partial Class main1
         Me.DevisPanel.AutoScroll = True
         Me.DevisPanel.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
         Me.DevisPanel.BackColor = System.Drawing.Color.White
-        Me.DevisPanel.Controls.Add(Me.uppt)
-        Me.DevisPanel.Controls.Add(Me.upte)
+        Me.DevisPanel.Controls.Add(Me.Guna2Button1)
+        Me.DevisPanel.Controls.Add(Me.typedepompe)
+        Me.DevisPanel.Controls.Add(Me.buchonetanche)
+        Me.DevisPanel.Controls.Add(Me.methodunion)
+        Me.DevisPanel.Controls.Add(Me.tubagepermanent)
+        Me.DevisPanel.Controls.Add(Me.tubageprovisoire)
+        Me.DevisPanel.Controls.Add(Me.pvccrepine)
+        Me.DevisPanel.Controls.Add(Me.xticsppe)
+        Me.DevisPanel.Controls.Add(Me.xticsppo)
+        Me.DevisPanel.Controls.Add(Me.typeforage)
+        Me.DevisPanel.Controls.Add(Me.a2)
+        Me.DevisPanel.Controls.Add(Me.a1)
         Me.DevisPanel.Controls.Add(Me.RefTextBox)
         Me.DevisPanel.Controls.Add(Me.DateTextBox)
-        Me.DevisPanel.Controls.Add(Me.TextBox27)
-        Me.DevisPanel.Controls.Add(Me.TextBox28)
-        Me.DevisPanel.Controls.Add(Me.TextBox26)
+        Me.DevisPanel.Controls.Add(Me.a35)
+        Me.DevisPanel.Controls.Add(Me.a32)
+        Me.DevisPanel.Controls.Add(Me.a33)
+        Me.DevisPanel.Controls.Add(Me.a34)
+        Me.DevisPanel.Controls.Add(Me.Guna2HtmlLabel33)
         Me.DevisPanel.Controls.Add(Me.Guna2HtmlLabel45)
         Me.DevisPanel.Controls.Add(Me.TextBox24)
-        Me.DevisPanel.Controls.Add(Me.TextBox23)
-        Me.DevisPanel.Controls.Add(Me.TextBox15)
-        Me.DevisPanel.Controls.Add(Me.TextBox22)
+        Me.DevisPanel.Controls.Add(Me.a31)
+        Me.DevisPanel.Controls.Add(Me.a30)
+        Me.DevisPanel.Controls.Add(Me.a29)
+        Me.DevisPanel.Controls.Add(Me.a28)
+        Me.DevisPanel.Controls.Add(Me.a24a27)
+        Me.DevisPanel.Controls.Add(Me.a22a23)
+        Me.DevisPanel.Controls.Add(Me.unitepvccrepine)
         Me.DevisPanel.Controls.Add(Me.ptgf)
-        Me.DevisPanel.Controls.Add(Me.TextBox21)
-        Me.DevisPanel.Controls.Add(Me.pugf)
-        Me.DevisPanel.Controls.Add(Me.pups)
-        Me.DevisPanel.Controls.Add(Me.TextBox25)
-        Me.DevisPanel.Controls.Add(Me.TextBox18)
-        Me.DevisPanel.Controls.Add(Me.TextBox17)
-        Me.DevisPanel.Controls.Add(Me.TextBox16)
-        Me.DevisPanel.Controls.Add(Me.TextBox14)
-        Me.DevisPanel.Controls.Add(Me.TextBox3)
-        Me.DevisPanel.Controls.Add(Me.TextBox12)
-        Me.DevisPanel.Controls.Add(Me.TextBox11)
-        Me.DevisPanel.Controls.Add(Me.TextBox10)
-        Me.DevisPanel.Controls.Add(Me.TextBox9)
-        Me.DevisPanel.Controls.Add(Me.TextBox8)
-        Me.DevisPanel.Controls.Add(Me.TextBox7)
-        Me.DevisPanel.Controls.Add(Me.TextBox6)
-        Me.DevisPanel.Controls.Add(Me.TextBox5)
+        Me.DevisPanel.Controls.Add(Me.a19a20)
+        Me.DevisPanel.Controls.Add(Me.ppe)
+        Me.DevisPanel.Controls.Add(Me.a21)
+        Me.DevisPanel.Controls.Add(Me.ppo)
+        Me.DevisPanel.Controls.Add(Me.labourtb)
+        Me.DevisPanel.Controls.Add(Me.totalequip)
+        Me.DevisPanel.Controls.Add(Me.a35t)
+        Me.DevisPanel.Controls.Add(Me.a34t)
+        Me.DevisPanel.Controls.Add(Me.a33t)
+        Me.DevisPanel.Controls.Add(Me.a32t)
+        Me.DevisPanel.Controls.Add(Me.tairlift)
+        Me.DevisPanel.Controls.Add(Me.ttesteau)
+        Me.DevisPanel.Controls.Add(Me.tpompeessai)
+        Me.DevisPanel.Controls.Add(Me.tpompe)
+        Me.DevisPanel.Controls.Add(Me.tipompe)
+        Me.DevisPanel.Controls.Add(Me.tppvcc)
+        Me.DevisPanel.Controls.Add(Me.tpbe)
+        Me.DevisPanel.Controls.Add(Me.tpppe)
+        Me.DevisPanel.Controls.Add(Me.tpmd)
         Me.DevisPanel.Controls.Add(Me.tpps)
         Me.DevisPanel.Controls.Add(Me.ptdeforeuse)
         Me.DevisPanel.Controls.Add(Me.tpte)
         Me.DevisPanel.Controls.Add(Me.tppt)
-        Me.DevisPanel.Controls.Add(Me.pudeforeuse)
-        Me.DevisPanel.Controls.Add(Me.Guna2HtmlLabel78)
-        Me.DevisPanel.Controls.Add(Me.Guna2HtmlLabel77)
-        Me.DevisPanel.Controls.Add(Me.Guna2HtmlLabel66)
-        Me.DevisPanel.Controls.Add(Me.Guna2HtmlLabel76)
-        Me.DevisPanel.Controls.Add(Me.Guna2HtmlLabel75)
+        Me.DevisPanel.Controls.Add(Me.a3a6)
         Me.DevisPanel.Controls.Add(Me.Guna2HtmlLabel70)
         Me.DevisPanel.Controls.Add(Me.Guna2HtmlLabel69)
         Me.DevisPanel.Controls.Add(Me.Guna2HtmlLabel61)
         Me.DevisPanel.Controls.Add(Me.Guna2HtmlLabel39)
         Me.DevisPanel.Controls.Add(Me.Guna2HtmlLabel65)
         Me.DevisPanel.Controls.Add(Me.Guna2HtmlLabel59)
-        Me.DevisPanel.Controls.Add(Me.Guna2NumericUpDown16)
-        Me.DevisPanel.Controls.Add(Me.CheckBox17)
+        Me.DevisPanel.Controls.Add(Me.watertowerno)
+        Me.DevisPanel.Controls.Add(Me.CheckBox16)
         Me.DevisPanel.Controls.Add(Me.qtetypedeforage)
         Me.DevisPanel.Controls.Add(Me.CheckBox14)
         Me.DevisPanel.Controls.Add(Me.Guna2HtmlLabel56)
-        Me.DevisPanel.Controls.Add(Me.Guna2NumericUpDown15)
-        Me.DevisPanel.Controls.Add(Me.Guna2NumericUpDown7)
+        Me.DevisPanel.Controls.Add(Me.qteal)
+        Me.DevisPanel.Controls.Add(Me.qtetde)
+        Me.DevisPanel.Controls.Add(Me.qtepe)
         Me.DevisPanel.Controls.Add(Me.CheckBox12)
         Me.DevisPanel.Controls.Add(Me.Guna2HtmlLabel55)
         Me.DevisPanel.Controls.Add(Me.Guna2Shapes33)
         Me.DevisPanel.Controls.Add(Me.Guna2HtmlLabel64)
         Me.DevisPanel.Controls.Add(Me.Guna2HtmlLabel62)
         Me.DevisPanel.Controls.Add(Me.Guna2HtmlLabel42)
-        Me.DevisPanel.Controls.Add(Guna2ComboBox9)
         Me.DevisPanel.Controls.Add(Me.Guna2HtmlLabel52)
         Me.DevisPanel.Controls.Add(Me.Guna2Shapes28)
         Me.DevisPanel.Controls.Add(Me.Guna2HtmlLabel21)
         Me.DevisPanel.Controls.Add(Me.Guna2HtmlLabel67)
         Me.DevisPanel.Controls.Add(Me.Guna2HtmlLabel53)
-        Me.DevisPanel.Controls.Add(Me.Guna2NumericUpDown14)
         Me.DevisPanel.Controls.Add(Me.CheckBox13)
         Me.DevisPanel.Controls.Add(Me.Guna2Shapes29)
         Me.DevisPanel.Controls.Add(Me.Guna2Shapes30)
@@ -711,9 +479,8 @@ Partial Class main1
         Me.DevisPanel.Controls.Add(Me.Guna2HtmlLabel54)
         Me.DevisPanel.Controls.Add(Me.Guna2HtmlLabel49)
         Me.DevisPanel.Controls.Add(Me.Guna2HtmlLabel48)
-        Me.DevisPanel.Controls.Add(Me.Guna2NumericUpDown12)
-        Me.DevisPanel.Controls.Add(Me.Guna2NumericUpDown11)
-        Me.DevisPanel.Controls.Add(Guna2ComboBox7)
+        Me.DevisPanel.Controls.Add(Me.qtepvcc)
+        Me.DevisPanel.Controls.Add(Me.qtebe)
         Me.DevisPanel.Controls.Add(Me.Guna2HtmlLabel47)
         Me.DevisPanel.Controls.Add(Me.CheckBox9)
         Me.DevisPanel.Controls.Add(Me.Guna2HtmlLabel63)
@@ -721,14 +488,14 @@ Partial Class main1
         Me.DevisPanel.Controls.Add(Me.Guna2HtmlLabel60)
         Me.DevisPanel.Controls.Add(Me.Guna2HtmlLabel40)
         Me.DevisPanel.Controls.Add(Me.Guna2HtmlLabel51)
-        Me.DevisPanel.Controls.Add(Me.Guna2HtmlLabel46)
         Me.DevisPanel.Controls.Add(Me.CheckBox8)
         Me.DevisPanel.Controls.Add(Me.Guna2HtmlLabel34)
         Me.DevisPanel.Controls.Add(Me.qtegf)
         Me.DevisPanel.Controls.Add(Me.CheckBox5)
         Me.DevisPanel.Controls.Add(Me.Guna2HtmlLabel30)
         Me.DevisPanel.Controls.Add(Me.Guna2HtmlLabel28)
-        Me.DevisPanel.Controls.Add(tubageprovisoire)
+        Me.DevisPanel.Controls.Add(Me.Guna2HtmlLabel26)
+        Me.DevisPanel.Controls.Add(Me.Guna2HtmlLabel20)
         Me.DevisPanel.Controls.Add(Me.Guna2HtmlLabel27)
         Me.DevisPanel.Controls.Add(Me.Guna2HtmlLabel14)
         Me.DevisPanel.Controls.Add(Me.Guna2HtmlLabel6)
@@ -737,19 +504,16 @@ Partial Class main1
         Me.DevisPanel.Controls.Add(Me.Guna2Shapes13)
         Me.DevisPanel.Controls.Add(Me.Guna2Shapes15)
         Me.DevisPanel.Controls.Add(Me.Guna2Shapes12)
-        Me.DevisPanel.Controls.Add(Me.Guna2HtmlLabel44)
-        Me.DevisPanel.Controls.Add(Me.diametredeforeues)
-        Me.DevisPanel.Controls.Add(typedeforage)
         Me.DevisPanel.Controls.Add(Me.Guna2HtmlLabel41)
         Me.DevisPanel.Controls.Add(Me.Guna2Shapes44)
         Me.DevisPanel.Controls.Add(Me.Guna2Shapes39)
         Me.DevisPanel.Controls.Add(Me.Guna2Shapes16)
         Me.DevisPanel.Controls.Add(Me.Guna2HtmlLabel24)
         Me.DevisPanel.Controls.Add(Me.Guna2HtmlLabel43)
-        Me.DevisPanel.Controls.Add(Me.Guna2NumericUpDown8)
-        Me.DevisPanel.Controls.Add(Me.CheckBox19)
-        Me.DevisPanel.Controls.Add(Me.CheckBox11)
+        Me.DevisPanel.Controls.Add(Me.qtep)
         Me.DevisPanel.Controls.Add(Me.CheckBox18)
+        Me.DevisPanel.Controls.Add(Me.CheckBox11)
+        Me.DevisPanel.Controls.Add(Me.CheckBox17)
         Me.DevisPanel.Controls.Add(Me.CheckBox15)
         Me.DevisPanel.Controls.Add(Me.CheckBox10)
         Me.DevisPanel.Controls.Add(Me.Guna2Shapes45)
@@ -770,25 +534,13 @@ Partial Class main1
         Me.DevisPanel.Controls.Add(Me.Guna2HtmlLabel50)
         Me.DevisPanel.Controls.Add(Me.Guna2HtmlLabel57)
         Me.DevisPanel.Controls.Add(Me.Guna2HtmlLabel32)
-        Me.DevisPanel.Controls.Add(Me.Guna2HtmlLabel80)
-        Me.DevisPanel.Controls.Add(Me.Guna2HtmlLabel33)
         Me.DevisPanel.Controls.Add(Me.Guna2HtmlLabel38)
-        Me.DevisPanel.Controls.Add(Guna2ComboBox2)
         Me.DevisPanel.Controls.Add(Me.Guna2HtmlLabel37)
-        Me.DevisPanel.Controls.Add(Me.Guna2HtmlLabel71)
-        Me.DevisPanel.Controls.Add(Me.Guna2HtmlLabel68)
-        Me.DevisPanel.Controls.Add(Me.Guna2HtmlLabel26)
-        Me.DevisPanel.Controls.Add(Me.Guna2HtmlLabel36)
-        Me.DevisPanel.Controls.Add(Me.Guna2NumericUpDown17)
-        Me.DevisPanel.Controls.Add(Me.longeurps)
-        Me.DevisPanel.Controls.Add(Me.Guna2NumericUpDown9)
-        Me.DevisPanel.Controls.Add(Me.diametreps)
-        Me.DevisPanel.Controls.Add(Guna2ComboBox1)
         Me.DevisPanel.Controls.Add(Me.Guna2HtmlLabel35)
         Me.DevisPanel.Controls.Add(Me.Guna2Shapes22)
-        Me.DevisPanel.Controls.Add(Me.Guna2NumericUpDown3)
-        Me.DevisPanel.Controls.Add(Me.Guna2NumericUpDown4)
-        Me.DevisPanel.Controls.Add(Me.CheckBox75)
+        Me.DevisPanel.Controls.Add(Me.qtemd)
+        Me.DevisPanel.Controls.Add(Me.qteppe)
+        Me.DevisPanel.Controls.Add(Me.CheckBox7)
         Me.DevisPanel.Controls.Add(Me.CheckBox6)
         Me.DevisPanel.Controls.Add(Me.Guna2Shapes17)
         Me.DevisPanel.Controls.Add(Me.Guna2Shapes18)
@@ -809,6 +561,7 @@ Partial Class main1
         Me.DevisPanel.Controls.Add(Me.Guna2HtmlLabel17)
         Me.DevisPanel.Controls.Add(Me.CheckBox2)
         Me.DevisPanel.Controls.Add(Me.Guna2HtmlLabel16)
+        Me.DevisPanel.Controls.Add(Me.Guna2HtmlLabel1)
         Me.DevisPanel.Controls.Add(Me.Guna2HtmlLabel15)
         Me.DevisPanel.Controls.Add(Me.CheckBox1)
         Me.DevisPanel.Controls.Add(Me.Guna2Shapes8)
@@ -835,27 +588,171 @@ Partial Class main1
         Me.DevisPanel.Size = New System.Drawing.Size(818, 701)
         Me.DevisPanel.TabIndex = 5
         '
-        'uppt
+        'typedepompe
         '
-        Me.uppt.BackColor = System.Drawing.Color.White
-        Me.uppt.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.uppt.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.uppt.Location = New System.Drawing.Point(477, 499)
-        Me.uppt.Name = "uppt"
-        Me.uppt.Size = New System.Drawing.Size(85, 19)
-        Me.uppt.TabIndex = 167
-        Me.uppt.Text = "XFA"
+        Me.typedepompe.BackColor = System.Drawing.Color.Transparent
+        Me.typedepompe.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed
+        Me.typedepompe.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.typedepompe.FocusedColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.typedepompe.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.typedepompe.Font = New System.Drawing.Font("Times New Roman", 11.25!)
+        Me.typedepompe.ForeColor = System.Drawing.Color.Black
+        Me.typedepompe.ItemHeight = 20
+        Me.typedepompe.Items.AddRange(New Object() {"Pompe Submersible", "Pompe surface", "Pompe Solaire", "Pompe à Énergie Humaine"})
+        Me.typedepompe.Location = New System.Drawing.Point(52, 1042)
+        Me.typedepompe.Name = "typedepompe"
+        Me.typedepompe.Size = New System.Drawing.Size(234, 26)
+        Me.typedepompe.TabIndex = 168
         '
-        'upte
+        'buchonetanche
         '
-        Me.upte.BackColor = System.Drawing.Color.White
-        Me.upte.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.upte.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.upte.Location = New System.Drawing.Point(476, 462)
-        Me.upte.Name = "upte"
-        Me.upte.Size = New System.Drawing.Size(85, 19)
-        Me.upte.TabIndex = 166
-        Me.upte.Text = "XFA"
+        Me.buchonetanche.BackColor = System.Drawing.Color.Transparent
+        Me.buchonetanche.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed
+        Me.buchonetanche.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.buchonetanche.FocusedColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.buchonetanche.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.buchonetanche.Font = New System.Drawing.Font("Times New Roman", 11.25!)
+        Me.buchonetanche.ForeColor = System.Drawing.Color.Black
+        Me.buchonetanche.ItemHeight = 20
+        Me.buchonetanche.Items.AddRange(New Object() {"D'argile", "Bentonite"})
+        Me.buchonetanche.Location = New System.Drawing.Point(52, 876)
+        Me.buchonetanche.Name = "buchonetanche"
+        Me.buchonetanche.Size = New System.Drawing.Size(146, 26)
+        Me.buchonetanche.TabIndex = 168
+        '
+        'methodunion
+        '
+        Me.methodunion.BackColor = System.Drawing.Color.Transparent
+        Me.methodunion.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed
+        Me.methodunion.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.methodunion.FocusedColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.methodunion.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.methodunion.Font = New System.Drawing.Font("Times New Roman", 11.25!)
+        Me.methodunion.ForeColor = System.Drawing.Color.Black
+        Me.methodunion.ItemHeight = 20
+        Me.methodunion.Items.AddRange(New Object() {"Soudure", "Scellement"})
+        Me.methodunion.Location = New System.Drawing.Point(52, 825)
+        Me.methodunion.Name = "methodunion"
+        Me.methodunion.Size = New System.Drawing.Size(146, 26)
+        Me.methodunion.TabIndex = 168
+        '
+        'tubagepermanent
+        '
+        Me.tubagepermanent.BackColor = System.Drawing.Color.Transparent
+        Me.tubagepermanent.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed
+        Me.tubagepermanent.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.tubagepermanent.FocusedColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.tubagepermanent.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.tubagepermanent.Font = New System.Drawing.Font("Times New Roman", 11.25!)
+        Me.tubagepermanent.ForeColor = System.Drawing.Color.Black
+        Me.tubagepermanent.ItemHeight = 20
+        Me.tubagepermanent.Items.AddRange(New Object() {"PVC", "Acier"})
+        Me.tubagepermanent.Location = New System.Drawing.Point(52, 776)
+        Me.tubagepermanent.Name = "tubagepermanent"
+        Me.tubagepermanent.Size = New System.Drawing.Size(92, 26)
+        Me.tubagepermanent.TabIndex = 168
+        '
+        'tubageprovisoire
+        '
+        Me.tubageprovisoire.BackColor = System.Drawing.Color.Transparent
+        Me.tubageprovisoire.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed
+        Me.tubageprovisoire.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.tubageprovisoire.FocusedColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.tubageprovisoire.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.tubageprovisoire.Font = New System.Drawing.Font("Times New Roman", 11.25!)
+        Me.tubageprovisoire.ForeColor = System.Drawing.Color.Black
+        Me.tubageprovisoire.ItemHeight = 20
+        Me.tubageprovisoire.Items.AddRange(New Object() {"PVC", "Acier"})
+        Me.tubageprovisoire.Location = New System.Drawing.Point(52, 643)
+        Me.tubageprovisoire.Name = "tubageprovisoire"
+        Me.tubageprovisoire.Size = New System.Drawing.Size(92, 26)
+        Me.tubageprovisoire.TabIndex = 168
+        '
+        'pvccrepine
+        '
+        Me.pvccrepine.BackColor = System.Drawing.Color.Transparent
+        Me.pvccrepine.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed
+        Me.pvccrepine.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.pvccrepine.FocusedColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.pvccrepine.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.pvccrepine.Font = New System.Drawing.Font("Times New Roman", 11.25!)
+        Me.pvccrepine.ForeColor = System.Drawing.Color.Black
+        Me.pvccrepine.ItemHeight = 20
+        Me.pvccrepine.Items.AddRange(New Object() {"4, Ø 160 mm RR", "10, Ø 110 mm, SF", "15, Ø 90 mm, SF", "10, Ø 75 mm, SF"})
+        Me.pvccrepine.Location = New System.Drawing.Point(150, 918)
+        Me.pvccrepine.Name = "pvccrepine"
+        Me.pvccrepine.Size = New System.Drawing.Size(165, 26)
+        Me.pvccrepine.TabIndex = 168
+        '
+        'xticsppe
+        '
+        Me.xticsppe.BackColor = System.Drawing.Color.Transparent
+        Me.xticsppe.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed
+        Me.xticsppe.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.xticsppe.FocusedColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.xticsppe.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.xticsppe.Font = New System.Drawing.Font("Times New Roman", 11.25!)
+        Me.xticsppe.ForeColor = System.Drawing.Color.Black
+        Me.xticsppe.ItemHeight = 20
+        Me.xticsppe.Items.AddRange(New Object() {"4, Ø 160 mm RR", "10, Ø 110 mm, SF", "15, Ø 90 mm, SF", "10, Ø 75 mm, SF"})
+        Me.xticsppe.Location = New System.Drawing.Point(150, 776)
+        Me.xticsppe.Name = "xticsppe"
+        Me.xticsppe.Size = New System.Drawing.Size(170, 26)
+        Me.xticsppe.TabIndex = 168
+        '
+        'xticsppo
+        '
+        Me.xticsppo.BackColor = System.Drawing.Color.Transparent
+        Me.xticsppo.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed
+        Me.xticsppo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.xticsppo.FocusedColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.xticsppo.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.xticsppo.Font = New System.Drawing.Font("Times New Roman", 11.25!)
+        Me.xticsppo.ForeColor = System.Drawing.Color.Black
+        Me.xticsppo.ItemHeight = 20
+        Me.xticsppo.Items.AddRange(New Object() {"4, Ø 160 mm RR", "10, Ø 110 mm, SF", "15, Ø 90 mm, SF", "10, Ø 75 mm, SF"})
+        Me.xticsppo.Location = New System.Drawing.Point(150, 643)
+        Me.xticsppo.Name = "xticsppo"
+        Me.xticsppo.Size = New System.Drawing.Size(170, 26)
+        Me.xticsppo.TabIndex = 168
+        '
+        'typeforage
+        '
+        Me.typeforage.BackColor = System.Drawing.Color.Transparent
+        Me.typeforage.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed
+        Me.typeforage.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.typeforage.FocusedColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.typeforage.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.typeforage.Font = New System.Drawing.Font("Times New Roman", 11.25!)
+        Me.typeforage.ForeColor = System.Drawing.Color.Black
+        Me.typeforage.ItemHeight = 20
+        Me.typeforage.Items.AddRange(New Object() {"Forage Rotatif à Boue", "Forage Marteau Fond de Trou (DTH)", "Forage Rotatif à l'Air", "Forage au Tricone"})
+        Me.typeforage.Location = New System.Drawing.Point(59, 594)
+        Me.typeforage.Name = "typeforage"
+        Me.typeforage.Size = New System.Drawing.Size(221, 26)
+        Me.typeforage.TabIndex = 168
+        '
+        'a2
+        '
+        Me.a2.BackColor = System.Drawing.Color.White
+        Me.a2.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.a2.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.a2.Location = New System.Drawing.Point(478, 488)
+        Me.a2.Name = "a2"
+        Me.a2.Size = New System.Drawing.Size(114, 19)
+        Me.a2.TabIndex = 167
+        Me.a2.Text = "XFA"
+        '
+        'a1
+        '
+        Me.a1.BackColor = System.Drawing.Color.White
+        Me.a1.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.a1.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.a1.Location = New System.Drawing.Point(477, 451)
+        Me.a1.Name = "a1"
+        Me.a1.Size = New System.Drawing.Size(114, 19)
+        Me.a1.TabIndex = 166
+        Me.a1.Text = "XFA"
         '
         'RefTextBox
         '
@@ -863,11 +760,11 @@ Partial Class main1
         Me.RefTextBox.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.RefTextBox.Enabled = False
         Me.RefTextBox.Font = New System.Drawing.Font("Times New Roman", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RefTextBox.Location = New System.Drawing.Point(317, 147)
+        Me.RefTextBox.Location = New System.Drawing.Point(332, 136)
         Me.RefTextBox.Name = "RefTextBox"
         Me.RefTextBox.Size = New System.Drawing.Size(260, 25)
         Me.RefTextBox.TabIndex = 160
-        Me.RefTextBox.Text = " [Quotation Number or Code]"
+        Me.RefTextBox.Text = "[Ref du devis]"
         '
         'DateTextBox
         '
@@ -875,58 +772,81 @@ Partial Class main1
         Me.DateTextBox.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.DateTextBox.Enabled = False
         Me.DateTextBox.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.DateTextBox.Location = New System.Drawing.Point(630, 115)
+        Me.DateTextBox.Location = New System.Drawing.Point(620, 104)
         Me.DateTextBox.Name = "DateTextBox"
         Me.DateTextBox.Size = New System.Drawing.Size(100, 19)
         Me.DateTextBox.TabIndex = 160
         Me.DateTextBox.Text = "null"
         '
-        'TextBox27
+        'a35
         '
-        Me.TextBox27.BackColor = System.Drawing.Color.White
-        Me.TextBox27.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.TextBox27.Enabled = False
-        Me.TextBox27.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox27.Location = New System.Drawing.Point(476, 1507)
-        Me.TextBox27.Name = "TextBox27"
-        Me.TextBox27.Size = New System.Drawing.Size(85, 19)
-        Me.TextBox27.TabIndex = 165
-        Me.TextBox27.Text = "XFA"
+        Me.a35.BackColor = System.Drawing.Color.White
+        Me.a35.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.a35.Enabled = False
+        Me.a35.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.a35.Location = New System.Drawing.Point(466, 1496)
+        Me.a35.Name = "a35"
+        Me.a35.Size = New System.Drawing.Size(119, 19)
+        Me.a35.TabIndex = 165
+        Me.a35.Text = "XFA"
         '
-        'TextBox28
+        'a32
         '
-        Me.TextBox28.BackColor = System.Drawing.Color.White
-        Me.TextBox28.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.TextBox28.Enabled = False
-        Me.TextBox28.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox28.Location = New System.Drawing.Point(476, 1364)
-        Me.TextBox28.Name = "TextBox28"
-        Me.TextBox28.Size = New System.Drawing.Size(85, 19)
-        Me.TextBox28.TabIndex = 165
-        Me.TextBox28.Text = "XFA"
+        Me.a32.BackColor = System.Drawing.Color.White
+        Me.a32.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.a32.Enabled = False
+        Me.a32.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.a32.Location = New System.Drawing.Point(477, 1317)
+        Me.a32.Name = "a32"
+        Me.a32.Size = New System.Drawing.Size(108, 19)
+        Me.a32.TabIndex = 165
+        Me.a32.Text = "XFA"
         '
-        'TextBox26
+        'a33
         '
-        Me.TextBox26.BackColor = System.Drawing.Color.White
-        Me.TextBox26.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.TextBox26.Enabled = False
-        Me.TextBox26.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox26.Location = New System.Drawing.Point(476, 1471)
-        Me.TextBox26.Name = "TextBox26"
-        Me.TextBox26.Size = New System.Drawing.Size(85, 19)
-        Me.TextBox26.TabIndex = 165
-        Me.TextBox26.Text = "XFA"
+        Me.a33.BackColor = System.Drawing.Color.White
+        Me.a33.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.a33.Enabled = False
+        Me.a33.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.a33.Location = New System.Drawing.Point(477, 1354)
+        Me.a33.Name = "a33"
+        Me.a33.Size = New System.Drawing.Size(108, 19)
+        Me.a33.TabIndex = 165
+        Me.a33.Text = "XFA"
+        '
+        'a34
+        '
+        Me.a34.BackColor = System.Drawing.Color.White
+        Me.a34.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.a34.Enabled = False
+        Me.a34.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.a34.Location = New System.Drawing.Point(466, 1460)
+        Me.a34.Name = "a34"
+        Me.a34.Size = New System.Drawing.Size(119, 19)
+        Me.a34.TabIndex = 165
+        Me.a34.Text = "XFA"
+        '
+        'Guna2HtmlLabel33
+        '
+        Me.Guna2HtmlLabel33.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2HtmlLabel33.Font = New System.Drawing.Font("Vivaldi", 18.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Guna2HtmlLabel33.ForeColor = System.Drawing.Color.Black
+        Me.Guna2HtmlLabel33.Location = New System.Drawing.Point(8, 1588)
+        Me.Guna2HtmlLabel33.Name = "Guna2HtmlLabel33"
+        Me.Guna2HtmlLabel33.Size = New System.Drawing.Size(205, 31)
+        Me.Guna2HtmlLabel33.TabIndex = 164
+        Me.Guna2HtmlLabel33.Text = "Coût de la main-d'œuvre"
         '
         'Guna2HtmlLabel45
         '
         Me.Guna2HtmlLabel45.BackColor = System.Drawing.Color.Transparent
         Me.Guna2HtmlLabel45.Font = New System.Drawing.Font("Vivaldi", 18.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Guna2HtmlLabel45.ForeColor = System.Drawing.Color.Black
-        Me.Guna2HtmlLabel45.Location = New System.Drawing.Point(18, 1567)
+        Me.Guna2HtmlLabel45.Location = New System.Drawing.Point(8, 1545)
         Me.Guna2HtmlLabel45.Name = "Guna2HtmlLabel45"
-        Me.Guna2HtmlLabel45.Size = New System.Drawing.Size(119, 31)
+        Me.Guna2HtmlLabel45.Size = New System.Drawing.Size(340, 31)
         Me.Guna2HtmlLabel45.TabIndex = 164
-        Me.Guna2HtmlLabel45.Text = "Labour Cost"
+        Me.Guna2HtmlLabel45.Text = "Coût totale des matériaux et équipements" & Global.Microsoft.VisualBasic.ChrW(9)
         '
         'TextBox24
         '
@@ -934,46 +854,98 @@ Partial Class main1
         Me.TextBox24.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox24.Enabled = False
         Me.TextBox24.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox24.Location = New System.Drawing.Point(18, 1619)
+        Me.TextBox24.Location = New System.Drawing.Point(8, 1666)
         Me.TextBox24.Name = "TextBox24"
         Me.TextBox24.Size = New System.Drawing.Size(764, 19)
         Me.TextBox24.TabIndex = 163
         '
-        'TextBox23
+        'a31
         '
-        Me.TextBox23.BackColor = System.Drawing.Color.White
-        Me.TextBox23.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.TextBox23.Enabled = False
-        Me.TextBox23.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox23.Location = New System.Drawing.Point(476, 1056)
-        Me.TextBox23.Name = "TextBox23"
-        Me.TextBox23.Size = New System.Drawing.Size(85, 19)
-        Me.TextBox23.TabIndex = 163
-        Me.TextBox23.Text = "XFA"
+        Me.a31.BackColor = System.Drawing.Color.White
+        Me.a31.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.a31.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.a31.Enabled = False
+        Me.a31.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.a31.Location = New System.Drawing.Point(477, 1236)
+        Me.a31.Name = "a31"
+        Me.a31.Size = New System.Drawing.Size(108, 19)
+        Me.a31.TabIndex = 163
+        Me.a31.Text = "XFA"
         '
-        'TextBox15
+        'a30
         '
-        Me.TextBox15.BackColor = System.Drawing.Color.White
-        Me.TextBox15.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.TextBox15.Enabled = False
-        Me.TextBox15.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox15.Location = New System.Drawing.Point(476, 911)
-        Me.TextBox15.Name = "TextBox15"
-        Me.TextBox15.Size = New System.Drawing.Size(85, 19)
-        Me.TextBox15.TabIndex = 162
-        Me.TextBox15.Text = "XFA"
+        Me.a30.BackColor = System.Drawing.Color.White
+        Me.a30.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.a30.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.a30.Enabled = False
+        Me.a30.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.a30.Location = New System.Drawing.Point(477, 1201)
+        Me.a30.Name = "a30"
+        Me.a30.Size = New System.Drawing.Size(108, 19)
+        Me.a30.TabIndex = 163
+        Me.a30.Text = "XFA"
         '
-        'TextBox22
+        'a29
         '
-        Me.TextBox22.BackColor = System.Drawing.Color.White
-        Me.TextBox22.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.TextBox22.Enabled = False
-        Me.TextBox22.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox22.Location = New System.Drawing.Point(476, 945)
-        Me.TextBox22.Name = "TextBox22"
-        Me.TextBox22.Size = New System.Drawing.Size(85, 19)
-        Me.TextBox22.TabIndex = 162
-        Me.TextBox22.Text = "XFA"
+        Me.a29.BackColor = System.Drawing.Color.White
+        Me.a29.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.a29.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.a29.Enabled = False
+        Me.a29.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.a29.Location = New System.Drawing.Point(477, 1168)
+        Me.a29.Name = "a29"
+        Me.a29.Size = New System.Drawing.Size(108, 19)
+        Me.a29.TabIndex = 163
+        Me.a29.Text = "XFA"
+        '
+        'a28
+        '
+        Me.a28.BackColor = System.Drawing.Color.White
+        Me.a28.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.a28.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.a28.Enabled = False
+        Me.a28.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.a28.Location = New System.Drawing.Point(477, 1084)
+        Me.a28.Name = "a28"
+        Me.a28.Size = New System.Drawing.Size(108, 19)
+        Me.a28.TabIndex = 163
+        Me.a28.Text = "XFA"
+        '
+        'a24a27
+        '
+        Me.a24a27.BackColor = System.Drawing.Color.White
+        Me.a24a27.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.a24a27.Enabled = False
+        Me.a24a27.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.a24a27.Location = New System.Drawing.Point(477, 1046)
+        Me.a24a27.Name = "a24a27"
+        Me.a24a27.Size = New System.Drawing.Size(108, 19)
+        Me.a24a27.TabIndex = 163
+        Me.a24a27.Text = "XFA"
+        '
+        'a22a23
+        '
+        Me.a22a23.BackColor = System.Drawing.Color.White
+        Me.a22a23.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.a22a23.Enabled = False
+        Me.a22a23.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.a22a23.Location = New System.Drawing.Point(478, 879)
+        Me.a22a23.Name = "a22a23"
+        Me.a22a23.Size = New System.Drawing.Size(115, 19)
+        Me.a22a23.TabIndex = 162
+        Me.a22a23.Text = "XFA"
+        '
+        'unitepvccrepine
+        '
+        Me.unitepvccrepine.BackColor = System.Drawing.Color.White
+        Me.unitepvccrepine.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.unitepvccrepine.Enabled = False
+        Me.unitepvccrepine.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.unitepvccrepine.Location = New System.Drawing.Point(477, 925)
+        Me.unitepvccrepine.Name = "unitepvccrepine"
+        Me.unitepvccrepine.Size = New System.Drawing.Size(115, 19)
+        Me.unitepvccrepine.TabIndex = 162
+        Me.unitepvccrepine.Text = "XFA"
         '
         'ptgf
         '
@@ -981,172 +953,222 @@ Partial Class main1
         Me.ptgf.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.ptgf.Enabled = False
         Me.ptgf.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ptgf.Location = New System.Drawing.Point(579, 703)
+        Me.ptgf.Location = New System.Drawing.Point(605, 692)
         Me.ptgf.Name = "ptgf"
-        Me.ptgf.Size = New System.Drawing.Size(144, 19)
+        Me.ptgf.Size = New System.Drawing.Size(163, 19)
         Me.ptgf.TabIndex = 162
         Me.ptgf.Text = "XFA"
         '
-        'TextBox21
+        'a19a20
         '
-        Me.TextBox21.BackColor = System.Drawing.Color.White
-        Me.TextBox21.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.TextBox21.Enabled = False
-        Me.TextBox21.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox21.Location = New System.Drawing.Point(476, 794)
-        Me.TextBox21.Name = "TextBox21"
-        Me.TextBox21.Size = New System.Drawing.Size(85, 19)
-        Me.TextBox21.TabIndex = 162
-        Me.TextBox21.Text = "XFA"
+        Me.a19a20.BackColor = System.Drawing.Color.White
+        Me.a19a20.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.a19a20.Enabled = False
+        Me.a19a20.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.a19a20.Location = New System.Drawing.Point(477, 831)
+        Me.a19a20.Name = "a19a20"
+        Me.a19a20.Size = New System.Drawing.Size(115, 19)
+        Me.a19a20.TabIndex = 162
+        Me.a19a20.Text = "XFA"
         '
-        'pugf
+        'ppe
         '
-        Me.pugf.BackColor = System.Drawing.Color.White
-        Me.pugf.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.pugf.Enabled = False
-        Me.pugf.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.pugf.Location = New System.Drawing.Point(476, 699)
-        Me.pugf.Name = "pugf"
-        Me.pugf.Size = New System.Drawing.Size(85, 19)
-        Me.pugf.TabIndex = 162
-        Me.pugf.Text = "XFA"
+        Me.ppe.BackColor = System.Drawing.Color.White
+        Me.ppe.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.ppe.Enabled = False
+        Me.ppe.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ppe.Location = New System.Drawing.Point(477, 781)
+        Me.ppe.Name = "ppe"
+        Me.ppe.Size = New System.Drawing.Size(115, 19)
+        Me.ppe.TabIndex = 162
+        Me.ppe.Text = "XFA"
         '
-        'pups
+        'a21
         '
-        Me.pups.BackColor = System.Drawing.Color.White
-        Me.pups.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.pups.Enabled = False
-        Me.pups.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.pups.Location = New System.Drawing.Point(476, 660)
-        Me.pups.Name = "pups"
-        Me.pups.Size = New System.Drawing.Size(85, 19)
-        Me.pups.TabIndex = 162
-        Me.pups.Text = "XFA"
+        Me.a21.BackColor = System.Drawing.Color.White
+        Me.a21.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.a21.Enabled = False
+        Me.a21.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.a21.Location = New System.Drawing.Point(477, 688)
+        Me.a21.Name = "a21"
+        Me.a21.Size = New System.Drawing.Size(115, 19)
+        Me.a21.TabIndex = 162
+        Me.a21.Text = "XFA"
         '
-        'TextBox25
+        'ppo
         '
-        Me.TextBox25.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox25.Location = New System.Drawing.Point(581, 1567)
-        Me.TextBox25.Name = "TextBox25"
-        Me.TextBox25.Size = New System.Drawing.Size(115, 26)
-        Me.TextBox25.TabIndex = 161
+        Me.ppo.BackColor = System.Drawing.Color.White
+        Me.ppo.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.ppo.Enabled = False
+        Me.ppo.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ppo.Location = New System.Drawing.Point(477, 649)
+        Me.ppo.Name = "ppo"
+        Me.ppo.Size = New System.Drawing.Size(115, 19)
+        Me.ppo.TabIndex = 162
+        Me.ppo.Text = "XFA"
         '
-        'TextBox18
+        'labourtb
         '
-        Me.TextBox18.Enabled = False
-        Me.TextBox18.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox18.Location = New System.Drawing.Point(581, 1500)
-        Me.TextBox18.Name = "TextBox18"
-        Me.TextBox18.Size = New System.Drawing.Size(115, 26)
-        Me.TextBox18.TabIndex = 161
+        Me.labourtb.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.labourtb.Location = New System.Drawing.Point(605, 1588)
+        Me.labourtb.Name = "labourtb"
+        Me.labourtb.Size = New System.Drawing.Size(163, 26)
+        Me.labourtb.TabIndex = 161
+        Me.labourtb.Text = "0"
         '
-        'TextBox17
+        'totalequip
         '
-        Me.TextBox17.Enabled = False
-        Me.TextBox17.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox17.Location = New System.Drawing.Point(581, 1464)
-        Me.TextBox17.Name = "TextBox17"
-        Me.TextBox17.Size = New System.Drawing.Size(115, 26)
-        Me.TextBox17.TabIndex = 161
+        Me.totalequip.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.totalequip.Enabled = False
+        Me.totalequip.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.totalequip.Location = New System.Drawing.Point(607, 1552)
+        Me.totalequip.Name = "totalequip"
+        Me.totalequip.Size = New System.Drawing.Size(163, 19)
+        Me.totalequip.TabIndex = 161
+        Me.totalequip.Text = "XFA"
         '
-        'TextBox16
+        'a35t
         '
-        Me.TextBox16.Enabled = False
-        Me.TextBox16.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox16.Location = New System.Drawing.Point(581, 1360)
-        Me.TextBox16.Name = "TextBox16"
-        Me.TextBox16.Size = New System.Drawing.Size(115, 26)
-        Me.TextBox16.TabIndex = 161
+        Me.a35t.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.a35t.Enabled = False
+        Me.a35t.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.a35t.Location = New System.Drawing.Point(607, 1496)
+        Me.a35t.Name = "a35t"
+        Me.a35t.Size = New System.Drawing.Size(163, 19)
+        Me.a35t.TabIndex = 161
+        Me.a35t.Text = "XFA"
         '
-        'TextBox14
+        'a34t
         '
-        Me.TextBox14.Enabled = False
-        Me.TextBox14.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox14.Location = New System.Drawing.Point(581, 1323)
-        Me.TextBox14.Name = "TextBox14"
-        Me.TextBox14.Size = New System.Drawing.Size(115, 26)
-        Me.TextBox14.TabIndex = 161
+        Me.a34t.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.a34t.Enabled = False
+        Me.a34t.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.a34t.Location = New System.Drawing.Point(605, 1460)
+        Me.a34t.Name = "a34t"
+        Me.a34t.Size = New System.Drawing.Size(163, 19)
+        Me.a34t.TabIndex = 161
+        Me.a34t.Text = "XFA"
         '
-        'TextBox3
+        'a33t
         '
-        Me.TextBox3.Enabled = False
-        Me.TextBox3.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox3.Location = New System.Drawing.Point(581, 1243)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(115, 26)
-        Me.TextBox3.TabIndex = 161
+        Me.a33t.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.a33t.Enabled = False
+        Me.a33t.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.a33t.Location = New System.Drawing.Point(605, 1349)
+        Me.a33t.Name = "a33t"
+        Me.a33t.Size = New System.Drawing.Size(163, 19)
+        Me.a33t.TabIndex = 161
+        Me.a33t.Text = "XFA"
         '
-        'TextBox12
+        'a32t
         '
-        Me.TextBox12.Enabled = False
-        Me.TextBox12.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox12.Location = New System.Drawing.Point(581, 1208)
-        Me.TextBox12.Name = "TextBox12"
-        Me.TextBox12.Size = New System.Drawing.Size(115, 26)
-        Me.TextBox12.TabIndex = 161
+        Me.a32t.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.a32t.Enabled = False
+        Me.a32t.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.a32t.Location = New System.Drawing.Point(605, 1312)
+        Me.a32t.Name = "a32t"
+        Me.a32t.Size = New System.Drawing.Size(163, 19)
+        Me.a32t.TabIndex = 161
+        Me.a32t.Text = "XFA"
         '
-        'TextBox11
+        'tairlift
         '
-        Me.TextBox11.Enabled = False
-        Me.TextBox11.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox11.Location = New System.Drawing.Point(581, 1172)
-        Me.TextBox11.Name = "TextBox11"
-        Me.TextBox11.Size = New System.Drawing.Size(115, 26)
-        Me.TextBox11.TabIndex = 161
+        Me.tairlift.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.tairlift.Enabled = False
+        Me.tairlift.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.tairlift.Location = New System.Drawing.Point(605, 1232)
+        Me.tairlift.Name = "tairlift"
+        Me.tairlift.Size = New System.Drawing.Size(163, 19)
+        Me.tairlift.TabIndex = 161
+        Me.tairlift.Text = "XFA"
         '
-        'TextBox10
+        'ttesteau
         '
-        Me.TextBox10.Enabled = False
-        Me.TextBox10.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox10.Location = New System.Drawing.Point(581, 1053)
-        Me.TextBox10.Name = "TextBox10"
-        Me.TextBox10.Size = New System.Drawing.Size(115, 26)
-        Me.TextBox10.TabIndex = 161
+        Me.ttesteau.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.ttesteau.Enabled = False
+        Me.ttesteau.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ttesteau.Location = New System.Drawing.Point(605, 1197)
+        Me.ttesteau.Name = "ttesteau"
+        Me.ttesteau.Size = New System.Drawing.Size(163, 19)
+        Me.ttesteau.TabIndex = 161
+        Me.ttesteau.Text = "XFA"
         '
-        'TextBox9
+        'tpompeessai
         '
-        Me.TextBox9.Enabled = False
-        Me.TextBox9.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox9.Location = New System.Drawing.Point(581, 1092)
-        Me.TextBox9.Name = "TextBox9"
-        Me.TextBox9.Size = New System.Drawing.Size(115, 26)
-        Me.TextBox9.TabIndex = 161
+        Me.tpompeessai.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.tpompeessai.Enabled = False
+        Me.tpompeessai.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.tpompeessai.Location = New System.Drawing.Point(605, 1161)
+        Me.tpompeessai.Name = "tpompeessai"
+        Me.tpompeessai.Size = New System.Drawing.Size(163, 19)
+        Me.tpompeessai.TabIndex = 161
+        Me.tpompeessai.Text = "XFA"
         '
-        'TextBox8
+        'tpompe
         '
-        Me.TextBox8.Enabled = False
-        Me.TextBox8.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox8.Location = New System.Drawing.Point(579, 948)
-        Me.TextBox8.Name = "TextBox8"
-        Me.TextBox8.Size = New System.Drawing.Size(115, 26)
-        Me.TextBox8.TabIndex = 161
+        Me.tpompe.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.tpompe.Enabled = False
+        Me.tpompe.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.tpompe.Location = New System.Drawing.Point(605, 1042)
+        Me.tpompe.Name = "tpompe"
+        Me.tpompe.Size = New System.Drawing.Size(163, 19)
+        Me.tpompe.TabIndex = 161
+        Me.tpompe.Text = "XFA"
         '
-        'TextBox7
+        'tipompe
         '
-        Me.TextBox7.Enabled = False
-        Me.TextBox7.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox7.Location = New System.Drawing.Point(579, 904)
-        Me.TextBox7.Name = "TextBox7"
-        Me.TextBox7.Size = New System.Drawing.Size(115, 26)
-        Me.TextBox7.TabIndex = 161
+        Me.tipompe.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.tipompe.Enabled = False
+        Me.tipompe.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.tipompe.Location = New System.Drawing.Point(605, 1081)
+        Me.tipompe.Name = "tipompe"
+        Me.tipompe.Size = New System.Drawing.Size(163, 19)
+        Me.tipompe.TabIndex = 161
+        Me.tipompe.Text = "XFA"
         '
-        'TextBox6
+        'tppvcc
         '
-        Me.TextBox6.Enabled = False
-        Me.TextBox6.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox6.Location = New System.Drawing.Point(579, 787)
-        Me.TextBox6.Name = "TextBox6"
-        Me.TextBox6.Size = New System.Drawing.Size(115, 26)
-        Me.TextBox6.TabIndex = 161
+        Me.tppvcc.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.tppvcc.Enabled = False
+        Me.tppvcc.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.tppvcc.Location = New System.Drawing.Point(605, 925)
+        Me.tppvcc.Name = "tppvcc"
+        Me.tppvcc.Size = New System.Drawing.Size(163, 19)
+        Me.tppvcc.TabIndex = 161
+        Me.tppvcc.Text = "XFA"
         '
-        'TextBox5
+        'tpbe
         '
-        Me.TextBox5.Enabled = False
-        Me.TextBox5.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox5.Location = New System.Drawing.Point(579, 843)
-        Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(115, 26)
-        Me.TextBox5.TabIndex = 161
+        Me.tpbe.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.tpbe.Enabled = False
+        Me.tpbe.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.tpbe.Location = New System.Drawing.Point(605, 883)
+        Me.tpbe.Name = "tpbe"
+        Me.tpbe.Size = New System.Drawing.Size(163, 19)
+        Me.tpbe.TabIndex = 161
+        Me.tpbe.Text = "XFA"
+        '
+        'tpppe
+        '
+        Me.tpppe.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.tpppe.Enabled = False
+        Me.tpppe.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.tpppe.Location = New System.Drawing.Point(605, 781)
+        Me.tpppe.Name = "tpppe"
+        Me.tpppe.Size = New System.Drawing.Size(163, 19)
+        Me.tpppe.TabIndex = 161
+        Me.tpppe.Text = "XFA"
+        '
+        'tpmd
+        '
+        Me.tpmd.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.tpmd.Enabled = False
+        Me.tpmd.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.tpmd.Location = New System.Drawing.Point(605, 828)
+        Me.tpmd.Name = "tpmd"
+        Me.tpmd.Size = New System.Drawing.Size(163, 19)
+        Me.tpmd.TabIndex = 161
+        Me.tpmd.Text = "XFA"
         '
         'tpps
         '
@@ -1154,9 +1176,9 @@ Partial Class main1
         Me.tpps.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.tpps.Enabled = False
         Me.tpps.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.tpps.Location = New System.Drawing.Point(579, 660)
+        Me.tpps.Location = New System.Drawing.Point(605, 649)
         Me.tpps.Name = "tpps"
-        Me.tpps.Size = New System.Drawing.Size(115, 19)
+        Me.tpps.Size = New System.Drawing.Size(163, 19)
         Me.tpps.TabIndex = 161
         Me.tpps.Text = "XFA"
         '
@@ -1166,9 +1188,9 @@ Partial Class main1
         Me.ptdeforeuse.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.ptdeforeuse.Enabled = False
         Me.ptdeforeuse.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ptdeforeuse.Location = New System.Drawing.Point(579, 605)
+        Me.ptdeforeuse.Location = New System.Drawing.Point(605, 594)
         Me.ptdeforeuse.Name = "ptdeforeuse"
-        Me.ptdeforeuse.Size = New System.Drawing.Size(115, 19)
+        Me.ptdeforeuse.Size = New System.Drawing.Size(163, 19)
         Me.ptdeforeuse.TabIndex = 161
         Me.ptdeforeuse.Text = "XFA"
         '
@@ -1178,9 +1200,9 @@ Partial Class main1
         Me.tpte.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.tpte.Enabled = False
         Me.tpte.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.tpte.Location = New System.Drawing.Point(583, 462)
+        Me.tpte.Location = New System.Drawing.Point(609, 451)
         Me.tpte.Name = "tpte"
-        Me.tpte.Size = New System.Drawing.Size(115, 19)
+        Me.tpte.Size = New System.Drawing.Size(159, 19)
         Me.tpte.TabIndex = 159
         Me.tpte.Text = "XFA"
         '
@@ -1190,84 +1212,29 @@ Partial Class main1
         Me.tppt.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.tppt.Enabled = False
         Me.tppt.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.tppt.Location = New System.Drawing.Point(583, 502)
+        Me.tppt.Location = New System.Drawing.Point(609, 491)
         Me.tppt.Name = "tppt"
-        Me.tppt.Size = New System.Drawing.Size(115, 19)
+        Me.tppt.Size = New System.Drawing.Size(159, 19)
         Me.tppt.TabIndex = 159
         Me.tppt.Text = "XFA"
         '
-        'pudeforeuse
+        'a3a6
         '
-        Me.pudeforeuse.BackColor = System.Drawing.Color.White
-        Me.pudeforeuse.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.pudeforeuse.Enabled = False
-        Me.pudeforeuse.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.pudeforeuse.Location = New System.Drawing.Point(476, 609)
-        Me.pudeforeuse.Name = "pudeforeuse"
-        Me.pudeforeuse.Size = New System.Drawing.Size(85, 19)
-        Me.pudeforeuse.TabIndex = 159
-        Me.pudeforeuse.Text = "XFA"
-        '
-        'Guna2HtmlLabel78
-        '
-        Me.Guna2HtmlLabel78.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel78.Font = New System.Drawing.Font("Times New Roman", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2HtmlLabel78.Location = New System.Drawing.Point(509, 1090)
-        Me.Guna2HtmlLabel78.Margin = New System.Windows.Forms.Padding(0)
-        Me.Guna2HtmlLabel78.Name = "Guna2HtmlLabel78"
-        Me.Guna2HtmlLabel78.Size = New System.Drawing.Size(11, 28)
-        Me.Guna2HtmlLabel78.TabIndex = 158
-        Me.Guna2HtmlLabel78.Text = "-"
-        '
-        'Guna2HtmlLabel77
-        '
-        Me.Guna2HtmlLabel77.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel77.Font = New System.Drawing.Font("Times New Roman", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2HtmlLabel77.Location = New System.Drawing.Point(509, 1168)
-        Me.Guna2HtmlLabel77.Margin = New System.Windows.Forms.Padding(0)
-        Me.Guna2HtmlLabel77.Name = "Guna2HtmlLabel77"
-        Me.Guna2HtmlLabel77.Size = New System.Drawing.Size(11, 28)
-        Me.Guna2HtmlLabel77.TabIndex = 158
-        Me.Guna2HtmlLabel77.Text = "-"
-        '
-        'Guna2HtmlLabel66
-        '
-        Me.Guna2HtmlLabel66.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel66.Font = New System.Drawing.Font("Times New Roman", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2HtmlLabel66.Location = New System.Drawing.Point(509, 1238)
-        Me.Guna2HtmlLabel66.Margin = New System.Windows.Forms.Padding(0)
-        Me.Guna2HtmlLabel66.Name = "Guna2HtmlLabel66"
-        Me.Guna2HtmlLabel66.Size = New System.Drawing.Size(11, 28)
-        Me.Guna2HtmlLabel66.TabIndex = 158
-        Me.Guna2HtmlLabel66.Text = "-"
-        '
-        'Guna2HtmlLabel76
-        '
-        Me.Guna2HtmlLabel76.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel76.Font = New System.Drawing.Font("Times New Roman", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2HtmlLabel76.Location = New System.Drawing.Point(509, 1199)
-        Me.Guna2HtmlLabel76.Margin = New System.Windows.Forms.Padding(0)
-        Me.Guna2HtmlLabel76.Name = "Guna2HtmlLabel76"
-        Me.Guna2HtmlLabel76.Size = New System.Drawing.Size(11, 28)
-        Me.Guna2HtmlLabel76.TabIndex = 158
-        Me.Guna2HtmlLabel76.Text = "-"
-        '
-        'Guna2HtmlLabel75
-        '
-        Me.Guna2HtmlLabel75.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel75.Font = New System.Drawing.Font("Times New Roman", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2HtmlLabel75.Location = New System.Drawing.Point(509, 1323)
-        Me.Guna2HtmlLabel75.Margin = New System.Windows.Forms.Padding(0)
-        Me.Guna2HtmlLabel75.Name = "Guna2HtmlLabel75"
-        Me.Guna2HtmlLabel75.Size = New System.Drawing.Size(11, 28)
-        Me.Guna2HtmlLabel75.TabIndex = 158
-        Me.Guna2HtmlLabel75.Text = "-"
+        Me.a3a6.BackColor = System.Drawing.Color.White
+        Me.a3a6.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.a3a6.Enabled = False
+        Me.a3a6.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.a3a6.Location = New System.Drawing.Point(477, 598)
+        Me.a3a6.Name = "a3a6"
+        Me.a3a6.Size = New System.Drawing.Size(115, 19)
+        Me.a3a6.TabIndex = 159
+        Me.a3a6.Text = "XFA"
         '
         'Guna2HtmlLabel70
         '
         Me.Guna2HtmlLabel70.BackColor = System.Drawing.Color.Transparent
         Me.Guna2HtmlLabel70.Font = New System.Drawing.Font("Times New Roman", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2HtmlLabel70.Location = New System.Drawing.Point(429, 1500)
+        Me.Guna2HtmlLabel70.Location = New System.Drawing.Point(419, 1489)
         Me.Guna2HtmlLabel70.Margin = New System.Windows.Forms.Padding(0)
         Me.Guna2HtmlLabel70.Name = "Guna2HtmlLabel70"
         Me.Guna2HtmlLabel70.Size = New System.Drawing.Size(11, 28)
@@ -1278,7 +1245,7 @@ Partial Class main1
         '
         Me.Guna2HtmlLabel69.BackColor = System.Drawing.Color.Transparent
         Me.Guna2HtmlLabel69.Font = New System.Drawing.Font("Times New Roman", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2HtmlLabel69.Location = New System.Drawing.Point(428, 1462)
+        Me.Guna2HtmlLabel69.Location = New System.Drawing.Point(418, 1451)
         Me.Guna2HtmlLabel69.Margin = New System.Windows.Forms.Padding(0)
         Me.Guna2HtmlLabel69.Name = "Guna2HtmlLabel69"
         Me.Guna2HtmlLabel69.Size = New System.Drawing.Size(11, 28)
@@ -1289,7 +1256,7 @@ Partial Class main1
         '
         Me.Guna2HtmlLabel61.BackColor = System.Drawing.Color.Transparent
         Me.Guna2HtmlLabel61.Font = New System.Drawing.Font("Times New Roman", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2HtmlLabel61.Location = New System.Drawing.Point(428, 1243)
+        Me.Guna2HtmlLabel61.Location = New System.Drawing.Point(429, 1233)
         Me.Guna2HtmlLabel61.Margin = New System.Windows.Forms.Padding(0)
         Me.Guna2HtmlLabel61.Name = "Guna2HtmlLabel61"
         Me.Guna2HtmlLabel61.Size = New System.Drawing.Size(11, 28)
@@ -1300,7 +1267,7 @@ Partial Class main1
         '
         Me.Guna2HtmlLabel39.BackColor = System.Drawing.Color.Transparent
         Me.Guna2HtmlLabel39.Font = New System.Drawing.Font("Times New Roman", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2HtmlLabel39.Location = New System.Drawing.Point(428, 1323)
+        Me.Guna2HtmlLabel39.Location = New System.Drawing.Point(429, 1313)
         Me.Guna2HtmlLabel39.Margin = New System.Windows.Forms.Padding(0)
         Me.Guna2HtmlLabel39.Name = "Guna2HtmlLabel39"
         Me.Guna2HtmlLabel39.Size = New System.Drawing.Size(11, 28)
@@ -1311,7 +1278,7 @@ Partial Class main1
         '
         Me.Guna2HtmlLabel65.BackColor = System.Drawing.Color.Transparent
         Me.Guna2HtmlLabel65.Font = New System.Drawing.Font("Times New Roman", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2HtmlLabel65.Location = New System.Drawing.Point(358, 1500)
+        Me.Guna2HtmlLabel65.Location = New System.Drawing.Point(348, 1489)
         Me.Guna2HtmlLabel65.Margin = New System.Windows.Forms.Padding(0)
         Me.Guna2HtmlLabel65.Name = "Guna2HtmlLabel65"
         Me.Guna2HtmlLabel65.Size = New System.Drawing.Size(11, 28)
@@ -1322,43 +1289,45 @@ Partial Class main1
         '
         Me.Guna2HtmlLabel59.BackColor = System.Drawing.Color.Transparent
         Me.Guna2HtmlLabel59.Font = New System.Drawing.Font("Times New Roman", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2HtmlLabel59.Location = New System.Drawing.Point(73, 1361)
+        Me.Guna2HtmlLabel59.Location = New System.Drawing.Point(63, 1350)
         Me.Guna2HtmlLabel59.Name = "Guna2HtmlLabel59"
-        Me.Guna2HtmlLabel59.Size = New System.Drawing.Size(74, 19)
+        Me.Guna2HtmlLabel59.Size = New System.Drawing.Size(87, 19)
         Me.Guna2HtmlLabel59.TabIndex = 156
-        Me.Guna2HtmlLabel59.Text = "Water Tank"
+        Me.Guna2HtmlLabel59.Text = "Château d'eau"
         '
-        'Guna2NumericUpDown16
+        'watertowerno
         '
-        Me.Guna2NumericUpDown16.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2NumericUpDown16.Cursor = System.Windows.Forms.Cursors.IBeam
-        Me.Guna2NumericUpDown16.Font = New System.Drawing.Font("Segoe UI", 9.0!)
-        Me.Guna2NumericUpDown16.Location = New System.Drawing.Point(336, 1361)
-        Me.Guna2NumericUpDown16.Name = "Guna2NumericUpDown16"
-        Me.Guna2NumericUpDown16.Size = New System.Drawing.Size(61, 26)
-        Me.Guna2NumericUpDown16.TabIndex = 155
+        Me.watertowerno.BackColor = System.Drawing.Color.Transparent
+        Me.watertowerno.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.watertowerno.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.watertowerno.Location = New System.Drawing.Point(337, 1351)
+        Me.watertowerno.Name = "watertowerno"
+        Me.watertowerno.Size = New System.Drawing.Size(61, 26)
+        Me.watertowerno.TabIndex = 155
+        Me.watertowerno.Value = New Decimal(New Integer() {1, 0, 0, 0})
         '
-        'CheckBox17
+        'CheckBox16
         '
-        Me.CheckBox17.AutoSize = True
-        Me.CheckBox17.CheckAlign = System.Drawing.ContentAlignment.BottomRight
-        Me.CheckBox17.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.CheckBox17.Font = New System.Drawing.Font("Times New Roman", 11.25!, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CheckBox17.Location = New System.Drawing.Point(28, 1369)
-        Me.CheckBox17.Name = "CheckBox17"
-        Me.CheckBox17.Size = New System.Drawing.Size(12, 11)
-        Me.CheckBox17.TabIndex = 154
-        Me.CheckBox17.UseVisualStyleBackColor = True
+        Me.CheckBox16.AutoSize = True
+        Me.CheckBox16.CheckAlign = System.Drawing.ContentAlignment.BottomRight
+        Me.CheckBox16.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.CheckBox16.Font = New System.Drawing.Font("Times New Roman", 11.25!, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox16.Location = New System.Drawing.Point(18, 1358)
+        Me.CheckBox16.Name = "CheckBox16"
+        Me.CheckBox16.Size = New System.Drawing.Size(12, 11)
+        Me.CheckBox16.TabIndex = 154
+        Me.CheckBox16.UseVisualStyleBackColor = True
         '
         'qtetypedeforage
         '
         Me.qtetypedeforage.BackColor = System.Drawing.Color.Transparent
         Me.qtetypedeforage.Cursor = System.Windows.Forms.Cursors.IBeam
         Me.qtetypedeforage.Font = New System.Drawing.Font("Segoe UI", 9.0!)
-        Me.qtetypedeforage.Location = New System.Drawing.Point(331, 605)
+        Me.qtetypedeforage.Location = New System.Drawing.Point(332, 594)
         Me.qtetypedeforage.Name = "qtetypedeforage"
         Me.qtetypedeforage.Size = New System.Drawing.Size(61, 23)
         Me.qtetypedeforage.TabIndex = 153
+        Me.qtetypedeforage.Value = New Decimal(New Integer() {1, 0, 0, 0})
         '
         'CheckBox14
         '
@@ -1366,7 +1335,7 @@ Partial Class main1
         Me.CheckBox14.CheckAlign = System.Drawing.ContentAlignment.BottomRight
         Me.CheckBox14.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.CheckBox14.Font = New System.Drawing.Font("Times New Roman", 11.25!, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CheckBox14.Location = New System.Drawing.Point(28, 1251)
+        Me.CheckBox14.Location = New System.Drawing.Point(19, 1241)
         Me.CheckBox14.Name = "CheckBox14"
         Me.CheckBox14.Size = New System.Drawing.Size(12, 11)
         Me.CheckBox14.TabIndex = 152
@@ -1376,31 +1345,44 @@ Partial Class main1
         '
         Me.Guna2HtmlLabel56.BackColor = System.Drawing.Color.Transparent
         Me.Guna2HtmlLabel56.Font = New System.Drawing.Font("Times New Roman", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2HtmlLabel56.Location = New System.Drawing.Point(73, 1248)
+        Me.Guna2HtmlLabel56.Location = New System.Drawing.Point(63, 1237)
         Me.Guna2HtmlLabel56.Name = "Guna2HtmlLabel56"
-        Me.Guna2HtmlLabel56.Size = New System.Drawing.Size(175, 19)
+        Me.Guna2HtmlLabel56.Size = New System.Drawing.Size(199, 19)
         Me.Guna2HtmlLabel56.TabIndex = 151
-        Me.Guna2HtmlLabel56.Text = "Well development with air lift"
+        Me.Guna2HtmlLabel56.Text = "Développement du puits à l'air lift"
         '
-        'Guna2NumericUpDown15
+        'qteal
         '
-        Me.Guna2NumericUpDown15.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2NumericUpDown15.Cursor = System.Windows.Forms.Cursors.IBeam
-        Me.Guna2NumericUpDown15.Font = New System.Drawing.Font("Segoe UI", 9.0!)
-        Me.Guna2NumericUpDown15.Location = New System.Drawing.Point(331, 1240)
-        Me.Guna2NumericUpDown15.Name = "Guna2NumericUpDown15"
-        Me.Guna2NumericUpDown15.Size = New System.Drawing.Size(61, 26)
-        Me.Guna2NumericUpDown15.TabIndex = 150
+        Me.qteal.BackColor = System.Drawing.Color.Transparent
+        Me.qteal.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.qteal.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.qteal.Location = New System.Drawing.Point(332, 1233)
+        Me.qteal.Name = "qteal"
+        Me.qteal.Size = New System.Drawing.Size(61, 26)
+        Me.qteal.TabIndex = 150
+        Me.qteal.Value = New Decimal(New Integer() {1, 0, 0, 0})
         '
-        'Guna2NumericUpDown7
+        'qtetde
         '
-        Me.Guna2NumericUpDown7.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2NumericUpDown7.Cursor = System.Windows.Forms.Cursors.IBeam
-        Me.Guna2NumericUpDown7.Font = New System.Drawing.Font("Segoe UI", 9.0!)
-        Me.Guna2NumericUpDown7.Location = New System.Drawing.Point(331, 1172)
-        Me.Guna2NumericUpDown7.Name = "Guna2NumericUpDown7"
-        Me.Guna2NumericUpDown7.Size = New System.Drawing.Size(61, 26)
-        Me.Guna2NumericUpDown7.TabIndex = 149
+        Me.qtetde.BackColor = System.Drawing.Color.Transparent
+        Me.qtetde.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.qtetde.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.qtetde.Location = New System.Drawing.Point(332, 1197)
+        Me.qtetde.Name = "qtetde"
+        Me.qtetde.Size = New System.Drawing.Size(61, 26)
+        Me.qtetde.TabIndex = 150
+        Me.qtetde.Value = New Decimal(New Integer() {1, 0, 0, 0})
+        '
+        'qtepe
+        '
+        Me.qtepe.BackColor = System.Drawing.Color.Transparent
+        Me.qtepe.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.qtepe.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.qtepe.Location = New System.Drawing.Point(332, 1161)
+        Me.qtepe.Name = "qtepe"
+        Me.qtepe.Size = New System.Drawing.Size(61, 26)
+        Me.qtepe.TabIndex = 150
+        Me.qtepe.Value = New Decimal(New Integer() {1, 0, 0, 0})
         '
         'CheckBox12
         '
@@ -1408,7 +1390,7 @@ Partial Class main1
         Me.CheckBox12.CheckAlign = System.Drawing.ContentAlignment.BottomRight
         Me.CheckBox12.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.CheckBox12.Font = New System.Drawing.Font("Times New Roman", 11.25!, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CheckBox12.Location = New System.Drawing.Point(27, 1216)
+        Me.CheckBox12.Location = New System.Drawing.Point(19, 1173)
         Me.CheckBox12.Name = "CheckBox12"
         Me.CheckBox12.Size = New System.Drawing.Size(12, 11)
         Me.CheckBox12.TabIndex = 148
@@ -1418,11 +1400,11 @@ Partial Class main1
         '
         Me.Guna2HtmlLabel55.BackColor = System.Drawing.Color.Transparent
         Me.Guna2HtmlLabel55.Font = New System.Drawing.Font("Times New Roman", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2HtmlLabel55.Location = New System.Drawing.Point(73, 1211)
+        Me.Guna2HtmlLabel55.Location = New System.Drawing.Point(63, 1200)
         Me.Guna2HtmlLabel55.Name = "Guna2HtmlLabel55"
-        Me.Guna2HtmlLabel55.Size = New System.Drawing.Size(95, 19)
+        Me.Guna2HtmlLabel55.Size = New System.Drawing.Size(114, 19)
         Me.Guna2HtmlLabel55.TabIndex = 147
-        Me.Guna2HtmlLabel55.Text = "Water flow test"
+        Me.Guna2HtmlLabel55.Text = "Test de débit d'eau"
         '
         'Guna2Shapes33
         '
@@ -1430,7 +1412,7 @@ Partial Class main1
         Me.Guna2Shapes33.LineOrientation = System.Windows.Forms.Orientation.Vertical
         Me.Guna2Shapes33.LineStyle = System.Drawing.Drawing2D.DashStyle.Dash
         Me.Guna2Shapes33.LineThickness = 2
-        Me.Guna2Shapes33.Location = New System.Drawing.Point(15, 1155)
+        Me.Guna2Shapes33.Location = New System.Drawing.Point(5, 1144)
         Me.Guna2Shapes33.Name = "Guna2Shapes33"
         Me.Guna2Shapes33.PolygonSkip = 1
         Me.Guna2Shapes33.Rotate = 0!
@@ -1445,7 +1427,7 @@ Partial Class main1
         '
         Me.Guna2HtmlLabel64.BackColor = System.Drawing.Color.Transparent
         Me.Guna2HtmlLabel64.Font = New System.Drawing.Font("Times New Roman", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2HtmlLabel64.Location = New System.Drawing.Point(358, 1462)
+        Me.Guna2HtmlLabel64.Location = New System.Drawing.Point(348, 1451)
         Me.Guna2HtmlLabel64.Margin = New System.Windows.Forms.Padding(0)
         Me.Guna2HtmlLabel64.Name = "Guna2HtmlLabel64"
         Me.Guna2HtmlLabel64.Size = New System.Drawing.Size(11, 28)
@@ -1456,7 +1438,7 @@ Partial Class main1
         '
         Me.Guna2HtmlLabel62.BackColor = System.Drawing.Color.Transparent
         Me.Guna2HtmlLabel62.Font = New System.Drawing.Font("Times New Roman", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2HtmlLabel62.Location = New System.Drawing.Point(358, 1323)
+        Me.Guna2HtmlLabel62.Location = New System.Drawing.Point(359, 1313)
         Me.Guna2HtmlLabel62.Margin = New System.Windows.Forms.Padding(0)
         Me.Guna2HtmlLabel62.Name = "Guna2HtmlLabel62"
         Me.Guna2HtmlLabel62.Size = New System.Drawing.Size(11, 28)
@@ -1467,7 +1449,7 @@ Partial Class main1
         '
         Me.Guna2HtmlLabel42.BackColor = System.Drawing.Color.Transparent
         Me.Guna2HtmlLabel42.Font = New System.Drawing.Font("Times New Roman", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2HtmlLabel42.Location = New System.Drawing.Point(358, 1090)
+        Me.Guna2HtmlLabel42.Location = New System.Drawing.Point(359, 1080)
         Me.Guna2HtmlLabel42.Margin = New System.Windows.Forms.Padding(0)
         Me.Guna2HtmlLabel42.Name = "Guna2HtmlLabel42"
         Me.Guna2HtmlLabel42.Size = New System.Drawing.Size(11, 28)
@@ -1478,7 +1460,7 @@ Partial Class main1
         '
         Me.Guna2HtmlLabel52.BackColor = System.Drawing.Color.Transparent
         Me.Guna2HtmlLabel52.Font = New System.Drawing.Font("Times New Roman", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2HtmlLabel52.Location = New System.Drawing.Point(75, 1036)
+        Me.Guna2HtmlLabel52.Location = New System.Drawing.Point(65, 1025)
         Me.Guna2HtmlLabel52.Name = "Guna2HtmlLabel52"
         Me.Guna2HtmlLabel52.Size = New System.Drawing.Size(72, 16)
         Me.Guna2HtmlLabel52.TabIndex = 140
@@ -1490,7 +1472,7 @@ Partial Class main1
         Me.Guna2Shapes28.LineOrientation = System.Windows.Forms.Orientation.Vertical
         Me.Guna2Shapes28.LineStyle = System.Drawing.Drawing2D.DashStyle.Dash
         Me.Guna2Shapes28.LineThickness = 2
-        Me.Guna2Shapes28.Location = New System.Drawing.Point(43, 1157)
+        Me.Guna2Shapes28.Location = New System.Drawing.Point(33, 1146)
         Me.Guna2Shapes28.Name = "Guna2Shapes28"
         Me.Guna2Shapes28.PolygonSkip = 1
         Me.Guna2Shapes28.Rotate = 0!
@@ -1505,17 +1487,17 @@ Partial Class main1
         '
         Me.Guna2HtmlLabel21.BackColor = System.Drawing.Color.Transparent
         Me.Guna2HtmlLabel21.Font = New System.Drawing.Font("Times New Roman", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2HtmlLabel21.Location = New System.Drawing.Point(418, 1367)
+        Me.Guna2HtmlLabel21.Location = New System.Drawing.Point(419, 1357)
         Me.Guna2HtmlLabel21.Name = "Guna2HtmlLabel21"
-        Me.Guna2HtmlLabel21.Size = New System.Drawing.Size(41, 19)
+        Me.Guna2HtmlLabel21.Size = New System.Drawing.Size(35, 19)
         Me.Guna2HtmlLabel21.TabIndex = 138
-        Me.Guna2HtmlLabel21.Text = "Litters"
+        Me.Guna2HtmlLabel21.Text = "Littre"
         '
         'Guna2HtmlLabel67
         '
         Me.Guna2HtmlLabel67.BackColor = System.Drawing.Color.Transparent
         Me.Guna2HtmlLabel67.Font = New System.Drawing.Font("Times New Roman", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2HtmlLabel67.Location = New System.Drawing.Point(420, 1211)
+        Me.Guna2HtmlLabel67.Location = New System.Drawing.Point(421, 1201)
         Me.Guna2HtmlLabel67.Name = "Guna2HtmlLabel67"
         Me.Guna2HtmlLabel67.Size = New System.Drawing.Size(34, 19)
         Me.Guna2HtmlLabel67.TabIndex = 138
@@ -1525,21 +1507,11 @@ Partial Class main1
         '
         Me.Guna2HtmlLabel53.BackColor = System.Drawing.Color.Transparent
         Me.Guna2HtmlLabel53.Font = New System.Drawing.Font("Times New Roman", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2HtmlLabel53.Location = New System.Drawing.Point(420, 1177)
+        Me.Guna2HtmlLabel53.Location = New System.Drawing.Point(421, 1167)
         Me.Guna2HtmlLabel53.Name = "Guna2HtmlLabel53"
         Me.Guna2HtmlLabel53.Size = New System.Drawing.Size(34, 19)
         Me.Guna2HtmlLabel53.TabIndex = 138
         Me.Guna2HtmlLabel53.Text = "Jours"
-        '
-        'Guna2NumericUpDown14
-        '
-        Me.Guna2NumericUpDown14.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2NumericUpDown14.Cursor = System.Windows.Forms.Cursors.IBeam
-        Me.Guna2NumericUpDown14.Font = New System.Drawing.Font("Segoe UI", 9.0!)
-        Me.Guna2NumericUpDown14.Location = New System.Drawing.Point(331, 1206)
-        Me.Guna2NumericUpDown14.Name = "Guna2NumericUpDown14"
-        Me.Guna2NumericUpDown14.Size = New System.Drawing.Size(61, 26)
-        Me.Guna2NumericUpDown14.TabIndex = 136
         '
         'CheckBox13
         '
@@ -1547,7 +1519,7 @@ Partial Class main1
         Me.CheckBox13.CheckAlign = System.Drawing.ContentAlignment.BottomRight
         Me.CheckBox13.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.CheckBox13.Font = New System.Drawing.Font("Times New Roman", 11.25!, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CheckBox13.Location = New System.Drawing.Point(28, 1185)
+        Me.CheckBox13.Location = New System.Drawing.Point(19, 1208)
         Me.CheckBox13.Name = "CheckBox13"
         Me.CheckBox13.Size = New System.Drawing.Size(12, 11)
         Me.CheckBox13.TabIndex = 134
@@ -1559,7 +1531,7 @@ Partial Class main1
         Me.Guna2Shapes29.LineOrientation = System.Windows.Forms.Orientation.Vertical
         Me.Guna2Shapes29.LineStyle = System.Drawing.Drawing2D.DashStyle.Dash
         Me.Guna2Shapes29.LineThickness = 2
-        Me.Guna2Shapes29.Location = New System.Drawing.Point(567, 1156)
+        Me.Guna2Shapes29.Location = New System.Drawing.Point(591, 1145)
         Me.Guna2Shapes29.Name = "Guna2Shapes29"
         Me.Guna2Shapes29.PolygonSkip = 1
         Me.Guna2Shapes29.Rotate = 0!
@@ -1576,7 +1548,7 @@ Partial Class main1
         Me.Guna2Shapes30.LineOrientation = System.Windows.Forms.Orientation.Vertical
         Me.Guna2Shapes30.LineStyle = System.Drawing.Drawing2D.DashStyle.Dash
         Me.Guna2Shapes30.LineThickness = 2
-        Me.Guna2Shapes30.Location = New System.Drawing.Point(320, 1153)
+        Me.Guna2Shapes30.Location = New System.Drawing.Point(321, 1143)
         Me.Guna2Shapes30.Name = "Guna2Shapes30"
         Me.Guna2Shapes30.PolygonSkip = 1
         Me.Guna2Shapes30.Rotate = 0!
@@ -1593,7 +1565,7 @@ Partial Class main1
         Me.Guna2Shapes31.LineOrientation = System.Windows.Forms.Orientation.Vertical
         Me.Guna2Shapes31.LineStyle = System.Drawing.Drawing2D.DashStyle.Dash
         Me.Guna2Shapes31.LineThickness = 2
-        Me.Guna2Shapes31.Location = New System.Drawing.Point(460, 1157)
+        Me.Guna2Shapes31.Location = New System.Drawing.Point(461, 1147)
         Me.Guna2Shapes31.Name = "Guna2Shapes31"
         Me.Guna2Shapes31.PolygonSkip = 1
         Me.Guna2Shapes31.Rotate = 0!
@@ -1610,7 +1582,7 @@ Partial Class main1
         Me.Guna2Shapes32.LineOrientation = System.Windows.Forms.Orientation.Vertical
         Me.Guna2Shapes32.LineStyle = System.Drawing.Drawing2D.DashStyle.Dash
         Me.Guna2Shapes32.LineThickness = 2
-        Me.Guna2Shapes32.Location = New System.Drawing.Point(398, 1156)
+        Me.Guna2Shapes32.Location = New System.Drawing.Point(399, 1146)
         Me.Guna2Shapes32.Name = "Guna2Shapes32"
         Me.Guna2Shapes32.PolygonSkip = 1
         Me.Guna2Shapes32.Rotate = 0!
@@ -1627,7 +1599,7 @@ Partial Class main1
         Me.Guna2HtmlLabel54.Font = New System.Drawing.Font("Vivaldi", 18.0!, CType(((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic) _
                 Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Guna2HtmlLabel54.ForeColor = System.Drawing.Color.LightSkyBlue
-        Me.Guna2HtmlLabel54.Location = New System.Drawing.Point(49, 1131)
+        Me.Guna2HtmlLabel54.Location = New System.Drawing.Point(39, 1120)
         Me.Guna2HtmlLabel54.Name = "Guna2HtmlLabel54"
         Me.Guna2HtmlLabel54.Size = New System.Drawing.Size(159, 31)
         Me.Guna2HtmlLabel54.TabIndex = 129
@@ -1637,7 +1609,7 @@ Partial Class main1
         '
         Me.Guna2HtmlLabel49.BackColor = System.Drawing.Color.Transparent
         Me.Guna2HtmlLabel49.Font = New System.Drawing.Font("Times New Roman", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2HtmlLabel49.Location = New System.Drawing.Point(428, 939)
+        Me.Guna2HtmlLabel49.Location = New System.Drawing.Point(429, 916)
         Me.Guna2HtmlLabel49.Margin = New System.Windows.Forms.Padding(0)
         Me.Guna2HtmlLabel49.Name = "Guna2HtmlLabel49"
         Me.Guna2HtmlLabel49.Size = New System.Drawing.Size(11, 28)
@@ -1648,38 +1620,40 @@ Partial Class main1
         '
         Me.Guna2HtmlLabel48.BackColor = System.Drawing.Color.Transparent
         Me.Guna2HtmlLabel48.Font = New System.Drawing.Font("Times New Roman", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2HtmlLabel48.Location = New System.Drawing.Point(428, 902)
+        Me.Guna2HtmlLabel48.Location = New System.Drawing.Point(429, 874)
         Me.Guna2HtmlLabel48.Margin = New System.Windows.Forms.Padding(0)
         Me.Guna2HtmlLabel48.Name = "Guna2HtmlLabel48"
         Me.Guna2HtmlLabel48.Size = New System.Drawing.Size(11, 28)
         Me.Guna2HtmlLabel48.TabIndex = 128
         Me.Guna2HtmlLabel48.Text = "-"
         '
-        'Guna2NumericUpDown12
+        'qtepvcc
         '
-        Me.Guna2NumericUpDown12.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2NumericUpDown12.Cursor = System.Windows.Forms.Cursors.IBeam
-        Me.Guna2NumericUpDown12.Font = New System.Drawing.Font("Segoe UI", 9.0!)
-        Me.Guna2NumericUpDown12.Location = New System.Drawing.Point(331, 941)
-        Me.Guna2NumericUpDown12.Name = "Guna2NumericUpDown12"
-        Me.Guna2NumericUpDown12.Size = New System.Drawing.Size(61, 26)
-        Me.Guna2NumericUpDown12.TabIndex = 127
+        Me.qtepvcc.BackColor = System.Drawing.Color.Transparent
+        Me.qtepvcc.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.qtepvcc.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.qtepvcc.Location = New System.Drawing.Point(332, 918)
+        Me.qtepvcc.Name = "qtepvcc"
+        Me.qtepvcc.Size = New System.Drawing.Size(61, 26)
+        Me.qtepvcc.TabIndex = 127
+        Me.qtepvcc.Value = New Decimal(New Integer() {1, 0, 0, 0})
         '
-        'Guna2NumericUpDown11
+        'qtebe
         '
-        Me.Guna2NumericUpDown11.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2NumericUpDown11.Cursor = System.Windows.Forms.Cursors.IBeam
-        Me.Guna2NumericUpDown11.Font = New System.Drawing.Font("Segoe UI", 9.0!)
-        Me.Guna2NumericUpDown11.Location = New System.Drawing.Point(331, 904)
-        Me.Guna2NumericUpDown11.Name = "Guna2NumericUpDown11"
-        Me.Guna2NumericUpDown11.Size = New System.Drawing.Size(61, 26)
-        Me.Guna2NumericUpDown11.TabIndex = 126
+        Me.qtebe.BackColor = System.Drawing.Color.Transparent
+        Me.qtebe.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.qtebe.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.qtebe.Location = New System.Drawing.Point(332, 876)
+        Me.qtebe.Name = "qtebe"
+        Me.qtebe.Size = New System.Drawing.Size(61, 26)
+        Me.qtebe.TabIndex = 126
+        Me.qtebe.Value = New Decimal(New Integer() {1, 0, 0, 0})
         '
         'Guna2HtmlLabel47
         '
         Me.Guna2HtmlLabel47.BackColor = System.Drawing.Color.Transparent
         Me.Guna2HtmlLabel47.Font = New System.Drawing.Font("Times New Roman", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2HtmlLabel47.Location = New System.Drawing.Point(75, 892)
+        Me.Guna2HtmlLabel47.Location = New System.Drawing.Point(65, 857)
         Me.Guna2HtmlLabel47.Name = "Guna2HtmlLabel47"
         Me.Guna2HtmlLabel47.Size = New System.Drawing.Size(91, 16)
         Me.Guna2HtmlLabel47.TabIndex = 124
@@ -1691,7 +1665,7 @@ Partial Class main1
         Me.CheckBox9.CheckAlign = System.Drawing.ContentAlignment.BottomRight
         Me.CheckBox9.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.CheckBox9.Font = New System.Drawing.Font("Times New Roman", 11.25!, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CheckBox9.Location = New System.Drawing.Point(28, 953)
+        Me.CheckBox9.Location = New System.Drawing.Point(19, 926)
         Me.CheckBox9.Name = "CheckBox9"
         Me.CheckBox9.Size = New System.Drawing.Size(12, 11)
         Me.CheckBox9.TabIndex = 123
@@ -1701,37 +1675,37 @@ Partial Class main1
         '
         Me.Guna2HtmlLabel63.BackColor = System.Drawing.Color.Transparent
         Me.Guna2HtmlLabel63.Font = New System.Drawing.Font("Times New Roman", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2HtmlLabel63.Location = New System.Drawing.Point(73, 1500)
+        Me.Guna2HtmlLabel63.Location = New System.Drawing.Point(65, 1491)
         Me.Guna2HtmlLabel63.Name = "Guna2HtmlLabel63"
-        Me.Guna2HtmlLabel63.Size = New System.Drawing.Size(100, 19)
+        Me.Guna2HtmlLabel63.Size = New System.Drawing.Size(116, 19)
         Me.Guna2HtmlLabel63.TabIndex = 122
-        Me.Guna2HtmlLabel63.Text = "Water treatment"
+        Me.Guna2HtmlLabel63.Text = "Traitement de l'eau" & Global.Microsoft.VisualBasic.ChrW(9)
         '
         'Guna2HtmlLabel58
         '
         Me.Guna2HtmlLabel58.BackColor = System.Drawing.Color.Transparent
         Me.Guna2HtmlLabel58.Font = New System.Drawing.Font("Times New Roman", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2HtmlLabel58.Location = New System.Drawing.Point(75, 1471)
+        Me.Guna2HtmlLabel58.Location = New System.Drawing.Point(65, 1460)
         Me.Guna2HtmlLabel58.Name = "Guna2HtmlLabel58"
-        Me.Guna2HtmlLabel58.Size = New System.Drawing.Size(90, 19)
+        Me.Guna2HtmlLabel58.Size = New System.Drawing.Size(100, 19)
         Me.Guna2HtmlLabel58.TabIndex = 122
-        Me.Guna2HtmlLabel58.Text = "Water analysis"
+        Me.Guna2HtmlLabel58.Text = "Analyse de l'eau"
         '
         'Guna2HtmlLabel60
         '
         Me.Guna2HtmlLabel60.BackColor = System.Drawing.Color.Transparent
         Me.Guna2HtmlLabel60.Font = New System.Drawing.Font("Times New Roman", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2HtmlLabel60.Location = New System.Drawing.Point(75, 1332)
+        Me.Guna2HtmlLabel60.Location = New System.Drawing.Point(65, 1321)
         Me.Guna2HtmlLabel60.Name = "Guna2HtmlLabel60"
-        Me.Guna2HtmlLabel60.Size = New System.Drawing.Size(148, 19)
+        Me.Guna2HtmlLabel60.Size = New System.Drawing.Size(169, 19)
         Me.Guna2HtmlLabel60.TabIndex = 122
-        Me.Guna2HtmlLabel60.Text = "Water Tower installation"
+        Me.Guna2HtmlLabel60.Text = "Installation de château d'eau"
         '
         'Guna2HtmlLabel40
         '
         Me.Guna2HtmlLabel40.BackColor = System.Drawing.Color.Transparent
         Me.Guna2HtmlLabel40.Font = New System.Drawing.Font("Times New Roman", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2HtmlLabel40.Location = New System.Drawing.Point(75, 1094)
+        Me.Guna2HtmlLabel40.Location = New System.Drawing.Point(65, 1083)
         Me.Guna2HtmlLabel40.Name = "Guna2HtmlLabel40"
         Me.Guna2HtmlLabel40.Size = New System.Drawing.Size(141, 19)
         Me.Guna2HtmlLabel40.TabIndex = 122
@@ -1741,21 +1715,11 @@ Partial Class main1
         '
         Me.Guna2HtmlLabel51.BackColor = System.Drawing.Color.Transparent
         Me.Guna2HtmlLabel51.Font = New System.Drawing.Font("Times New Roman", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2HtmlLabel51.Location = New System.Drawing.Point(73, 1178)
+        Me.Guna2HtmlLabel51.Location = New System.Drawing.Point(63, 1167)
         Me.Guna2HtmlLabel51.Name = "Guna2HtmlLabel51"
         Me.Guna2HtmlLabel51.Size = New System.Drawing.Size(101, 19)
         Me.Guna2HtmlLabel51.TabIndex = 122
         Me.Guna2HtmlLabel51.Text = "Pompage d'essai"
-        '
-        'Guna2HtmlLabel46
-        '
-        Me.Guna2HtmlLabel46.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel46.Font = New System.Drawing.Font("Times New Roman", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2HtmlLabel46.Location = New System.Drawing.Point(75, 948)
-        Me.Guna2HtmlLabel46.Name = "Guna2HtmlLabel46"
-        Me.Guna2HtmlLabel46.Size = New System.Drawing.Size(80, 19)
-        Me.Guna2HtmlLabel46.TabIndex = 122
-        Me.Guna2HtmlLabel46.Text = "PVC crépine"
         '
         'CheckBox8
         '
@@ -1763,7 +1727,7 @@ Partial Class main1
         Me.CheckBox8.CheckAlign = System.Drawing.ContentAlignment.BottomRight
         Me.CheckBox8.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.CheckBox8.Font = New System.Drawing.Font("Times New Roman", 11.25!, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CheckBox8.Location = New System.Drawing.Point(28, 919)
+        Me.CheckBox8.Location = New System.Drawing.Point(18, 884)
         Me.CheckBox8.Name = "CheckBox8"
         Me.CheckBox8.Size = New System.Drawing.Size(12, 11)
         Me.CheckBox8.TabIndex = 120
@@ -1773,7 +1737,7 @@ Partial Class main1
         '
         Me.Guna2HtmlLabel34.BackColor = System.Drawing.Color.Transparent
         Me.Guna2HtmlLabel34.Font = New System.Drawing.Font("Times New Roman", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2HtmlLabel34.Location = New System.Drawing.Point(414, 699)
+        Me.Guna2HtmlLabel34.Location = New System.Drawing.Point(416, 781)
         Me.Guna2HtmlLabel34.Name = "Guna2HtmlLabel34"
         Me.Guna2HtmlLabel34.Size = New System.Drawing.Size(39, 19)
         Me.Guna2HtmlLabel34.TabIndex = 119
@@ -1784,10 +1748,11 @@ Partial Class main1
         Me.qtegf.BackColor = System.Drawing.Color.Transparent
         Me.qtegf.Cursor = System.Windows.Forms.Cursors.IBeam
         Me.qtegf.Font = New System.Drawing.Font("Segoe UI", 9.0!)
-        Me.qtegf.Location = New System.Drawing.Point(331, 695)
+        Me.qtegf.Location = New System.Drawing.Point(332, 684)
         Me.qtegf.Name = "qtegf"
         Me.qtegf.Size = New System.Drawing.Size(61, 23)
         Me.qtegf.TabIndex = 118
+        Me.qtegf.Value = New Decimal(New Integer() {1, 0, 0, 0})
         '
         'CheckBox5
         '
@@ -1795,7 +1760,7 @@ Partial Class main1
         Me.CheckBox5.CheckAlign = System.Drawing.ContentAlignment.BottomRight
         Me.CheckBox5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.CheckBox5.Font = New System.Drawing.Font("Times New Roman", 11.25!, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CheckBox5.Location = New System.Drawing.Point(28, 703)
+        Me.CheckBox5.Location = New System.Drawing.Point(18, 692)
         Me.CheckBox5.Name = "CheckBox5"
         Me.CheckBox5.Size = New System.Drawing.Size(12, 11)
         Me.CheckBox5.TabIndex = 117
@@ -1805,7 +1770,7 @@ Partial Class main1
         '
         Me.Guna2HtmlLabel30.BackColor = System.Drawing.Color.Transparent
         Me.Guna2HtmlLabel30.Font = New System.Drawing.Font("Times New Roman", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2HtmlLabel30.Location = New System.Drawing.Point(67, 699)
+        Me.Guna2HtmlLabel30.Location = New System.Drawing.Point(57, 688)
         Me.Guna2HtmlLabel30.Name = "Guna2HtmlLabel30"
         Me.Guna2HtmlLabel30.Size = New System.Drawing.Size(93, 19)
         Me.Guna2HtmlLabel30.TabIndex = 116
@@ -1815,17 +1780,37 @@ Partial Class main1
         '
         Me.Guna2HtmlLabel28.BackColor = System.Drawing.Color.Transparent
         Me.Guna2HtmlLabel28.Font = New System.Drawing.Font("Times New Roman", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2HtmlLabel28.Location = New System.Drawing.Point(415, 660)
+        Me.Guna2HtmlLabel28.Location = New System.Drawing.Point(416, 649)
         Me.Guna2HtmlLabel28.Name = "Guna2HtmlLabel28"
         Me.Guna2HtmlLabel28.Size = New System.Drawing.Size(39, 19)
         Me.Guna2HtmlLabel28.TabIndex = 115
         Me.Guna2HtmlLabel28.Text = "Meter"
         '
+        'Guna2HtmlLabel26
+        '
+        Me.Guna2HtmlLabel26.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2HtmlLabel26.Font = New System.Drawing.Font("Times New Roman", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Guna2HtmlLabel26.Location = New System.Drawing.Point(171, 757)
+        Me.Guna2HtmlLabel26.Name = "Guna2HtmlLabel26"
+        Me.Guna2HtmlLabel26.Size = New System.Drawing.Size(61, 16)
+        Me.Guna2HtmlLabel26.TabIndex = 111
+        Me.Guna2HtmlLabel26.Text = "Caracteristic"
+        '
+        'Guna2HtmlLabel20
+        '
+        Me.Guna2HtmlLabel20.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2HtmlLabel20.Font = New System.Drawing.Font("Times New Roman", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Guna2HtmlLabel20.Location = New System.Drawing.Point(164, 626)
+        Me.Guna2HtmlLabel20.Name = "Guna2HtmlLabel20"
+        Me.Guna2HtmlLabel20.Size = New System.Drawing.Size(61, 16)
+        Me.Guna2HtmlLabel20.TabIndex = 111
+        Me.Guna2HtmlLabel20.Text = "Caracteristic"
+        '
         'Guna2HtmlLabel27
         '
         Me.Guna2HtmlLabel27.BackColor = System.Drawing.Color.Transparent
         Me.Guna2HtmlLabel27.Font = New System.Drawing.Font("Times New Roman", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2HtmlLabel27.Location = New System.Drawing.Point(69, 637)
+        Me.Guna2HtmlLabel27.Location = New System.Drawing.Point(59, 626)
         Me.Guna2HtmlLabel27.Name = "Guna2HtmlLabel27"
         Me.Guna2HtmlLabel27.Size = New System.Drawing.Size(86, 16)
         Me.Guna2HtmlLabel27.TabIndex = 111
@@ -1835,17 +1820,17 @@ Partial Class main1
         '
         Me.Guna2HtmlLabel14.BackColor = System.Drawing.Color.Transparent
         Me.Guna2HtmlLabel14.Font = New System.Drawing.Font("Times New Roman", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2HtmlLabel14.Location = New System.Drawing.Point(174, 147)
+        Me.Guna2HtmlLabel14.Location = New System.Drawing.Point(230, 135)
         Me.Guna2HtmlLabel14.Name = "Guna2HtmlLabel14"
-        Me.Guna2HtmlLabel14.Size = New System.Drawing.Size(137, 26)
+        Me.Guna2HtmlLabel14.Size = New System.Drawing.Size(90, 26)
         Me.Guna2HtmlLabel14.TabIndex = 110
-        Me.Guna2HtmlLabel14.Text = "Quotation Ref:"
+        Me.Guna2HtmlLabel14.Text = "Devis No:"
         '
         'Guna2HtmlLabel6
         '
         Me.Guna2HtmlLabel6.BackColor = System.Drawing.Color.Transparent
         Me.Guna2HtmlLabel6.Font = New System.Drawing.Font("Times New Roman", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2HtmlLabel6.Location = New System.Drawing.Point(579, 117)
+        Me.Guna2HtmlLabel6.Location = New System.Drawing.Point(569, 106)
         Me.Guna2HtmlLabel6.Name = "Guna2HtmlLabel6"
         Me.Guna2HtmlLabel6.Size = New System.Drawing.Size(151, 19)
         Me.Guna2HtmlLabel6.TabIndex = 109
@@ -1858,7 +1843,7 @@ Partial Class main1
         Me.Guna2Shapes14.LineOrientation = System.Windows.Forms.Orientation.Vertical
         Me.Guna2Shapes14.LineStyle = System.Drawing.Drawing2D.DashStyle.Dash
         Me.Guna2Shapes14.LineThickness = 2
-        Me.Guna2Shapes14.Location = New System.Drawing.Point(742, 592)
+        Me.Guna2Shapes14.Location = New System.Drawing.Point(774, 581)
         Me.Guna2Shapes14.Name = "Guna2Shapes14"
         Me.Guna2Shapes14.PolygonSkip = 1
         Me.Guna2Shapes14.Rotate = 0!
@@ -1875,7 +1860,7 @@ Partial Class main1
         Me.Guna2Shapes11.LineOrientation = System.Windows.Forms.Orientation.Vertical
         Me.Guna2Shapes11.LineStyle = System.Drawing.Drawing2D.DashStyle.Dash
         Me.Guna2Shapes11.LineThickness = 2
-        Me.Guna2Shapes11.Location = New System.Drawing.Point(567, 589)
+        Me.Guna2Shapes11.Location = New System.Drawing.Point(593, 578)
         Me.Guna2Shapes11.Name = "Guna2Shapes11"
         Me.Guna2Shapes11.PolygonSkip = 1
         Me.Guna2Shapes11.Rotate = 0!
@@ -1892,7 +1877,7 @@ Partial Class main1
         Me.Guna2Shapes13.LineOrientation = System.Windows.Forms.Orientation.Vertical
         Me.Guna2Shapes13.LineStyle = System.Drawing.Drawing2D.DashStyle.Dash
         Me.Guna2Shapes13.LineThickness = 2
-        Me.Guna2Shapes13.Location = New System.Drawing.Point(460, 589)
+        Me.Guna2Shapes13.Location = New System.Drawing.Point(461, 578)
         Me.Guna2Shapes13.Name = "Guna2Shapes13"
         Me.Guna2Shapes13.PolygonSkip = 1
         Me.Guna2Shapes13.Rotate = 0!
@@ -1909,7 +1894,7 @@ Partial Class main1
         Me.Guna2Shapes15.LineOrientation = System.Windows.Forms.Orientation.Vertical
         Me.Guna2Shapes15.LineStyle = System.Drawing.Drawing2D.DashStyle.Dash
         Me.Guna2Shapes15.LineThickness = 2
-        Me.Guna2Shapes15.Location = New System.Drawing.Point(398, 589)
+        Me.Guna2Shapes15.Location = New System.Drawing.Point(399, 578)
         Me.Guna2Shapes15.Name = "Guna2Shapes15"
         Me.Guna2Shapes15.PolygonSkip = 1
         Me.Guna2Shapes15.Rotate = 0!
@@ -1926,7 +1911,7 @@ Partial Class main1
         Me.Guna2Shapes12.LineOrientation = System.Windows.Forms.Orientation.Vertical
         Me.Guna2Shapes12.LineStyle = System.Drawing.Drawing2D.DashStyle.Dash
         Me.Guna2Shapes12.LineThickness = 2
-        Me.Guna2Shapes12.Location = New System.Drawing.Point(320, 590)
+        Me.Guna2Shapes12.Location = New System.Drawing.Point(321, 579)
         Me.Guna2Shapes12.Name = "Guna2Shapes12"
         Me.Guna2Shapes12.PolygonSkip = 1
         Me.Guna2Shapes12.Rotate = 0!
@@ -1937,31 +1922,11 @@ Partial Class main1
         Me.Guna2Shapes12.UseTransparentBackground = True
         Me.Guna2Shapes12.Zoom = 80
         '
-        'Guna2HtmlLabel44
-        '
-        Me.Guna2HtmlLabel44.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel44.Font = New System.Drawing.Font("Times New Roman", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2HtmlLabel44.Location = New System.Drawing.Point(248, 585)
-        Me.Guna2HtmlLabel44.Name = "Guna2HtmlLabel44"
-        Me.Guna2HtmlLabel44.Size = New System.Drawing.Size(46, 16)
-        Me.Guna2HtmlLabel44.TabIndex = 100
-        Me.Guna2HtmlLabel44.Text = "Diametre"
-        '
-        'diametredeforeues
-        '
-        Me.diametredeforeues.BackColor = System.Drawing.Color.Transparent
-        Me.diametredeforeues.Cursor = System.Windows.Forms.Cursors.IBeam
-        Me.diametredeforeues.Font = New System.Drawing.Font("Segoe UI", 9.0!)
-        Me.diametredeforeues.Location = New System.Drawing.Point(244, 602)
-        Me.diametredeforeues.Name = "diametredeforeues"
-        Me.diametredeforeues.Size = New System.Drawing.Size(70, 26)
-        Me.diametredeforeues.TabIndex = 99
-        '
         'Guna2HtmlLabel41
         '
         Me.Guna2HtmlLabel41.BackColor = System.Drawing.Color.Transparent
         Me.Guna2HtmlLabel41.Font = New System.Drawing.Font("Times New Roman", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2HtmlLabel41.Location = New System.Drawing.Point(67, 585)
+        Me.Guna2HtmlLabel41.Location = New System.Drawing.Point(57, 574)
         Me.Guna2HtmlLabel41.Name = "Guna2HtmlLabel41"
         Me.Guna2HtmlLabel41.Size = New System.Drawing.Size(100, 16)
         Me.Guna2HtmlLabel41.TabIndex = 97
@@ -1973,7 +1938,7 @@ Partial Class main1
         Me.Guna2Shapes44.LineOrientation = System.Windows.Forms.Orientation.Vertical
         Me.Guna2Shapes44.LineStyle = System.Drawing.Drawing2D.DashStyle.Dash
         Me.Guna2Shapes44.LineThickness = 2
-        Me.Guna2Shapes44.Location = New System.Drawing.Point(43, 1446)
+        Me.Guna2Shapes44.Location = New System.Drawing.Point(33, 1435)
         Me.Guna2Shapes44.Name = "Guna2Shapes44"
         Me.Guna2Shapes44.PolygonSkip = 1
         Me.Guna2Shapes44.Rotate = 0!
@@ -1990,7 +1955,7 @@ Partial Class main1
         Me.Guna2Shapes39.LineOrientation = System.Windows.Forms.Orientation.Vertical
         Me.Guna2Shapes39.LineStyle = System.Drawing.Drawing2D.DashStyle.Dash
         Me.Guna2Shapes39.LineThickness = 2
-        Me.Guna2Shapes39.Location = New System.Drawing.Point(43, 1307)
+        Me.Guna2Shapes39.Location = New System.Drawing.Point(33, 1296)
         Me.Guna2Shapes39.Name = "Guna2Shapes39"
         Me.Guna2Shapes39.PolygonSkip = 1
         Me.Guna2Shapes39.Rotate = 0!
@@ -2007,7 +1972,7 @@ Partial Class main1
         Me.Guna2Shapes16.LineOrientation = System.Windows.Forms.Orientation.Vertical
         Me.Guna2Shapes16.LineStyle = System.Drawing.Drawing2D.DashStyle.Dash
         Me.Guna2Shapes16.LineThickness = 2
-        Me.Guna2Shapes16.Location = New System.Drawing.Point(43, 1015)
+        Me.Guna2Shapes16.Location = New System.Drawing.Point(33, 1004)
         Me.Guna2Shapes16.Name = "Guna2Shapes16"
         Me.Guna2Shapes16.PolygonSkip = 1
         Me.Guna2Shapes16.Rotate = 0!
@@ -2022,55 +1987,32 @@ Partial Class main1
         '
         Me.Guna2HtmlLabel24.BackColor = System.Drawing.Color.Transparent
         Me.Guna2HtmlLabel24.Font = New System.Drawing.Font("Times New Roman", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2HtmlLabel24.Location = New System.Drawing.Point(418, 1094)
+        Me.Guna2HtmlLabel24.Location = New System.Drawing.Point(419, 1084)
         Me.Guna2HtmlLabel24.Name = "Guna2HtmlLabel24"
-        Me.Guna2HtmlLabel24.Size = New System.Drawing.Size(39, 19)
+        Me.Guna2HtmlLabel24.Size = New System.Drawing.Size(40, 19)
         Me.Guna2HtmlLabel24.TabIndex = 87
-        Me.Guna2HtmlLabel24.Text = "Hours"
+        Me.Guna2HtmlLabel24.Text = "Heure"
         '
         'Guna2HtmlLabel43
         '
         Me.Guna2HtmlLabel43.BackColor = System.Drawing.Color.Transparent
         Me.Guna2HtmlLabel43.Font = New System.Drawing.Font("Times New Roman", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2HtmlLabel43.Location = New System.Drawing.Point(418, 1056)
+        Me.Guna2HtmlLabel43.Location = New System.Drawing.Point(419, 1046)
         Me.Guna2HtmlLabel43.Name = "Guna2HtmlLabel43"
         Me.Guna2HtmlLabel43.Size = New System.Drawing.Size(39, 19)
         Me.Guna2HtmlLabel43.TabIndex = 87
         Me.Guna2HtmlLabel43.Text = "Meter"
         '
-        'Guna2NumericUpDown8
+        'qtep
         '
-        Me.Guna2NumericUpDown8.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2NumericUpDown8.Cursor = System.Windows.Forms.Cursors.IBeam
-        Me.Guna2NumericUpDown8.Font = New System.Drawing.Font("Segoe UI", 9.0!)
-        Me.Guna2NumericUpDown8.Location = New System.Drawing.Point(331, 1053)
-        Me.Guna2NumericUpDown8.Name = "Guna2NumericUpDown8"
-        Me.Guna2NumericUpDown8.Size = New System.Drawing.Size(61, 26)
-        Me.Guna2NumericUpDown8.TabIndex = 85
-        '
-        'CheckBox19
-        '
-        Me.CheckBox19.AutoSize = True
-        Me.CheckBox19.CheckAlign = System.Drawing.ContentAlignment.BottomRight
-        Me.CheckBox19.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.CheckBox19.Font = New System.Drawing.Font("Times New Roman", 11.25!, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CheckBox19.Location = New System.Drawing.Point(28, 1497)
-        Me.CheckBox19.Name = "CheckBox19"
-        Me.CheckBox19.Size = New System.Drawing.Size(12, 11)
-        Me.CheckBox19.TabIndex = 84
-        Me.CheckBox19.UseVisualStyleBackColor = True
-        '
-        'CheckBox11
-        '
-        Me.CheckBox11.AutoSize = True
-        Me.CheckBox11.CheckAlign = System.Drawing.ContentAlignment.BottomRight
-        Me.CheckBox11.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.CheckBox11.Font = New System.Drawing.Font("Times New Roman", 11.25!, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CheckBox11.Location = New System.Drawing.Point(28, 1100)
-        Me.CheckBox11.Name = "CheckBox11"
-        Me.CheckBox11.Size = New System.Drawing.Size(12, 11)
-        Me.CheckBox11.TabIndex = 84
-        Me.CheckBox11.UseVisualStyleBackColor = True
+        Me.qtep.BackColor = System.Drawing.Color.Transparent
+        Me.qtep.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.qtep.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.qtep.Location = New System.Drawing.Point(332, 1043)
+        Me.qtep.Name = "qtep"
+        Me.qtep.Size = New System.Drawing.Size(61, 26)
+        Me.qtep.TabIndex = 85
+        Me.qtep.Value = New Decimal(New Integer() {1, 0, 0, 0})
         '
         'CheckBox18
         '
@@ -2078,11 +2020,35 @@ Partial Class main1
         Me.CheckBox18.CheckAlign = System.Drawing.ContentAlignment.BottomRight
         Me.CheckBox18.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.CheckBox18.Font = New System.Drawing.Font("Times New Roman", 11.25!, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CheckBox18.Location = New System.Drawing.Point(28, 1467)
+        Me.CheckBox18.Location = New System.Drawing.Point(18, 1496)
         Me.CheckBox18.Name = "CheckBox18"
         Me.CheckBox18.Size = New System.Drawing.Size(12, 11)
-        Me.CheckBox18.TabIndex = 83
+        Me.CheckBox18.TabIndex = 84
         Me.CheckBox18.UseVisualStyleBackColor = True
+        '
+        'CheckBox11
+        '
+        Me.CheckBox11.AutoSize = True
+        Me.CheckBox11.CheckAlign = System.Drawing.ContentAlignment.BottomRight
+        Me.CheckBox11.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.CheckBox11.Font = New System.Drawing.Font("Times New Roman", 11.25!, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox11.Location = New System.Drawing.Point(18, 1089)
+        Me.CheckBox11.Name = "CheckBox11"
+        Me.CheckBox11.Size = New System.Drawing.Size(12, 11)
+        Me.CheckBox11.TabIndex = 84
+        Me.CheckBox11.UseVisualStyleBackColor = True
+        '
+        'CheckBox17
+        '
+        Me.CheckBox17.AutoSize = True
+        Me.CheckBox17.CheckAlign = System.Drawing.ContentAlignment.BottomRight
+        Me.CheckBox17.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.CheckBox17.Font = New System.Drawing.Font("Times New Roman", 11.25!, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox17.Location = New System.Drawing.Point(18, 1464)
+        Me.CheckBox17.Name = "CheckBox17"
+        Me.CheckBox17.Size = New System.Drawing.Size(12, 11)
+        Me.CheckBox17.TabIndex = 83
+        Me.CheckBox17.UseVisualStyleBackColor = True
         '
         'CheckBox15
         '
@@ -2090,7 +2056,7 @@ Partial Class main1
         Me.CheckBox15.CheckAlign = System.Drawing.ContentAlignment.BottomRight
         Me.CheckBox15.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.CheckBox15.Font = New System.Drawing.Font("Times New Roman", 11.25!, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CheckBox15.Location = New System.Drawing.Point(28, 1335)
+        Me.CheckBox15.Location = New System.Drawing.Point(18, 1324)
         Me.CheckBox15.Name = "CheckBox15"
         Me.CheckBox15.Size = New System.Drawing.Size(12, 11)
         Me.CheckBox15.TabIndex = 83
@@ -2102,7 +2068,7 @@ Partial Class main1
         Me.CheckBox10.CheckAlign = System.Drawing.ContentAlignment.BottomRight
         Me.CheckBox10.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.CheckBox10.Font = New System.Drawing.Font("Times New Roman", 11.25!, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CheckBox10.Location = New System.Drawing.Point(27, 1061)
+        Me.CheckBox10.Location = New System.Drawing.Point(19, 1051)
         Me.CheckBox10.Name = "CheckBox10"
         Me.CheckBox10.Size = New System.Drawing.Size(12, 11)
         Me.CheckBox10.TabIndex = 83
@@ -2114,7 +2080,7 @@ Partial Class main1
         Me.Guna2Shapes45.LineOrientation = System.Windows.Forms.Orientation.Vertical
         Me.Guna2Shapes45.LineStyle = System.Drawing.Drawing2D.DashStyle.Dash
         Me.Guna2Shapes45.LineThickness = 2
-        Me.Guna2Shapes45.Location = New System.Drawing.Point(12, 1441)
+        Me.Guna2Shapes45.Location = New System.Drawing.Point(2, 1430)
         Me.Guna2Shapes45.Name = "Guna2Shapes45"
         Me.Guna2Shapes45.PolygonSkip = 1
         Me.Guna2Shapes45.Rotate = 0!
@@ -2131,7 +2097,7 @@ Partial Class main1
         Me.Guna2Shapes38.LineOrientation = System.Windows.Forms.Orientation.Vertical
         Me.Guna2Shapes38.LineStyle = System.Drawing.Drawing2D.DashStyle.Dash
         Me.Guna2Shapes38.LineThickness = 2
-        Me.Guna2Shapes38.Location = New System.Drawing.Point(15, 1306)
+        Me.Guna2Shapes38.Location = New System.Drawing.Point(5, 1295)
         Me.Guna2Shapes38.Name = "Guna2Shapes38"
         Me.Guna2Shapes38.PolygonSkip = 1
         Me.Guna2Shapes38.Rotate = 0!
@@ -2148,7 +2114,7 @@ Partial Class main1
         Me.Guna2Shapes23.LineOrientation = System.Windows.Forms.Orientation.Vertical
         Me.Guna2Shapes23.LineStyle = System.Drawing.Drawing2D.DashStyle.Dash
         Me.Guna2Shapes23.LineThickness = 2
-        Me.Guna2Shapes23.Location = New System.Drawing.Point(15, 1014)
+        Me.Guna2Shapes23.Location = New System.Drawing.Point(5, 1003)
         Me.Guna2Shapes23.Name = "Guna2Shapes23"
         Me.Guna2Shapes23.PolygonSkip = 1
         Me.Guna2Shapes23.Rotate = 0!
@@ -2165,7 +2131,7 @@ Partial Class main1
         Me.Guna2Shapes43.LineOrientation = System.Windows.Forms.Orientation.Vertical
         Me.Guna2Shapes43.LineStyle = System.Drawing.Drawing2D.DashStyle.Dash
         Me.Guna2Shapes43.LineThickness = 2
-        Me.Guna2Shapes43.Location = New System.Drawing.Point(567, 1445)
+        Me.Guna2Shapes43.Location = New System.Drawing.Point(591, 1432)
         Me.Guna2Shapes43.Name = "Guna2Shapes43"
         Me.Guna2Shapes43.PolygonSkip = 1
         Me.Guna2Shapes43.Rotate = 0!
@@ -2182,7 +2148,7 @@ Partial Class main1
         Me.Guna2Shapes37.LineOrientation = System.Windows.Forms.Orientation.Vertical
         Me.Guna2Shapes37.LineStyle = System.Drawing.Drawing2D.DashStyle.Dash
         Me.Guna2Shapes37.LineThickness = 2
-        Me.Guna2Shapes37.Location = New System.Drawing.Point(567, 1306)
+        Me.Guna2Shapes37.Location = New System.Drawing.Point(591, 1295)
         Me.Guna2Shapes37.Name = "Guna2Shapes37"
         Me.Guna2Shapes37.PolygonSkip = 1
         Me.Guna2Shapes37.Rotate = 0!
@@ -2199,7 +2165,7 @@ Partial Class main1
         Me.Guna2Shapes24.LineOrientation = System.Windows.Forms.Orientation.Vertical
         Me.Guna2Shapes24.LineStyle = System.Drawing.Drawing2D.DashStyle.Dash
         Me.Guna2Shapes24.LineThickness = 2
-        Me.Guna2Shapes24.Location = New System.Drawing.Point(567, 1013)
+        Me.Guna2Shapes24.Location = New System.Drawing.Point(591, 1002)
         Me.Guna2Shapes24.Name = "Guna2Shapes24"
         Me.Guna2Shapes24.PolygonSkip = 1
         Me.Guna2Shapes24.Rotate = 0!
@@ -2216,7 +2182,7 @@ Partial Class main1
         Me.Guna2Shapes42.LineOrientation = System.Windows.Forms.Orientation.Vertical
         Me.Guna2Shapes42.LineStyle = System.Drawing.Drawing2D.DashStyle.Dash
         Me.Guna2Shapes42.LineThickness = 2
-        Me.Guna2Shapes42.Location = New System.Drawing.Point(320, 1444)
+        Me.Guna2Shapes42.Location = New System.Drawing.Point(310, 1433)
         Me.Guna2Shapes42.Name = "Guna2Shapes42"
         Me.Guna2Shapes42.PolygonSkip = 1
         Me.Guna2Shapes42.Rotate = 0!
@@ -2233,7 +2199,7 @@ Partial Class main1
         Me.Guna2Shapes36.LineOrientation = System.Windows.Forms.Orientation.Vertical
         Me.Guna2Shapes36.LineStyle = System.Drawing.Drawing2D.DashStyle.Dash
         Me.Guna2Shapes36.LineThickness = 2
-        Me.Guna2Shapes36.Location = New System.Drawing.Point(320, 1305)
+        Me.Guna2Shapes36.Location = New System.Drawing.Point(321, 1295)
         Me.Guna2Shapes36.Name = "Guna2Shapes36"
         Me.Guna2Shapes36.PolygonSkip = 1
         Me.Guna2Shapes36.Rotate = 0!
@@ -2250,7 +2216,7 @@ Partial Class main1
         Me.Guna2Shapes25.LineOrientation = System.Windows.Forms.Orientation.Vertical
         Me.Guna2Shapes25.LineStyle = System.Drawing.Drawing2D.DashStyle.Dash
         Me.Guna2Shapes25.LineThickness = 2
-        Me.Guna2Shapes25.Location = New System.Drawing.Point(320, 1013)
+        Me.Guna2Shapes25.Location = New System.Drawing.Point(321, 1003)
         Me.Guna2Shapes25.Name = "Guna2Shapes25"
         Me.Guna2Shapes25.PolygonSkip = 1
         Me.Guna2Shapes25.Rotate = 0!
@@ -2267,7 +2233,7 @@ Partial Class main1
         Me.Guna2Shapes41.LineOrientation = System.Windows.Forms.Orientation.Vertical
         Me.Guna2Shapes41.LineStyle = System.Drawing.Drawing2D.DashStyle.Dash
         Me.Guna2Shapes41.LineThickness = 2
-        Me.Guna2Shapes41.Location = New System.Drawing.Point(460, 1445)
+        Me.Guna2Shapes41.Location = New System.Drawing.Point(450, 1434)
         Me.Guna2Shapes41.Name = "Guna2Shapes41"
         Me.Guna2Shapes41.PolygonSkip = 1
         Me.Guna2Shapes41.Rotate = 0!
@@ -2284,7 +2250,7 @@ Partial Class main1
         Me.Guna2Shapes35.LineOrientation = System.Windows.Forms.Orientation.Vertical
         Me.Guna2Shapes35.LineStyle = System.Drawing.Drawing2D.DashStyle.Dash
         Me.Guna2Shapes35.LineThickness = 2
-        Me.Guna2Shapes35.Location = New System.Drawing.Point(460, 1306)
+        Me.Guna2Shapes35.Location = New System.Drawing.Point(461, 1296)
         Me.Guna2Shapes35.Name = "Guna2Shapes35"
         Me.Guna2Shapes35.PolygonSkip = 1
         Me.Guna2Shapes35.Rotate = 0!
@@ -2301,7 +2267,7 @@ Partial Class main1
         Me.Guna2Shapes26.LineOrientation = System.Windows.Forms.Orientation.Vertical
         Me.Guna2Shapes26.LineStyle = System.Drawing.Drawing2D.DashStyle.Dash
         Me.Guna2Shapes26.LineThickness = 2
-        Me.Guna2Shapes26.Location = New System.Drawing.Point(460, 1014)
+        Me.Guna2Shapes26.Location = New System.Drawing.Point(461, 1004)
         Me.Guna2Shapes26.Name = "Guna2Shapes26"
         Me.Guna2Shapes26.PolygonSkip = 1
         Me.Guna2Shapes26.Rotate = 0!
@@ -2318,7 +2284,7 @@ Partial Class main1
         Me.Guna2Shapes40.LineOrientation = System.Windows.Forms.Orientation.Vertical
         Me.Guna2Shapes40.LineStyle = System.Drawing.Drawing2D.DashStyle.Dash
         Me.Guna2Shapes40.LineThickness = 2
-        Me.Guna2Shapes40.Location = New System.Drawing.Point(398, 1443)
+        Me.Guna2Shapes40.Location = New System.Drawing.Point(388, 1432)
         Me.Guna2Shapes40.Name = "Guna2Shapes40"
         Me.Guna2Shapes40.PolygonSkip = 1
         Me.Guna2Shapes40.Rotate = 0!
@@ -2335,7 +2301,7 @@ Partial Class main1
         Me.Guna2Shapes34.LineOrientation = System.Windows.Forms.Orientation.Vertical
         Me.Guna2Shapes34.LineStyle = System.Drawing.Drawing2D.DashStyle.Dash
         Me.Guna2Shapes34.LineThickness = 2
-        Me.Guna2Shapes34.Location = New System.Drawing.Point(398, 1304)
+        Me.Guna2Shapes34.Location = New System.Drawing.Point(399, 1294)
         Me.Guna2Shapes34.Name = "Guna2Shapes34"
         Me.Guna2Shapes34.PolygonSkip = 1
         Me.Guna2Shapes34.Rotate = 0!
@@ -2352,7 +2318,7 @@ Partial Class main1
         Me.Guna2Shapes27.LineOrientation = System.Windows.Forms.Orientation.Vertical
         Me.Guna2Shapes27.LineStyle = System.Drawing.Drawing2D.DashStyle.Dash
         Me.Guna2Shapes27.LineThickness = 2
-        Me.Guna2Shapes27.Location = New System.Drawing.Point(398, 1012)
+        Me.Guna2Shapes27.Location = New System.Drawing.Point(399, 1002)
         Me.Guna2Shapes27.Name = "Guna2Shapes27"
         Me.Guna2Shapes27.PolygonSkip = 1
         Me.Guna2Shapes27.Rotate = 0!
@@ -2369,11 +2335,11 @@ Partial Class main1
         Me.Guna2HtmlLabel50.Font = New System.Drawing.Font("Vivaldi", 18.0!, CType(((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic) _
                 Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Guna2HtmlLabel50.ForeColor = System.Drawing.Color.LightSkyBlue
-        Me.Guna2HtmlLabel50.Location = New System.Drawing.Point(49, 1416)
+        Me.Guna2HtmlLabel50.Location = New System.Drawing.Point(39, 1405)
         Me.Guna2HtmlLabel50.Name = "Guna2HtmlLabel50"
-        Me.Guna2HtmlLabel50.Size = New System.Drawing.Size(284, 31)
+        Me.Guna2HtmlLabel50.Size = New System.Drawing.Size(249, 31)
         Me.Guna2HtmlLabel50.TabIndex = 77
-        Me.Guna2HtmlLabel50.Text = "Water Analysis and Treatment"
+        Me.Guna2HtmlLabel50.Text = "Analyse et traitement de l'eau"
         '
         'Guna2HtmlLabel57
         '
@@ -2381,11 +2347,11 @@ Partial Class main1
         Me.Guna2HtmlLabel57.Font = New System.Drawing.Font("Vivaldi", 18.0!, CType(((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic) _
                 Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Guna2HtmlLabel57.ForeColor = System.Drawing.Color.LightSkyBlue
-        Me.Guna2HtmlLabel57.Location = New System.Drawing.Point(49, 1277)
+        Me.Guna2HtmlLabel57.Location = New System.Drawing.Point(39, 1266)
         Me.Guna2HtmlLabel57.Name = "Guna2HtmlLabel57"
-        Me.Guna2HtmlLabel57.Size = New System.Drawing.Size(247, 31)
+        Me.Guna2HtmlLabel57.Size = New System.Drawing.Size(268, 31)
         Me.Guna2HtmlLabel57.TabIndex = 77
-        Me.Guna2HtmlLabel57.Text = "Water Tower Construction"
+        Me.Guna2HtmlLabel57.Text = "Construction des châteaux d'eau"
         '
         'Guna2HtmlLabel32
         '
@@ -2393,39 +2359,17 @@ Partial Class main1
         Me.Guna2HtmlLabel32.Font = New System.Drawing.Font("Vivaldi", 18.0!, CType(((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic) _
                 Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Guna2HtmlLabel32.ForeColor = System.Drawing.Color.LightSkyBlue
-        Me.Guna2HtmlLabel32.Location = New System.Drawing.Point(49, 985)
+        Me.Guna2HtmlLabel32.Location = New System.Drawing.Point(39, 974)
         Me.Guna2HtmlLabel32.Name = "Guna2HtmlLabel32"
         Me.Guna2HtmlLabel32.Size = New System.Drawing.Size(211, 31)
         Me.Guna2HtmlLabel32.TabIndex = 77
         Me.Guna2HtmlLabel32.Text = "Installation de la pompe"
         '
-        'Guna2HtmlLabel80
-        '
-        Me.Guna2HtmlLabel80.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel80.Font = New System.Drawing.Font("Times New Roman", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2HtmlLabel80.Location = New System.Drawing.Point(505, 841)
-        Me.Guna2HtmlLabel80.Margin = New System.Windows.Forms.Padding(0)
-        Me.Guna2HtmlLabel80.Name = "Guna2HtmlLabel80"
-        Me.Guna2HtmlLabel80.Size = New System.Drawing.Size(11, 28)
-        Me.Guna2HtmlLabel80.TabIndex = 76
-        Me.Guna2HtmlLabel80.Text = "-"
-        '
-        'Guna2HtmlLabel33
-        '
-        Me.Guna2HtmlLabel33.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel33.Font = New System.Drawing.Font("Times New Roman", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2HtmlLabel33.Location = New System.Drawing.Point(430, 785)
-        Me.Guna2HtmlLabel33.Margin = New System.Windows.Forms.Padding(0)
-        Me.Guna2HtmlLabel33.Name = "Guna2HtmlLabel33"
-        Me.Guna2HtmlLabel33.Size = New System.Drawing.Size(11, 28)
-        Me.Guna2HtmlLabel33.TabIndex = 76
-        Me.Guna2HtmlLabel33.Text = "-"
-        '
         'Guna2HtmlLabel38
         '
         Me.Guna2HtmlLabel38.BackColor = System.Drawing.Color.Transparent
         Me.Guna2HtmlLabel38.Font = New System.Drawing.Font("Times New Roman", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2HtmlLabel38.Location = New System.Drawing.Point(428, 841)
+        Me.Guna2HtmlLabel38.Location = New System.Drawing.Point(429, 822)
         Me.Guna2HtmlLabel38.Margin = New System.Windows.Forms.Padding(0)
         Me.Guna2HtmlLabel38.Name = "Guna2HtmlLabel38"
         Me.Guna2HtmlLabel38.Size = New System.Drawing.Size(11, 28)
@@ -2436,97 +2380,17 @@ Partial Class main1
         '
         Me.Guna2HtmlLabel37.BackColor = System.Drawing.Color.Transparent
         Me.Guna2HtmlLabel37.Font = New System.Drawing.Font("Times New Roman", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2HtmlLabel37.Location = New System.Drawing.Point(75, 825)
+        Me.Guna2HtmlLabel37.Location = New System.Drawing.Point(65, 806)
         Me.Guna2HtmlLabel37.Name = "Guna2HtmlLabel37"
         Me.Guna2HtmlLabel37.Size = New System.Drawing.Size(87, 16)
         Me.Guna2HtmlLabel37.TabIndex = 74
         Me.Guna2HtmlLabel37.Text = "Méthodes d'Union"
         '
-        'Guna2HtmlLabel71
-        '
-        Me.Guna2HtmlLabel71.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel71.Font = New System.Drawing.Font("Times New Roman", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2HtmlLabel71.Location = New System.Drawing.Point(192, 766)
-        Me.Guna2HtmlLabel71.Name = "Guna2HtmlLabel71"
-        Me.Guna2HtmlLabel71.Size = New System.Drawing.Size(37, 16)
-        Me.Guna2HtmlLabel71.TabIndex = 73
-        Me.Guna2HtmlLabel71.Text = "longeur"
-        '
-        'Guna2HtmlLabel68
-        '
-        Me.Guna2HtmlLabel68.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel68.Font = New System.Drawing.Font("Times New Roman", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2HtmlLabel68.Location = New System.Drawing.Point(192, 635)
-        Me.Guna2HtmlLabel68.Name = "Guna2HtmlLabel68"
-        Me.Guna2HtmlLabel68.Size = New System.Drawing.Size(41, 16)
-        Me.Guna2HtmlLabel68.TabIndex = 73
-        Me.Guna2HtmlLabel68.Text = "Longeur"
-        '
-        'Guna2HtmlLabel26
-        '
-        Me.Guna2HtmlLabel26.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel26.Font = New System.Drawing.Font("Times New Roman", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2HtmlLabel26.Location = New System.Drawing.Point(256, 766)
-        Me.Guna2HtmlLabel26.Name = "Guna2HtmlLabel26"
-        Me.Guna2HtmlLabel26.Size = New System.Drawing.Size(46, 16)
-        Me.Guna2HtmlLabel26.TabIndex = 73
-        Me.Guna2HtmlLabel26.Text = "Diametre"
-        '
-        'Guna2HtmlLabel36
-        '
-        Me.Guna2HtmlLabel36.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel36.Font = New System.Drawing.Font("Times New Roman", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2HtmlLabel36.Location = New System.Drawing.Point(256, 635)
-        Me.Guna2HtmlLabel36.Name = "Guna2HtmlLabel36"
-        Me.Guna2HtmlLabel36.Size = New System.Drawing.Size(46, 16)
-        Me.Guna2HtmlLabel36.TabIndex = 73
-        Me.Guna2HtmlLabel36.Text = "Diametre"
-        '
-        'Guna2NumericUpDown17
-        '
-        Me.Guna2NumericUpDown17.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2NumericUpDown17.Cursor = System.Windows.Forms.Cursors.IBeam
-        Me.Guna2NumericUpDown17.Font = New System.Drawing.Font("Segoe UI", 9.0!)
-        Me.Guna2NumericUpDown17.Location = New System.Drawing.Point(192, 785)
-        Me.Guna2NumericUpDown17.Name = "Guna2NumericUpDown17"
-        Me.Guna2NumericUpDown17.Size = New System.Drawing.Size(58, 26)
-        Me.Guna2NumericUpDown17.TabIndex = 72
-        '
-        'longeurps
-        '
-        Me.longeurps.BackColor = System.Drawing.Color.Transparent
-        Me.longeurps.Cursor = System.Windows.Forms.Cursors.IBeam
-        Me.longeurps.Font = New System.Drawing.Font("Segoe UI", 9.0!)
-        Me.longeurps.Location = New System.Drawing.Point(192, 654)
-        Me.longeurps.Name = "longeurps"
-        Me.longeurps.Size = New System.Drawing.Size(58, 26)
-        Me.longeurps.TabIndex = 72
-        '
-        'Guna2NumericUpDown9
-        '
-        Me.Guna2NumericUpDown9.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2NumericUpDown9.Cursor = System.Windows.Forms.Cursors.IBeam
-        Me.Guna2NumericUpDown9.Font = New System.Drawing.Font("Segoe UI", 9.0!)
-        Me.Guna2NumericUpDown9.Location = New System.Drawing.Point(256, 785)
-        Me.Guna2NumericUpDown9.Name = "Guna2NumericUpDown9"
-        Me.Guna2NumericUpDown9.Size = New System.Drawing.Size(58, 26)
-        Me.Guna2NumericUpDown9.TabIndex = 72
-        '
-        'diametreps
-        '
-        Me.diametreps.BackColor = System.Drawing.Color.Transparent
-        Me.diametreps.Cursor = System.Windows.Forms.Cursors.IBeam
-        Me.diametreps.Font = New System.Drawing.Font("Segoe UI", 9.0!)
-        Me.diametreps.Location = New System.Drawing.Point(256, 654)
-        Me.diametreps.Name = "diametreps"
-        Me.diametreps.Size = New System.Drawing.Size(58, 26)
-        Me.diametreps.TabIndex = 72
-        '
         'Guna2HtmlLabel35
         '
         Me.Guna2HtmlLabel35.BackColor = System.Drawing.Color.Transparent
         Me.Guna2HtmlLabel35.Font = New System.Drawing.Font("Times New Roman", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2HtmlLabel35.Location = New System.Drawing.Point(75, 768)
+        Me.Guna2HtmlLabel35.Location = New System.Drawing.Point(65, 757)
         Me.Guna2HtmlLabel35.Name = "Guna2HtmlLabel35"
         Me.Guna2HtmlLabel35.Size = New System.Drawing.Size(89, 16)
         Me.Guna2HtmlLabel35.TabIndex = 70
@@ -2538,7 +2402,7 @@ Partial Class main1
         Me.Guna2Shapes22.LineOrientation = System.Windows.Forms.Orientation.Vertical
         Me.Guna2Shapes22.LineStyle = System.Drawing.Drawing2D.DashStyle.Dash
         Me.Guna2Shapes22.LineThickness = 2
-        Me.Guna2Shapes22.Location = New System.Drawing.Point(43, 756)
+        Me.Guna2Shapes22.Location = New System.Drawing.Point(33, 745)
         Me.Guna2Shapes22.Name = "Guna2Shapes22"
         Me.Guna2Shapes22.PolygonSkip = 1
         Me.Guna2Shapes22.Rotate = 0!
@@ -2549,37 +2413,39 @@ Partial Class main1
         Me.Guna2Shapes22.UseTransparentBackground = True
         Me.Guna2Shapes22.Zoom = 80
         '
-        'Guna2NumericUpDown3
+        'qtemd
         '
-        Me.Guna2NumericUpDown3.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2NumericUpDown3.Cursor = System.Windows.Forms.Cursors.IBeam
-        Me.Guna2NumericUpDown3.Font = New System.Drawing.Font("Segoe UI", 9.0!)
-        Me.Guna2NumericUpDown3.Location = New System.Drawing.Point(331, 843)
-        Me.Guna2NumericUpDown3.Name = "Guna2NumericUpDown3"
-        Me.Guna2NumericUpDown3.Size = New System.Drawing.Size(61, 26)
-        Me.Guna2NumericUpDown3.TabIndex = 66
+        Me.qtemd.BackColor = System.Drawing.Color.Transparent
+        Me.qtemd.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.qtemd.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.qtemd.Location = New System.Drawing.Point(332, 824)
+        Me.qtemd.Name = "qtemd"
+        Me.qtemd.Size = New System.Drawing.Size(61, 26)
+        Me.qtemd.TabIndex = 66
+        Me.qtemd.Value = New Decimal(New Integer() {1, 0, 0, 0})
         '
-        'Guna2NumericUpDown4
+        'qteppe
         '
-        Me.Guna2NumericUpDown4.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2NumericUpDown4.Cursor = System.Windows.Forms.Cursors.IBeam
-        Me.Guna2NumericUpDown4.Font = New System.Drawing.Font("Segoe UI", 9.0!)
-        Me.Guna2NumericUpDown4.Location = New System.Drawing.Point(331, 787)
-        Me.Guna2NumericUpDown4.Name = "Guna2NumericUpDown4"
-        Me.Guna2NumericUpDown4.Size = New System.Drawing.Size(61, 26)
-        Me.Guna2NumericUpDown4.TabIndex = 65
+        Me.qteppe.BackColor = System.Drawing.Color.Transparent
+        Me.qteppe.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.qteppe.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.qteppe.Location = New System.Drawing.Point(332, 776)
+        Me.qteppe.Name = "qteppe"
+        Me.qteppe.Size = New System.Drawing.Size(61, 26)
+        Me.qteppe.TabIndex = 65
+        Me.qteppe.Value = New Decimal(New Integer() {1, 0, 0, 0})
         '
-        'CheckBox75
+        'CheckBox7
         '
-        Me.CheckBox75.AutoSize = True
-        Me.CheckBox75.CheckAlign = System.Drawing.ContentAlignment.BottomRight
-        Me.CheckBox75.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.CheckBox75.Font = New System.Drawing.Font("Times New Roman", 11.25!, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CheckBox75.Location = New System.Drawing.Point(27, 855)
-        Me.CheckBox75.Name = "CheckBox75"
-        Me.CheckBox75.Size = New System.Drawing.Size(12, 11)
-        Me.CheckBox75.TabIndex = 63
-        Me.CheckBox75.UseVisualStyleBackColor = True
+        Me.CheckBox7.AutoSize = True
+        Me.CheckBox7.CheckAlign = System.Drawing.ContentAlignment.BottomRight
+        Me.CheckBox7.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.CheckBox7.Font = New System.Drawing.Font("Times New Roman", 11.25!, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox7.Location = New System.Drawing.Point(17, 836)
+        Me.CheckBox7.Name = "CheckBox7"
+        Me.CheckBox7.Size = New System.Drawing.Size(12, 11)
+        Me.CheckBox7.TabIndex = 63
+        Me.CheckBox7.UseVisualStyleBackColor = True
         '
         'CheckBox6
         '
@@ -2587,7 +2453,7 @@ Partial Class main1
         Me.CheckBox6.CheckAlign = System.Drawing.ContentAlignment.BottomRight
         Me.CheckBox6.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.CheckBox6.Font = New System.Drawing.Font("Times New Roman", 11.25!, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CheckBox6.Location = New System.Drawing.Point(27, 792)
+        Me.CheckBox6.Location = New System.Drawing.Point(17, 781)
         Me.CheckBox6.Name = "CheckBox6"
         Me.CheckBox6.Size = New System.Drawing.Size(12, 11)
         Me.CheckBox6.TabIndex = 61
@@ -2599,7 +2465,7 @@ Partial Class main1
         Me.Guna2Shapes17.LineOrientation = System.Windows.Forms.Orientation.Vertical
         Me.Guna2Shapes17.LineStyle = System.Drawing.Drawing2D.DashStyle.Dash
         Me.Guna2Shapes17.LineThickness = 2
-        Me.Guna2Shapes17.Location = New System.Drawing.Point(15, 754)
+        Me.Guna2Shapes17.Location = New System.Drawing.Point(5, 743)
         Me.Guna2Shapes17.Name = "Guna2Shapes17"
         Me.Guna2Shapes17.PolygonSkip = 1
         Me.Guna2Shapes17.Rotate = 0!
@@ -2616,7 +2482,7 @@ Partial Class main1
         Me.Guna2Shapes18.LineOrientation = System.Windows.Forms.Orientation.Vertical
         Me.Guna2Shapes18.LineStyle = System.Drawing.Drawing2D.DashStyle.Dash
         Me.Guna2Shapes18.LineThickness = 2
-        Me.Guna2Shapes18.Location = New System.Drawing.Point(567, 755)
+        Me.Guna2Shapes18.Location = New System.Drawing.Point(593, 744)
         Me.Guna2Shapes18.Name = "Guna2Shapes18"
         Me.Guna2Shapes18.PolygonSkip = 1
         Me.Guna2Shapes18.Rotate = 0!
@@ -2633,7 +2499,7 @@ Partial Class main1
         Me.Guna2Shapes19.LineOrientation = System.Windows.Forms.Orientation.Vertical
         Me.Guna2Shapes19.LineStyle = System.Drawing.Drawing2D.DashStyle.Dash
         Me.Guna2Shapes19.LineThickness = 2
-        Me.Guna2Shapes19.Location = New System.Drawing.Point(320, 754)
+        Me.Guna2Shapes19.Location = New System.Drawing.Point(321, 743)
         Me.Guna2Shapes19.Name = "Guna2Shapes19"
         Me.Guna2Shapes19.PolygonSkip = 1
         Me.Guna2Shapes19.Rotate = 0!
@@ -2650,7 +2516,7 @@ Partial Class main1
         Me.Guna2Shapes20.LineOrientation = System.Windows.Forms.Orientation.Vertical
         Me.Guna2Shapes20.LineStyle = System.Drawing.Drawing2D.DashStyle.Dash
         Me.Guna2Shapes20.LineThickness = 2
-        Me.Guna2Shapes20.Location = New System.Drawing.Point(460, 756)
+        Me.Guna2Shapes20.Location = New System.Drawing.Point(461, 745)
         Me.Guna2Shapes20.Name = "Guna2Shapes20"
         Me.Guna2Shapes20.PolygonSkip = 1
         Me.Guna2Shapes20.Rotate = 0!
@@ -2667,7 +2533,7 @@ Partial Class main1
         Me.Guna2Shapes21.LineOrientation = System.Windows.Forms.Orientation.Vertical
         Me.Guna2Shapes21.LineStyle = System.Drawing.Drawing2D.DashStyle.Dash
         Me.Guna2Shapes21.LineThickness = 2
-        Me.Guna2Shapes21.Location = New System.Drawing.Point(398, 755)
+        Me.Guna2Shapes21.Location = New System.Drawing.Point(399, 744)
         Me.Guna2Shapes21.Name = "Guna2Shapes21"
         Me.Guna2Shapes21.PolygonSkip = 1
         Me.Guna2Shapes21.Rotate = 0!
@@ -2684,7 +2550,7 @@ Partial Class main1
         Me.Guna2HtmlLabel31.Font = New System.Drawing.Font("Vivaldi", 18.0!, CType(((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic) _
                 Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Guna2HtmlLabel31.ForeColor = System.Drawing.Color.LightSkyBlue
-        Me.Guna2HtmlLabel31.Location = New System.Drawing.Point(46, 727)
+        Me.Guna2HtmlLabel31.Location = New System.Drawing.Point(36, 716)
         Me.Guna2HtmlLabel31.Name = "Guna2HtmlLabel31"
         Me.Guna2HtmlLabel31.Size = New System.Drawing.Size(196, 31)
         Me.Guna2HtmlLabel31.TabIndex = 54
@@ -2694,7 +2560,7 @@ Partial Class main1
         '
         Me.Guna2HtmlLabel29.BackColor = System.Drawing.Color.Transparent
         Me.Guna2HtmlLabel29.Font = New System.Drawing.Font("Times New Roman", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2HtmlLabel29.Location = New System.Drawing.Point(415, 609)
+        Me.Guna2HtmlLabel29.Location = New System.Drawing.Point(416, 598)
         Me.Guna2HtmlLabel29.Name = "Guna2HtmlLabel29"
         Me.Guna2HtmlLabel29.Size = New System.Drawing.Size(39, 19)
         Me.Guna2HtmlLabel29.TabIndex = 52
@@ -2705,10 +2571,11 @@ Partial Class main1
         Me.qteps.BackColor = System.Drawing.Color.Transparent
         Me.qteps.Cursor = System.Windows.Forms.Cursors.IBeam
         Me.qteps.Font = New System.Drawing.Font("Segoe UI", 9.0!)
-        Me.qteps.Location = New System.Drawing.Point(331, 656)
+        Me.qteps.Location = New System.Drawing.Point(332, 645)
         Me.qteps.Name = "qteps"
         Me.qteps.Size = New System.Drawing.Size(61, 23)
         Me.qteps.TabIndex = 51
+        Me.qteps.Value = New Decimal(New Integer() {1, 0, 0, 0})
         '
         'CheckBox4
         '
@@ -2716,7 +2583,7 @@ Partial Class main1
         Me.CheckBox4.CheckAlign = System.Drawing.ContentAlignment.BottomRight
         Me.CheckBox4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.CheckBox4.Font = New System.Drawing.Font("Times New Roman", 11.25!, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CheckBox4.Location = New System.Drawing.Point(28, 651)
+        Me.CheckBox4.Location = New System.Drawing.Point(18, 649)
         Me.CheckBox4.Name = "CheckBox4"
         Me.CheckBox4.Size = New System.Drawing.Size(12, 11)
         Me.CheckBox4.TabIndex = 46
@@ -2728,7 +2595,7 @@ Partial Class main1
         Me.CheckBox3.CheckAlign = System.Drawing.ContentAlignment.BottomRight
         Me.CheckBox3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.CheckBox3.Font = New System.Drawing.Font("Times New Roman", 11.25!, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CheckBox3.Location = New System.Drawing.Point(27, 604)
+        Me.CheckBox3.Location = New System.Drawing.Point(18, 603)
         Me.CheckBox3.Name = "CheckBox3"
         Me.CheckBox3.Size = New System.Drawing.Size(12, 11)
         Me.CheckBox3.TabIndex = 43
@@ -2740,7 +2607,7 @@ Partial Class main1
         Me.Guna2Shapes9.LineOrientation = System.Windows.Forms.Orientation.Vertical
         Me.Guna2Shapes9.LineStyle = System.Drawing.Drawing2D.DashStyle.Dash
         Me.Guna2Shapes9.LineThickness = 2
-        Me.Guna2Shapes9.Location = New System.Drawing.Point(46, 579)
+        Me.Guna2Shapes9.Location = New System.Drawing.Point(36, 568)
         Me.Guna2Shapes9.Name = "Guna2Shapes9"
         Me.Guna2Shapes9.PolygonSkip = 1
         Me.Guna2Shapes9.Rotate = 0!
@@ -2757,7 +2624,7 @@ Partial Class main1
         Me.Guna2Shapes10.LineOrientation = System.Windows.Forms.Orientation.Vertical
         Me.Guna2Shapes10.LineStyle = System.Drawing.Drawing2D.DashStyle.Dash
         Me.Guna2Shapes10.LineThickness = 2
-        Me.Guna2Shapes10.Location = New System.Drawing.Point(15, 580)
+        Me.Guna2Shapes10.Location = New System.Drawing.Point(5, 569)
         Me.Guna2Shapes10.Name = "Guna2Shapes10"
         Me.Guna2Shapes10.PolygonSkip = 1
         Me.Guna2Shapes10.Rotate = 0!
@@ -2774,7 +2641,7 @@ Partial Class main1
         Me.Guna2HtmlLabel25.Font = New System.Drawing.Font("Vivaldi", 18.0!, CType(((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic) _
                 Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Guna2HtmlLabel25.ForeColor = System.Drawing.Color.LightSkyBlue
-        Me.Guna2HtmlLabel25.Location = New System.Drawing.Point(44, 541)
+        Me.Guna2HtmlLabel25.Location = New System.Drawing.Point(34, 530)
         Me.Guna2HtmlLabel25.Name = "Guna2HtmlLabel25"
         Me.Guna2HtmlLabel25.Size = New System.Drawing.Size(75, 31)
         Me.Guna2HtmlLabel25.TabIndex = 35
@@ -2784,7 +2651,7 @@ Partial Class main1
         '
         Me.Guna2HtmlLabel23.BackColor = System.Drawing.Color.Transparent
         Me.Guna2HtmlLabel23.Font = New System.Drawing.Font("Times New Roman", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2HtmlLabel23.Location = New System.Drawing.Point(425, 457)
+        Me.Guna2HtmlLabel23.Location = New System.Drawing.Point(426, 446)
         Me.Guna2HtmlLabel23.Margin = New System.Windows.Forms.Padding(0)
         Me.Guna2HtmlLabel23.Name = "Guna2HtmlLabel23"
         Me.Guna2HtmlLabel23.Size = New System.Drawing.Size(11, 28)
@@ -2795,7 +2662,7 @@ Partial Class main1
         '
         Me.Guna2HtmlLabel22.BackColor = System.Drawing.Color.Transparent
         Me.Guna2HtmlLabel22.Font = New System.Drawing.Font("Times New Roman", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2HtmlLabel22.Location = New System.Drawing.Point(425, 490)
+        Me.Guna2HtmlLabel22.Location = New System.Drawing.Point(426, 479)
         Me.Guna2HtmlLabel22.Margin = New System.Windows.Forms.Padding(0)
         Me.Guna2HtmlLabel22.Name = "Guna2HtmlLabel22"
         Me.Guna2HtmlLabel22.Size = New System.Drawing.Size(11, 28)
@@ -2806,7 +2673,7 @@ Partial Class main1
         '
         Me.Guna2HtmlLabel18.BackColor = System.Drawing.Color.Transparent
         Me.Guna2HtmlLabel18.Font = New System.Drawing.Font("Times New Roman", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2HtmlLabel18.Location = New System.Drawing.Point(354, 490)
+        Me.Guna2HtmlLabel18.Location = New System.Drawing.Point(355, 479)
         Me.Guna2HtmlLabel18.Margin = New System.Windows.Forms.Padding(0)
         Me.Guna2HtmlLabel18.Name = "Guna2HtmlLabel18"
         Me.Guna2HtmlLabel18.Size = New System.Drawing.Size(11, 28)
@@ -2817,7 +2684,7 @@ Partial Class main1
         '
         Me.Guna2HtmlLabel17.BackColor = System.Drawing.Color.Transparent
         Me.Guna2HtmlLabel17.Font = New System.Drawing.Font("Times New Roman", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2HtmlLabel17.Location = New System.Drawing.Point(353, 457)
+        Me.Guna2HtmlLabel17.Location = New System.Drawing.Point(354, 446)
         Me.Guna2HtmlLabel17.Margin = New System.Windows.Forms.Padding(0)
         Me.Guna2HtmlLabel17.Name = "Guna2HtmlLabel17"
         Me.Guna2HtmlLabel17.Size = New System.Drawing.Size(11, 28)
@@ -2830,7 +2697,7 @@ Partial Class main1
         Me.CheckBox2.CheckAlign = System.Drawing.ContentAlignment.BottomRight
         Me.CheckBox2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.CheckBox2.Font = New System.Drawing.Font("Times New Roman", 11.25!, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CheckBox2.Location = New System.Drawing.Point(27, 502)
+        Me.CheckBox2.Location = New System.Drawing.Point(17, 491)
         Me.CheckBox2.Name = "CheckBox2"
         Me.CheckBox2.Size = New System.Drawing.Size(12, 11)
         Me.CheckBox2.TabIndex = 23
@@ -2840,17 +2707,27 @@ Partial Class main1
         '
         Me.Guna2HtmlLabel16.BackColor = System.Drawing.Color.Transparent
         Me.Guna2HtmlLabel16.Font = New System.Drawing.Font("Times New Roman", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2HtmlLabel16.Location = New System.Drawing.Point(75, 466)
+        Me.Guna2HtmlLabel16.Location = New System.Drawing.Point(65, 455)
         Me.Guna2HtmlLabel16.Name = "Guna2HtmlLabel16"
         Me.Guna2HtmlLabel16.Size = New System.Drawing.Size(161, 19)
         Me.Guna2HtmlLabel16.TabIndex = 22
         Me.Guna2HtmlLabel16.Text = "Transport des équipements"
         '
+        'Guna2HtmlLabel1
+        '
+        Me.Guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2HtmlLabel1.Font = New System.Drawing.Font("Times New Roman", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Guna2HtmlLabel1.Location = New System.Drawing.Point(57, 925)
+        Me.Guna2HtmlLabel1.Name = "Guna2HtmlLabel1"
+        Me.Guna2HtmlLabel1.Size = New System.Drawing.Size(80, 19)
+        Me.Guna2HtmlLabel1.TabIndex = 21
+        Me.Guna2HtmlLabel1.Text = "PVC crépine"
+        '
         'Guna2HtmlLabel15
         '
         Me.Guna2HtmlLabel15.BackColor = System.Drawing.Color.Transparent
         Me.Guna2HtmlLabel15.Font = New System.Drawing.Font("Times New Roman", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2HtmlLabel15.Location = New System.Drawing.Point(75, 499)
+        Me.Guna2HtmlLabel15.Location = New System.Drawing.Point(65, 488)
         Me.Guna2HtmlLabel15.Name = "Guna2HtmlLabel15"
         Me.Guna2HtmlLabel15.Size = New System.Drawing.Size(131, 19)
         Me.Guna2HtmlLabel15.TabIndex = 21
@@ -2862,7 +2739,7 @@ Partial Class main1
         Me.CheckBox1.CheckAlign = System.Drawing.ContentAlignment.BottomRight
         Me.CheckBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.CheckBox1.Font = New System.Drawing.Font("Times New Roman", 11.25!, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CheckBox1.Location = New System.Drawing.Point(27, 470)
+        Me.CheckBox1.Location = New System.Drawing.Point(17, 459)
         Me.CheckBox1.Name = "CheckBox1"
         Me.CheckBox1.Size = New System.Drawing.Size(12, 11)
         Me.CheckBox1.TabIndex = 19
@@ -2874,7 +2751,7 @@ Partial Class main1
         Me.Guna2Shapes8.LineOrientation = System.Windows.Forms.Orientation.Vertical
         Me.Guna2Shapes8.LineStyle = System.Drawing.Drawing2D.DashStyle.Dash
         Me.Guna2Shapes8.LineThickness = 2
-        Me.Guna2Shapes8.Location = New System.Drawing.Point(43, 421)
+        Me.Guna2Shapes8.Location = New System.Drawing.Point(33, 410)
         Me.Guna2Shapes8.Name = "Guna2Shapes8"
         Me.Guna2Shapes8.PolygonSkip = 1
         Me.Guna2Shapes8.Rotate = 0!
@@ -2891,7 +2768,7 @@ Partial Class main1
         Me.Guna2Shapes7.LineOrientation = System.Windows.Forms.Orientation.Vertical
         Me.Guna2Shapes7.LineStyle = System.Drawing.Drawing2D.DashStyle.Dash
         Me.Guna2Shapes7.LineThickness = 2
-        Me.Guna2Shapes7.Location = New System.Drawing.Point(15, 421)
+        Me.Guna2Shapes7.Location = New System.Drawing.Point(5, 410)
         Me.Guna2Shapes7.Name = "Guna2Shapes7"
         Me.Guna2Shapes7.PolygonSkip = 1
         Me.Guna2Shapes7.Rotate = 0!
@@ -2906,7 +2783,7 @@ Partial Class main1
         '
         Me.Guna2HtmlLabel13.BackColor = System.Drawing.Color.Transparent
         Me.Guna2HtmlLabel13.Font = New System.Drawing.Font("Times New Roman", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2HtmlLabel13.Location = New System.Drawing.Point(583, 432)
+        Me.Guna2HtmlLabel13.Location = New System.Drawing.Point(609, 421)
         Me.Guna2HtmlLabel13.Name = "Guna2HtmlLabel13"
         Me.Guna2HtmlLabel13.Size = New System.Drawing.Size(75, 19)
         Me.Guna2HtmlLabel13.TabIndex = 16
@@ -2918,7 +2795,7 @@ Partial Class main1
         Me.Guna2Shapes6.LineOrientation = System.Windows.Forms.Orientation.Vertical
         Me.Guna2Shapes6.LineStyle = System.Drawing.Drawing2D.DashStyle.Dash
         Me.Guna2Shapes6.LineThickness = 2
-        Me.Guna2Shapes6.Location = New System.Drawing.Point(567, 421)
+        Me.Guna2Shapes6.Location = New System.Drawing.Point(593, 410)
         Me.Guna2Shapes6.Name = "Guna2Shapes6"
         Me.Guna2Shapes6.PolygonSkip = 1
         Me.Guna2Shapes6.Rotate = 0!
@@ -2933,7 +2810,7 @@ Partial Class main1
         '
         Me.Guna2HtmlLabel12.BackColor = System.Drawing.Color.Transparent
         Me.Guna2HtmlLabel12.Font = New System.Drawing.Font("Times New Roman", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2HtmlLabel12.Location = New System.Drawing.Point(480, 434)
+        Me.Guna2HtmlLabel12.Location = New System.Drawing.Point(481, 423)
         Me.Guna2HtmlLabel12.Name = "Guna2HtmlLabel12"
         Me.Guna2HtmlLabel12.Size = New System.Drawing.Size(87, 19)
         Me.Guna2HtmlLabel12.TabIndex = 14
@@ -2943,7 +2820,7 @@ Partial Class main1
         '
         Me.Guna2HtmlLabel11.BackColor = System.Drawing.Color.Transparent
         Me.Guna2HtmlLabel11.Font = New System.Drawing.Font("Times New Roman", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2HtmlLabel11.Location = New System.Drawing.Point(415, 434)
+        Me.Guna2HtmlLabel11.Location = New System.Drawing.Point(416, 423)
         Me.Guna2HtmlLabel11.Name = "Guna2HtmlLabel11"
         Me.Guna2HtmlLabel11.Size = New System.Drawing.Size(39, 19)
         Me.Guna2HtmlLabel11.TabIndex = 13
@@ -2953,7 +2830,7 @@ Partial Class main1
         '
         Me.Guna2HtmlLabel10.BackColor = System.Drawing.Color.Transparent
         Me.Guna2HtmlLabel10.Font = New System.Drawing.Font("Times New Roman", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2HtmlLabel10.Location = New System.Drawing.Point(348, 434)
+        Me.Guna2HtmlLabel10.Location = New System.Drawing.Point(349, 423)
         Me.Guna2HtmlLabel10.Name = "Guna2HtmlLabel10"
         Me.Guna2HtmlLabel10.Size = New System.Drawing.Size(28, 19)
         Me.Guna2HtmlLabel10.TabIndex = 12
@@ -2963,7 +2840,7 @@ Partial Class main1
         '
         Me.Guna2HtmlLabel9.BackColor = System.Drawing.Color.Transparent
         Me.Guna2HtmlLabel9.Font = New System.Drawing.Font("Times New Roman", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2HtmlLabel9.Location = New System.Drawing.Point(106, 433)
+        Me.Guna2HtmlLabel9.Location = New System.Drawing.Point(96, 422)
         Me.Guna2HtmlLabel9.Name = "Guna2HtmlLabel9"
         Me.Guna2HtmlLabel9.Size = New System.Drawing.Size(81, 19)
         Me.Guna2HtmlLabel9.TabIndex = 6
@@ -2975,7 +2852,7 @@ Partial Class main1
         Me.Guna2Shapes5.LineOrientation = System.Windows.Forms.Orientation.Vertical
         Me.Guna2Shapes5.LineStyle = System.Drawing.Drawing2D.DashStyle.Dash
         Me.Guna2Shapes5.LineThickness = 2
-        Me.Guna2Shapes5.Location = New System.Drawing.Point(320, 421)
+        Me.Guna2Shapes5.Location = New System.Drawing.Point(321, 410)
         Me.Guna2Shapes5.Name = "Guna2Shapes5"
         Me.Guna2Shapes5.PolygonSkip = 1
         Me.Guna2Shapes5.Rotate = 0!
@@ -2992,7 +2869,7 @@ Partial Class main1
         Me.Guna2Shapes4.LineOrientation = System.Windows.Forms.Orientation.Vertical
         Me.Guna2Shapes4.LineStyle = System.Drawing.Drawing2D.DashStyle.Dash
         Me.Guna2Shapes4.LineThickness = 2
-        Me.Guna2Shapes4.Location = New System.Drawing.Point(452, 421)
+        Me.Guna2Shapes4.Location = New System.Drawing.Point(453, 410)
         Me.Guna2Shapes4.Name = "Guna2Shapes4"
         Me.Guna2Shapes4.PolygonSkip = 1
         Me.Guna2Shapes4.Rotate = 0!
@@ -3009,7 +2886,7 @@ Partial Class main1
         Me.Guna2Shapes3.LineOrientation = System.Windows.Forms.Orientation.Vertical
         Me.Guna2Shapes3.LineStyle = System.Drawing.Drawing2D.DashStyle.Dash
         Me.Guna2Shapes3.LineThickness = 2
-        Me.Guna2Shapes3.Location = New System.Drawing.Point(742, 421)
+        Me.Guna2Shapes3.Location = New System.Drawing.Point(774, 410)
         Me.Guna2Shapes3.Name = "Guna2Shapes3"
         Me.Guna2Shapes3.PolygonSkip = 1
         Me.Guna2Shapes3.Rotate = 0!
@@ -3026,7 +2903,7 @@ Partial Class main1
         Me.Guna2Shapes2.LineOrientation = System.Windows.Forms.Orientation.Vertical
         Me.Guna2Shapes2.LineStyle = System.Drawing.Drawing2D.DashStyle.Dash
         Me.Guna2Shapes2.LineThickness = 2
-        Me.Guna2Shapes2.Location = New System.Drawing.Point(398, 421)
+        Me.Guna2Shapes2.Location = New System.Drawing.Point(399, 410)
         Me.Guna2Shapes2.Name = "Guna2Shapes2"
         Me.Guna2Shapes2.PolygonSkip = 1
         Me.Guna2Shapes2.Rotate = 0!
@@ -3043,7 +2920,7 @@ Partial Class main1
         Me.Guna2HtmlLabel7.Font = New System.Drawing.Font("Vivaldi", 18.0!, CType(((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic) _
                 Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Guna2HtmlLabel7.ForeColor = System.Drawing.Color.LightSkyBlue
-        Me.Guna2HtmlLabel7.Location = New System.Drawing.Point(46, 393)
+        Me.Guna2HtmlLabel7.Location = New System.Drawing.Point(36, 382)
         Me.Guna2HtmlLabel7.Name = "Guna2HtmlLabel7"
         Me.Guna2HtmlLabel7.Size = New System.Drawing.Size(166, 31)
         Me.Guna2HtmlLabel7.TabIndex = 7
@@ -3053,7 +2930,7 @@ Partial Class main1
         '
         Me.Guna2Shapes1.LineEndCap = System.Drawing.Drawing2D.LineCap.RoundAnchor
         Me.Guna2Shapes1.LineStartCap = System.Drawing.Drawing2D.LineCap.RoundAnchor
-        Me.Guna2Shapes1.Location = New System.Drawing.Point(15, 321)
+        Me.Guna2Shapes1.Location = New System.Drawing.Point(5, 310)
         Me.Guna2Shapes1.Name = "Guna2Shapes1"
         Me.Guna2Shapes1.PolygonSkip = 1
         Me.Guna2Shapes1.Rotate = 0!
@@ -3070,21 +2947,21 @@ Partial Class main1
         Me.Guna2Panel6.BorderThickness = 2
         Me.Guna2Panel6.Controls.Add(Me.Guna2HtmlLabel19)
         Me.Guna2Panel6.Controls.Add(Me.Guna2HtmlLabel74)
-        Me.Guna2Panel6.Controls.Add(Me.depthEtextbox)
         Me.Guna2Panel6.Controls.Add(Me.projectlocation)
+        Me.Guna2Panel6.Controls.Add(Me.depthEtextbox)
         Me.Guna2Panel6.Controls.Add(Me.descriptionTextBox)
         Me.Guna2Panel6.Controls.Add(Me.Guna2HtmlLabel8)
         Me.Guna2Panel6.Controls.Add(Me.Guna2HtmlLabel73)
-        Me.Guna2Panel6.Location = New System.Drawing.Point(409, 186)
+        Me.Guna2Panel6.Location = New System.Drawing.Point(344, 175)
         Me.Guna2Panel6.Name = "Guna2Panel6"
-        Me.Guna2Panel6.Size = New System.Drawing.Size(314, 129)
+        Me.Guna2Panel6.Size = New System.Drawing.Size(369, 129)
         Me.Guna2Panel6.TabIndex = 5
         '
         'Guna2HtmlLabel19
         '
         Me.Guna2HtmlLabel19.BackColor = System.Drawing.Color.Transparent
         Me.Guna2HtmlLabel19.Font = New System.Drawing.Font("Times New Roman", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2HtmlLabel19.Location = New System.Drawing.Point(16, 64)
+        Me.Guna2HtmlLabel19.Location = New System.Drawing.Point(13, 99)
         Me.Guna2HtmlLabel19.Name = "Guna2HtmlLabel19"
         Me.Guna2HtmlLabel19.Size = New System.Drawing.Size(141, 19)
         Me.Guna2HtmlLabel19.TabIndex = 162
@@ -3094,11 +2971,23 @@ Partial Class main1
         '
         Me.Guna2HtmlLabel74.BackColor = System.Drawing.Color.Transparent
         Me.Guna2HtmlLabel74.Font = New System.Drawing.Font("Times New Roman", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2HtmlLabel74.Location = New System.Drawing.Point(16, 96)
+        Me.Guna2HtmlLabel74.Location = New System.Drawing.Point(207, 99)
         Me.Guna2HtmlLabel74.Name = "Guna2HtmlLabel74"
-        Me.Guna2HtmlLabel74.Size = New System.Drawing.Size(69, 19)
+        Me.Guna2HtmlLabel74.Size = New System.Drawing.Size(42, 19)
         Me.Guna2HtmlLabel74.TabIndex = 162
-        Me.Guna2HtmlLabel74.Text = "Location :"
+        Me.Guna2HtmlLabel74.Text = "Lieu :"
+        '
+        'projectlocation
+        '
+        Me.projectlocation.BackColor = System.Drawing.Color.White
+        Me.projectlocation.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.projectlocation.Enabled = False
+        Me.projectlocation.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.projectlocation.Location = New System.Drawing.Point(255, 99)
+        Me.projectlocation.Name = "projectlocation"
+        Me.projectlocation.Size = New System.Drawing.Size(85, 19)
+        Me.projectlocation.TabIndex = 160
+        Me.projectlocation.Text = "null"
         '
         'depthEtextbox
         '
@@ -3106,22 +2995,11 @@ Partial Class main1
         Me.depthEtextbox.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.depthEtextbox.Enabled = False
         Me.depthEtextbox.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.depthEtextbox.Location = New System.Drawing.Point(163, 64)
+        Me.depthEtextbox.Location = New System.Drawing.Point(161, 100)
         Me.depthEtextbox.Name = "depthEtextbox"
-        Me.depthEtextbox.Size = New System.Drawing.Size(138, 19)
+        Me.depthEtextbox.Size = New System.Drawing.Size(25, 19)
         Me.depthEtextbox.TabIndex = 160
         Me.depthEtextbox.Text = "null"
-        '
-        'projectlocation
-        '
-        Me.projectlocation.BackColor = System.Drawing.Color.White
-        Me.projectlocation.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.projectlocation.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.projectlocation.Location = New System.Drawing.Point(91, 94)
-        Me.projectlocation.Name = "projectlocation"
-        Me.projectlocation.Size = New System.Drawing.Size(205, 26)
-        Me.projectlocation.TabIndex = 160
-        Me.projectlocation.Text = "null"
         '
         'descriptionTextBox
         '
@@ -3133,7 +3011,7 @@ Partial Class main1
         Me.descriptionTextBox.Multiline = True
         Me.descriptionTextBox.Name = "descriptionTextBox"
         Me.descriptionTextBox.ScrollBars = System.Windows.Forms.ScrollBars.Horizontal
-        Me.descriptionTextBox.Size = New System.Drawing.Size(234, 47)
+        Me.descriptionTextBox.Size = New System.Drawing.Size(289, 47)
         Me.descriptionTextBox.TabIndex = 161
         Me.descriptionTextBox.Text = "null"
         '
@@ -3141,11 +3019,11 @@ Partial Class main1
         '
         Me.Guna2HtmlLabel73.BackColor = System.Drawing.Color.Transparent
         Me.Guna2HtmlLabel73.Font = New System.Drawing.Font("Times New Roman", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2HtmlLabel73.Location = New System.Drawing.Point(17, 37)
+        Me.Guna2HtmlLabel73.Location = New System.Drawing.Point(13, 38)
         Me.Guna2HtmlLabel73.Name = "Guna2HtmlLabel73"
-        Me.Guna2HtmlLabel73.Size = New System.Drawing.Size(45, 19)
+        Me.Guna2HtmlLabel73.Size = New System.Drawing.Size(49, 19)
         Me.Guna2HtmlLabel73.TabIndex = 4
-        Me.Guna2HtmlLabel73.Text = "Desc :"
+        Me.Guna2HtmlLabel73.Text = "Objet :"
         '
         'Guna2Panel5
         '
@@ -3159,9 +3037,9 @@ Partial Class main1
         Me.Guna2Panel5.Controls.Add(Me.Guna2HtmlLabel5)
         Me.Guna2Panel5.Controls.Add(Me.Guna2HtmlLabel4)
         Me.Guna2Panel5.Controls.Add(Me.Guna2HtmlLabel3)
-        Me.Guna2Panel5.Location = New System.Drawing.Point(35, 186)
+        Me.Guna2Panel5.Location = New System.Drawing.Point(25, 175)
         Me.Guna2Panel5.Name = "Guna2Panel5"
-        Me.Guna2Panel5.Size = New System.Drawing.Size(337, 129)
+        Me.Guna2Panel5.Size = New System.Drawing.Size(305, 129)
         Me.Guna2Panel5.TabIndex = 2
         '
         'clientnameTextBox
@@ -3172,7 +3050,7 @@ Partial Class main1
         Me.clientnameTextBox.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.clientnameTextBox.Location = New System.Drawing.Point(64, 41)
         Me.clientnameTextBox.Name = "clientnameTextBox"
-        Me.clientnameTextBox.Size = New System.Drawing.Size(252, 19)
+        Me.clientnameTextBox.Size = New System.Drawing.Size(231, 19)
         Me.clientnameTextBox.TabIndex = 160
         Me.clientnameTextBox.Text = "null"
         '
@@ -3182,9 +3060,9 @@ Partial Class main1
         Me.clientphonetextbox.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.clientphonetextbox.Enabled = False
         Me.clientphonetextbox.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.clientphonetextbox.Location = New System.Drawing.Point(67, 96)
+        Me.clientphonetextbox.Location = New System.Drawing.Point(96, 99)
         Me.clientphonetextbox.Name = "clientphonetextbox"
-        Me.clientphonetextbox.Size = New System.Drawing.Size(249, 19)
+        Me.clientphonetextbox.Size = New System.Drawing.Size(199, 19)
         Me.clientphonetextbox.TabIndex = 160
         Me.clientphonetextbox.Text = "null"
         '
@@ -3194,9 +3072,9 @@ Partial Class main1
         Me.clientaddressTextBox.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.clientaddressTextBox.Enabled = False
         Me.clientaddressTextBox.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.clientaddressTextBox.Location = New System.Drawing.Point(81, 69)
+        Me.clientaddressTextBox.Location = New System.Drawing.Point(81, 73)
         Me.clientaddressTextBox.Name = "clientaddressTextBox"
-        Me.clientaddressTextBox.Size = New System.Drawing.Size(239, 19)
+        Me.clientaddressTextBox.Size = New System.Drawing.Size(198, 19)
         Me.clientaddressTextBox.TabIndex = 160
         Me.clientaddressTextBox.Text = "null"
         '
@@ -3204,11 +3082,11 @@ Partial Class main1
         '
         Me.Guna2HtmlLabel72.BackColor = System.Drawing.Color.Transparent
         Me.Guna2HtmlLabel72.Font = New System.Drawing.Font("Times New Roman", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2HtmlLabel72.Location = New System.Drawing.Point(8, 96)
+        Me.Guna2HtmlLabel72.Location = New System.Drawing.Point(8, 101)
         Me.Guna2HtmlLabel72.Name = "Guna2HtmlLabel72"
-        Me.Guna2HtmlLabel72.Size = New System.Drawing.Size(53, 19)
+        Me.Guna2HtmlLabel72.Size = New System.Drawing.Size(82, 19)
         Me.Guna2HtmlLabel72.TabIndex = 4
-        Me.Guna2HtmlLabel72.Text = "Phone :"
+        Me.Guna2HtmlLabel72.Text = "Téléphone :"
         '
         'Guna2HtmlLabel2
         '
@@ -3216,11 +3094,31 @@ Partial Class main1
         Me.Guna2HtmlLabel2.Font = New System.Drawing.Font("Vivaldi", 36.0!, CType(((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic) _
                 Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Guna2HtmlLabel2.ForeColor = System.Drawing.Color.Blue
-        Me.Guna2HtmlLabel2.Location = New System.Drawing.Point(144, 53)
+        Me.Guna2HtmlLabel2.Location = New System.Drawing.Point(153, 42)
         Me.Guna2HtmlLabel2.Name = "Guna2HtmlLabel2"
-        Me.Guna2HtmlLabel2.Size = New System.Drawing.Size(458, 59)
+        Me.Guna2HtmlLabel2.Size = New System.Drawing.Size(475, 59)
         Me.Guna2HtmlLabel2.TabIndex = 1
-        Me.Guna2HtmlLabel2.Text = "Drilling Quotation (editor)"
+        Me.Guna2HtmlLabel2.Text = "Devis de Foration (éditeur)"
+        '
+        'Guna2Button1
+        '
+        Me.Guna2Button1.Animated = True
+        Me.Guna2Button1.AutoRoundedCorners = True
+        Me.Guna2Button1.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2Button1.BorderRadius = 13
+        Me.Guna2Button1.DefaultAutoSize = True
+        Me.Guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.Guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.Guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.Guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.Guna2Button1.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Guna2Button1.ForeColor = System.Drawing.Color.White
+        Me.Guna2Button1.Location = New System.Drawing.Point(313, 1642)
+        Me.Guna2Button1.Name = "Guna2Button1"
+        Me.Guna2Button1.Size = New System.Drawing.Size(175, 29)
+        Me.Guna2Button1.TabIndex = 169
+        Me.Guna2Button1.Text = "Generer total en lettre"
+        Me.Guna2Button1.UseTransparentBackground = True
         '
         'main1
         '
@@ -3234,30 +3132,22 @@ Partial Class main1
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.ImeMode = System.Windows.Forms.ImeMode.Disable
         Me.Name = "main1"
-        Me.Text = "main1"
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()
-        Me.preview.ResumeLayout(False)
         Me.Guna2Panel2.ResumeLayout(False)
-        Me.Guna2Panel2.PerformLayout()
         Me.DevisPanel.ResumeLayout(False)
         Me.DevisPanel.PerformLayout()
-        CType(Me.Guna2NumericUpDown16, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.watertowerno, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.qtetypedeforage, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.Guna2NumericUpDown15, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.Guna2NumericUpDown7, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.Guna2NumericUpDown14, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.Guna2NumericUpDown12, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.Guna2NumericUpDown11, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.qteal, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.qtetde, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.qtepe, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.qtepvcc, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.qtebe, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.qtegf, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.diametredeforeues, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.Guna2NumericUpDown8, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.Guna2NumericUpDown17, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.longeurps, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.Guna2NumericUpDown9, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.diametreps, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.Guna2NumericUpDown3, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.Guna2NumericUpDown4, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.qtep, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.qtemd, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.qteppe, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.qteps, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Guna2Panel6.ResumeLayout(False)
         Me.Guna2Panel6.PerformLayout()
@@ -3270,53 +3160,36 @@ Partial Class main1
 
     Friend WithEvents Guna2HtmlLabel8 As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents AboutUsToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents GermanToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents FrenchToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents EnglishToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents ChangeLanguageToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents HelpToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents HowToToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents BackupToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents ExitToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents SaveAsToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents SaveToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents PrintToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents ToolStripMenuItem1 As ToolStripMenuItem
-    Friend WithEvents OpenNewToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents MenuStrip1 As MenuStrip
-    Friend WithEvents Guna2HtmlLabel1 As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents preview As Guna.UI2.WinForms.Guna2Panel
     Friend WithEvents Guna2Panel2 As Guna.UI2.WinForms.Guna2Panel
     Friend WithEvents Guna2HtmlLabel5 As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents Guna2HtmlLabel4 As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents Guna2HtmlLabel3 As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents DevisPanel As Guna.UI2.WinForms.Guna2Panel
-    Friend WithEvents TextBox12 As TextBox
-    Friend WithEvents TextBox11 As TextBox
-    Friend WithEvents TextBox10 As TextBox
-    Friend WithEvents TextBox9 As TextBox
-    Friend WithEvents TextBox8 As TextBox
-    Friend WithEvents TextBox7 As TextBox
-    Friend WithEvents TextBox6 As TextBox
-    Friend WithEvents TextBox5 As TextBox
+    Friend WithEvents ttesteau As TextBox
+    Friend WithEvents tpompeessai As TextBox
+    Friend WithEvents tpompe As TextBox
+    Friend WithEvents tipompe As TextBox
+    Friend WithEvents tppvcc As TextBox
+    Friend WithEvents tpbe As TextBox
+    Friend WithEvents tpppe As TextBox
+    Friend WithEvents tpmd As TextBox
     Friend WithEvents tpps As TextBox
     Friend WithEvents ptdeforeuse As TextBox
-    Friend WithEvents pudeforeuse As TextBox
-    Friend WithEvents Guna2HtmlLabel78 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2HtmlLabel77 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2HtmlLabel76 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2HtmlLabel75 As Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents a3a6 As TextBox
     Friend WithEvents Guna2HtmlLabel70 As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents Guna2HtmlLabel69 As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents Guna2HtmlLabel65 As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents Guna2HtmlLabel59 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2NumericUpDown16 As Guna.UI2.WinForms.Guna2NumericUpDown
-    Friend WithEvents CheckBox17 As CheckBox
+    Friend WithEvents watertowerno As Guna.UI2.WinForms.Guna2NumericUpDown
+    Friend WithEvents CheckBox16 As CheckBox
     Friend WithEvents qtetypedeforage As Guna.UI2.WinForms.Guna2NumericUpDown
     Friend WithEvents CheckBox14 As CheckBox
     Friend WithEvents Guna2HtmlLabel56 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2NumericUpDown15 As Guna.UI2.WinForms.Guna2NumericUpDown
-    Friend WithEvents Guna2NumericUpDown7 As Guna.UI2.WinForms.Guna2NumericUpDown
+    Friend WithEvents qtepe As Guna.UI2.WinForms.Guna2NumericUpDown
     Friend WithEvents CheckBox12 As CheckBox
     Friend WithEvents Guna2HtmlLabel55 As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents Guna2Shapes33 As Guna.UI2.WinForms.Guna2Shapes
@@ -3326,7 +3199,6 @@ Partial Class main1
     Friend WithEvents Guna2HtmlLabel52 As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents Guna2Shapes28 As Guna.UI2.WinForms.Guna2Shapes
     Friend WithEvents Guna2HtmlLabel53 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2NumericUpDown14 As Guna.UI2.WinForms.Guna2NumericUpDown
     Friend WithEvents CheckBox13 As CheckBox
     Friend WithEvents Guna2Shapes29 As Guna.UI2.WinForms.Guna2Shapes
     Friend WithEvents Guna2Shapes30 As Guna.UI2.WinForms.Guna2Shapes
@@ -3335,8 +3207,8 @@ Partial Class main1
     Friend WithEvents Guna2HtmlLabel54 As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents Guna2HtmlLabel49 As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents Guna2HtmlLabel48 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2NumericUpDown12 As Guna.UI2.WinForms.Guna2NumericUpDown
-    Friend WithEvents Guna2NumericUpDown11 As Guna.UI2.WinForms.Guna2NumericUpDown
+    Friend WithEvents qtepvcc As Guna.UI2.WinForms.Guna2NumericUpDown
+    Friend WithEvents qtebe As Guna.UI2.WinForms.Guna2NumericUpDown
     Friend WithEvents Guna2HtmlLabel47 As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents CheckBox9 As CheckBox
     Friend WithEvents Guna2HtmlLabel63 As Guna.UI2.WinForms.Guna2HtmlLabel
@@ -3344,7 +3216,6 @@ Partial Class main1
     Friend WithEvents Guna2HtmlLabel60 As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents Guna2HtmlLabel40 As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents Guna2HtmlLabel51 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2HtmlLabel46 As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents CheckBox8 As CheckBox
     Friend WithEvents Guna2HtmlLabel34 As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents qtegf As Guna.UI2.WinForms.Guna2NumericUpDown
@@ -3359,17 +3230,15 @@ Partial Class main1
     Friend WithEvents Guna2Shapes13 As Guna.UI2.WinForms.Guna2Shapes
     Friend WithEvents Guna2Shapes15 As Guna.UI2.WinForms.Guna2Shapes
     Friend WithEvents Guna2Shapes12 As Guna.UI2.WinForms.Guna2Shapes
-    Friend WithEvents Guna2HtmlLabel44 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents diametredeforeues As Guna.UI2.WinForms.Guna2NumericUpDown
     Friend WithEvents Guna2HtmlLabel41 As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents Guna2Shapes44 As Guna.UI2.WinForms.Guna2Shapes
     Friend WithEvents Guna2Shapes39 As Guna.UI2.WinForms.Guna2Shapes
     Friend WithEvents Guna2Shapes16 As Guna.UI2.WinForms.Guna2Shapes
     Friend WithEvents Guna2HtmlLabel43 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2NumericUpDown8 As Guna.UI2.WinForms.Guna2NumericUpDown
-    Friend WithEvents CheckBox19 As CheckBox
-    Friend WithEvents CheckBox11 As CheckBox
+    Friend WithEvents qtep As Guna.UI2.WinForms.Guna2NumericUpDown
     Friend WithEvents CheckBox18 As CheckBox
+    Friend WithEvents CheckBox11 As CheckBox
+    Friend WithEvents CheckBox17 As CheckBox
     Friend WithEvents CheckBox15 As CheckBox
     Friend WithEvents CheckBox10 As CheckBox
     Friend WithEvents Guna2Shapes45 As Guna.UI2.WinForms.Guna2Shapes
@@ -3390,16 +3259,13 @@ Partial Class main1
     Friend WithEvents Guna2HtmlLabel50 As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents Guna2HtmlLabel57 As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents Guna2HtmlLabel32 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2HtmlLabel80 As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents Guna2HtmlLabel38 As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents Guna2HtmlLabel37 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2HtmlLabel36 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents diametreps As Guna.UI2.WinForms.Guna2NumericUpDown
     Friend WithEvents Guna2HtmlLabel35 As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents Guna2Shapes22 As Guna.UI2.WinForms.Guna2Shapes
-    Friend WithEvents Guna2NumericUpDown3 As Guna.UI2.WinForms.Guna2NumericUpDown
-    Friend WithEvents Guna2NumericUpDown4 As Guna.UI2.WinForms.Guna2NumericUpDown
-    Friend WithEvents CheckBox75 As CheckBox
+    Friend WithEvents qtemd As Guna.UI2.WinForms.Guna2NumericUpDown
+    Friend WithEvents qteppe As Guna.UI2.WinForms.Guna2NumericUpDown
+    Friend WithEvents CheckBox7 As CheckBox
     Friend WithEvents CheckBox6 As CheckBox
     Friend WithEvents Guna2Shapes17 As Guna.UI2.WinForms.Guna2Shapes
     Friend WithEvents Guna2Shapes18 As Guna.UI2.WinForms.Guna2Shapes
@@ -3439,41 +3305,29 @@ Partial Class main1
     Friend WithEvents Guna2Panel6 As Guna.UI2.WinForms.Guna2Panel
     Friend WithEvents Guna2Panel5 As Guna.UI2.WinForms.Guna2Panel
     Friend WithEvents Guna2HtmlLabel2 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents TextBox18 As TextBox
-    Friend WithEvents TextBox17 As TextBox
-    Friend WithEvents TextBox16 As TextBox
-    Friend WithEvents TextBox14 As TextBox
-    Friend WithEvents TextBox3 As TextBox
+    Friend WithEvents a35t As TextBox
+    Friend WithEvents a34t As TextBox
+    Friend WithEvents a33t As TextBox
+    Friend WithEvents a32t As TextBox
+    Friend WithEvents tairlift As TextBox
     Friend WithEvents tppt As TextBox
-    Friend WithEvents pugf As TextBox
-    Friend WithEvents pups As TextBox
-    Friend WithEvents TextBox27 As TextBox
-    Friend WithEvents TextBox28 As TextBox
-    Friend WithEvents TextBox26 As TextBox
+    Friend WithEvents a21 As TextBox
+    Friend WithEvents ppo As TextBox
+    Friend WithEvents a35 As TextBox
+    Friend WithEvents a33 As TextBox
+    Friend WithEvents a34 As TextBox
     Friend WithEvents Guna2HtmlLabel45 As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents TextBox24 As TextBox
-    Friend WithEvents TextBox23 As TextBox
-    Friend WithEvents TextBox15 As TextBox
-    Friend WithEvents TextBox22 As TextBox
-    Friend WithEvents TextBox21 As TextBox
-    Friend WithEvents TextBox25 As TextBox
-    Friend WithEvents Guna2HtmlLabel66 As Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents a24a27 As TextBox
+    Friend WithEvents a22a23 As TextBox
+    Friend WithEvents unitepvccrepine As TextBox
+    Friend WithEvents ppe As TextBox
+    Friend WithEvents totalequip As TextBox
     Friend WithEvents Guna2HtmlLabel61 As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents Guna2HtmlLabel39 As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents Guna2HtmlLabel21 As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents Guna2HtmlLabel67 As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents Guna2HtmlLabel24 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2HtmlLabel33 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2HtmlLabel71 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2HtmlLabel68 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2HtmlLabel26 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2NumericUpDown17 As Guna.UI2.WinForms.Guna2NumericUpDown
-    Friend WithEvents longeurps As Guna.UI2.WinForms.Guna2NumericUpDown
-    Friend WithEvents Guna2NumericUpDown9 As Guna.UI2.WinForms.Guna2NumericUpDown
-    Friend WithEvents EditToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents SaveToolStripMenuItem2 As ToolStripMenuItem
-    Friend WithEvents SaveAsToolStripMenuItem1 As ToolStripMenuItem
-    Friend WithEvents EditUnitPriceToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents SaveToolStripMenuItem1 As ToolStripMenuItem
     Friend WithEvents RefTextBox As TextBox
     Friend WithEvents DateTextBox As TextBox
@@ -3483,14 +3337,38 @@ Partial Class main1
     Friend WithEvents clientphonetextbox As TextBox
     Friend WithEvents Guna2HtmlLabel72 As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents Guna2HtmlLabel74 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents projectlocation As TextBox
     Friend WithEvents Guna2HtmlLabel73 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents WebBrowser1 As WebBrowser
-    Friend WithEvents uppt As TextBox
-    Friend WithEvents upte As TextBox
+    Friend WithEvents a2 As TextBox
+    Friend WithEvents a1 As TextBox
     Friend WithEvents tpte As TextBox
     Friend WithEvents ptgf As TextBox
     Friend WithEvents EXPORTERToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents Guna2HtmlLabel19 As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents depthEtextbox As TextBox
+    Friend WithEvents ChangerLesPrixUnitaireToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents Guna2HtmlLabel26 As Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Guna2HtmlLabel20 As Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Guna2HtmlLabel1 As Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents a19a20 As TextBox
+    Friend WithEvents a32 As TextBox
+    Friend WithEvents a31 As TextBox
+    Friend WithEvents a30 As TextBox
+    Friend WithEvents a29 As TextBox
+    Friend WithEvents a28 As TextBox
+    Friend WithEvents typeforage As Guna.UI2.WinForms.Guna2ComboBox
+    Friend WithEvents xticsppo As Guna.UI2.WinForms.Guna2ComboBox
+    Friend WithEvents tubageprovisoire As Guna.UI2.WinForms.Guna2ComboBox
+    Friend WithEvents tubagepermanent As Guna.UI2.WinForms.Guna2ComboBox
+    Friend WithEvents xticsppe As Guna.UI2.WinForms.Guna2ComboBox
+    Friend WithEvents methodunion As Guna.UI2.WinForms.Guna2ComboBox
+    Friend WithEvents buchonetanche As Guna.UI2.WinForms.Guna2ComboBox
+    Friend WithEvents pvccrepine As Guna.UI2.WinForms.Guna2ComboBox
+    Friend WithEvents typedepompe As Guna.UI2.WinForms.Guna2ComboBox
+    Friend WithEvents Guna2HtmlLabel33 As Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents labourtb As TextBox
+    Friend WithEvents ActualiserToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents qteal As Guna.UI2.WinForms.Guna2NumericUpDown
+    Friend WithEvents qtetde As Guna.UI2.WinForms.Guna2NumericUpDown
+    Friend WithEvents projectlocation As TextBox
+    Friend WithEvents Guna2Button1 As Guna.UI2.WinForms.Guna2Button
 End Class

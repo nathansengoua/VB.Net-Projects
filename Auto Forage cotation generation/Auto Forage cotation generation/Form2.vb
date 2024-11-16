@@ -1,85 +1,77 @@
-﻿Imports System.ComponentModel
-Imports System.Globalization
-Imports System.Threading
-
-Public Class Form2
+﻿Public Class Form2
     Private project_id As Long
     Private db As New DbManagement()
 
-    ' Function to update the UI with the global language
-    Private Sub ApplyLanguage()
-        Dim cultureInfo As CultureInfo = New CultureInfo(GlobalSettings.selectedlanguage)
-        Thread.CurrentThread.CurrentUICulture = cultureInfo
-
-        ' Update UI elements with the selected language
-        Dim resources As ComponentResourceManager = New ComponentResourceManager(GetType(Form2))
-        For Each control As Control In Me.Controls
-            resources.ApplyResources(control, control.Name, cultureInfo)
-        Next
-    End Sub
-
-    ' Form Load event
-    Private Sub Form2_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        ApplyLanguage() ' Apply the selected language when the form loads
-    End Sub
-
-
-    Private Sub Guna2GradientButton3_Click_1(sender As Object, e As EventArgs) Handles saveButton.Click
+    Private Async Sub Guna2GradientButton3_Click_1(sender As Object, e As EventArgs) Handles saveButton.Click
         ' Declare and assign the values from text boxes
-        Dim name, location, contact, Description As String
-        Dim DepthEstimation, Region As Integer
-        name = nameTextBox.Text
-        location = locationTextBox.Text
-        contact = telTextBox.Text
-        Description = Descriptiontextbox.Text
-        Region = (regiontextbox.SelectedIndex) + 1
-        DepthEstimation = Integer.Parse(Depthtextbox.Text)
+        Dim name As String = nameTextBox.Text
+        Dim location As String = locationTextBox.Text
+        Dim contact As String = telTextBox.Text
+        Dim Description As String = Descriptiontextbox.Text
+        Dim DepthEstimation As Integer = Integer.Parse(Depthtextbox.Text)
+        Dim Region As Integer = (regiontextbox.SelectedIndex) + 1
 
         ' Check if the fields are not empty before proceeding
-        If String.IsNullOrWhiteSpace(name) OrElse String.IsNullOrWhiteSpace(location) OrElse String.IsNullOrWhiteSpace(Description) OrElse String.IsNullOrWhiteSpace(contact) OrElse String.IsNullOrWhiteSpace(DepthEstimation) Then
-            MessageBox.Show("Please fill in all fields before saving.", "Input Error", MessageBoxButtons.OK, MessageBoxIcon.Warning)
+        If String.IsNullOrWhiteSpace(name) OrElse String.IsNullOrWhiteSpace(location) OrElse
+           String.IsNullOrWhiteSpace(Description) OrElse String.IsNullOrWhiteSpace(contact) OrElse
+           DepthEstimation <= 0 Then ' Adjusted for integer check
+            MessageBox.Show("S.V.P remplisser toute les caase avant de valider.", "Input Error", MessageBoxButtons.OK, MessageBoxIcon.Warning)
             Exit Sub
         End If
 
-        ' Try inserting client information into the database
-        Try
-            If db.InsertClientInfo(name, location, contact) Then
-                project_id = db.SaveProject(Description, Region, DepthEstimation)
-                ' Successfully inserted, close this form and show main1 form
-                MessageBox.Show("Success" & Region)
-                ' Create an instance of main1 and pass the project_id via the constructor
-                Dim mainForm As New main1(project_id)
+        ' Create and show the loading form (non-blocking)
+        Dim loadingForm As New LoadingForm()
+        loadingForm.Show() ' Show loading form immediately
 
-                ' Show the main1 form
-                mainForm.Show()
+        ' Ensure the loading form stays responsive by running background tasks
+        Await Task.Run(Async Function()
+                           Try
+                               ' Run database insertion and project saving on a background thread
+                               Dim insertionSuccess As Boolean = Await Task.Run(Function() db.InsertClientInfo(name, location, contact))
+                               If insertionSuccess Then
+                                   Dim projectId As Integer = Await Task.Run(Function() db.SaveProject(Description, Region, DepthEstimation))
 
-                Me.Close()
-                Form1.Close()
-
-            Else
-                ' Handle insertion failure
-                MessageBox.Show("An error occurred while saving the data.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
-            End If
-        Catch ex As Exception
-            ' Handle any unexpected exceptions
-            MessageBox.Show("An unexpected error occurred: " & ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
-        End Try
+                                   ' Once done, close loading form and show the main form (on the UI thread)
+                                   Me.Invoke(Sub()
+                                                 Dim lieu As String = regiontextbox.SelectedItem.ToString & " - " & lieutbox.Text
+                                                 Dim mainForm As New main1(projectId, lieu)  ' Create the main form with project ID
+                                                 mainForm.WindowState = FormWindowState.Maximized ' Maximize the main form
+                                                 mainForm.Show() ' Show main form
+                                                 loadingForm.Close() ' Close loading form
+                                                 Me.Close() ' Optionally close Form2
+                                                 Form1.Close() ' Close Form1 if necessary
+                                             End Sub)
+                               Else
+                                   ' Handle insertion failure (on the UI thread)
+                                   Me.Invoke(Sub()
+                                                 loadingForm.Close() ' Close loading form
+                                                 MessageBox.Show("An error occurred while saving the data.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+                                             End Sub)
+                               End If
+                           Catch ex As Exception
+                               ' Handle any unexpected exceptions and close loadingForm (on the UI thread)
+                               Me.Invoke(Sub()
+                                             loadingForm.Close() ' Close loading form
+                                             MessageBox.Show("An unexpected error occurred: " & ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+                                         End Sub)
+                           End Try
+                       End Function)
     End Sub
 
     Private Sub cancelbtn_Click(sender As Object, e As EventArgs) Handles cancelbtn.Click
         Me.Close()
+    End Sub
+
+    Private Sub regiontextbox_SelectedIndexChanged(sender As Object, e As EventArgs) Handles regiontextbox.SelectedIndexChanged
+        ville.Text = regiontextbox.SelectedItem.ToString & " - "
 
     End Sub
 
-    Private Sub Guna2Shapes6_Click(sender As Object, e As EventArgs) Handles Guna2Shapes6.Click
-
+    Private Sub generbtn_Click(sender As Object, e As EventArgs) Handles generbtn.Click
+        Descriptiontextbox.Text = "Realisation D'un Forage de " & Depthtextbox.Text & "Metre de Profondeur Dans la ville de " & regiontextbox.SelectedItem.ToString & " - " & lieutbox.Text
     End Sub
 
-    Private Sub Guna2Shapes4_Click(sender As Object, e As EventArgs) Handles Guna2Shapes4.Click
-
-    End Sub
-
-    Private Sub Guna2Shapes1_Click(sender As Object, e As EventArgs) Handles Guna2Shapes1.Click
-
+    Private Sub Form2_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        ville.Text = regiontextbox.SelectedItem.ToString & " - "
     End Sub
 End Class
